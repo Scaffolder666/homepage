@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    { "source": "/new/:slug", "destination": "/news.html", "permanent": true },
+    { "source": "/news", "destination": "/news.html", "permanent": true },
+    { "source": "/cv", "destination": "/cv.html", "permanent": true },
+    { "source": "/cameleon", "destination": "/cameleon.html", "permanent": true }
+  ]
+}
