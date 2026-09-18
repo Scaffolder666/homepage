@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 770" role="img" aria-labelledby="title description">
   <title id="title">Design Decision Space</title>
-  <desc id="description">Two crossing axes. Horizontal axis shows decision awareness from not aware on the left to aware on the right. Vertical axis shows ability to resolve from cannot resolve at the bottom to can resolve at the top. The three main projects appear as solid colored markers: aCADemy toward the lower left, CAMeleon in the lower right with an upward arrow toward the upper right representing an intended learning direction through workflow comparison, and FuzzyCAD in the lower right. Two related projects appear as smaller muted dashed circles: TOM Search below and slightly left of center, and Design with Myself just right of center and below the horizontal axis, reflecting its adjacent focus on metacognitive monitoring and reconsideration during design rather than directly measuring decision awareness. Positions and the learning arrow are conceptual illustrations, not measured scores or observed learning transitions.</desc>
+  <desc id="description">Two crossing axes. Horizontal axis shows decision awareness from not aware on the left to aware on the right. Vertical axis shows ability to resolve from cannot resolve at the bottom to can resolve at the top. The three main projects appear as solid colored markers: aCADemy toward the lower left, CAMeleon in the lower right focusing on learning through workflow comparison, and FuzzyCAD in the lower right. Two related projects appear as smaller muted dashed circles: TOM Search below and slightly left of center, and Design with Myself just right of center and below the horizontal axis, reflecting its adjacent focus on metacognitive monitoring and reconsideration during design rather than directly measuring decision awareness. Markers indicate the decision situations each project primarily addresses. Positions are conceptual illustrations, not measured scores or fixed states.</desc>
   <rect width="1000" height="770" fill="#fff"/>
   <g font-family="Arial, Helvetica, sans-serif" fill="#17202a">
     <text x="500" y="46" font-size="32" font-weight="700" text-anchor="middle">Design Decision Space</text>
@@ -21,15 +21,10 @@
     <circle cx="235" cy="610" r="23" fill="#c8e4f7" stroke="#3585c5" stroke-width="2"/>
     <text x="268" y="605" font-size="24" font-weight="700">aCADemy</text>
     <text x="268" y="629" font-size="16" fill="#35414d">Surface hidden design decisions</text>
-    <path d="M655 426 V244" fill="none" stroke="#b57819" stroke-width="4"/>
-    <path d="M655 228 l-9 18 h18 z" fill="#b57819"/>
     <circle cx="655" cy="451" r="25" fill="#ffe3a4" stroke="#df9c2c" stroke-width="2"/>
-    <text x="685" y="263" font-size="24" font-weight="700">CAMeleon</text>
-    <text x="685" y="289" font-size="18" fill="#35414d">Learn through</text>
-    <text x="685" y="313" font-size="18" fill="#35414d">workflow comparison</text>
-    <text x="685" y="444" font-size="17" fill="#35414d">Recognize the choice,</text>
-    <text x="685" y="468" font-size="17" fill="#35414d">need relevant knowledge</text>
-    <text x="685" y="338" font-size="15" fill="#67737d">Intended learning direction</text>
+    <text x="690" y="440" font-size="24" font-weight="700">CAMeleon</text>
+    <text x="690" y="465" font-size="16" fill="#35414d">Learning through</text>
+    <text x="690" y="487" font-size="16" fill="#35414d">workflow comparison</text>
     <circle cx="731" cy="570" r="23" fill="#ffd5dc" stroke="#e16d7e" stroke-width="2"/>
     <text x="764" y="566" font-size="24" font-weight="700">FuzzyCAD</text>
     <text x="764" y="589" font-size="16" fill="#35414d">Share unresolved</text>
