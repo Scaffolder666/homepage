@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 770" role="img" aria-labelledby="title description">
+  <title id="title">Design Decision Space</title>
+  <desc id="description">Two crossing axes. Horizontal axis shows decision awareness from not aware on the left to aware on the right. Vertical axis shows ability to resolve from cannot resolve at the bottom to can resolve at the top. aCADemy appears toward the lower left, CAMeleon sits just right of center and slightly below the horizontal axis, and FuzzyCAD appears in the lower right. The markers describe illustrative research focus, not measured scores.</desc>
+  <rect width="1000" height="770" fill="#fff"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#17202a">
+    <text x="500" y="46" font-size="32" font-weight="700" text-anchor="middle">Design Decision Space</text>
+    <g stroke="#17202a" stroke-width="2" fill="none">
+      <path d="M145 373 H870 M500 105 V700"/>
+      <path d="M145 373 l13 -7 v14 z M870 373 l-13 -7 v14 z M500 105 l-7 13 h14 z M500 700 l-7 -13 h14 z" fill="#17202a" stroke="none"/>
+    </g>
+    <g font-size="21" font-weight="700">
+      <text x="500" y="89" text-anchor="middle">Can resolve</text>
+      <text x="500" y="734" text-anchor="middle">Cannot resolve</text>
+      <text x="125" y="363" text-anchor="end">Not aware</text>
+      <text x="890" y="363">Aware</text>
+    </g>
+    <g font-size="15" fill="#555f69">
+      <text x="500" y="755" text-anchor="middle">Ability to resolve: current access to information, knowledge, and support</text>
+      <text x="500" y="402" text-anchor="middle">Decision awareness</text>
+    </g>
+    <circle cx="235" cy="610" r="23" fill="#c8e4f7" stroke="#3585c5" stroke-width="2"/>
+    <text x="268" y="605" font-size="24" font-weight="700">aCADemy</text>
+    <text x="268" y="629" font-size="16" fill="#35414d">Surface hidden design decisions</text>
+    <circle cx="598" cy="426" r="25" fill="#ffe3a4" stroke="#df9c2c" stroke-width="2"/>
+    <text x="634" y="424" font-size="24" font-weight="700">CAMeleon</text>
+    <text x="634" y="447" font-size="16" fill="#35414d">Compare alternatives for</text>
+    <text x="634" y="466" font-size="16" fill="#35414d">better-informed decisions</text>
+    <circle cx="731" cy="570" r="23" fill="#ffd5dc" stroke="#e16d7e" stroke-width="2"/>
+    <text x="764" y="566" font-size="24" font-weight="700">FuzzyCAD</text>
+    <text x="764" y="589" font-size="16" fill="#35414d">Share unresolved</text>
+    <text x="764" y="608" font-size="16" fill="#35414d">decisions for input</text>
+  </g>
+</svg>
