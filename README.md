@@ -1,27 +1,32 @@
-# Shuo Feng — personal homepage
+# Shuo Feng — personal academic website
 
-A responsive, single-file research homepage for Shuo Feng. The site is plain HTML/CSS, so no build command or framework is required.
+Source for `https://www.shuofeng.org/`, a static HTML/CSS website hosted on Vercel from the `main` branch of this repository.
 
-## Content
+## Pages and files
 
-- About: Cornell Tech, HCI, digital fabrication, design tools.
-- Research: CAMeleon, Y-AR, OriStitch, linked to the Matter of Tech Lab's project pages.
-- Publications: selected published papers with primary source links.
-- Contact: Cornell email, GitHub, lab.
+- `index.html`: About, News, research/project list, topic filters and Contact. Project titles and images link to the relevant lab or project website where available.
+- `cv.html`: HTML academic CV and browser Print / Save PDF control.
+- `cameleon.html`: CAMeleon research overview, paper, interactive demo and click-to-load video.
+- `tom.html`: assistive technology search research overview and demo.
+- `news.html`: archive of older announcements, reachable through the homepage News section.
+- `styles.css`: shared academic-style layout; the homepage also includes compact filter styling.
+- `robots.txt`, `sitemap.xml`: search engine discovery files.
+- `vercel.json`: legacy URL redirects.
 
-Project imagery and portrait currently link to public assets hosted by Matter of Tech Lab; copy these assets into this repository in a follow-up if you'd like the site to be entirely independent from the lab's server. No résumé PDF or unpublished-project claims have been added. Check all copy, photos, and hyperlinks before launching.
+## Publication and disclosure checklist
 
-## Deploy to Vercel
+- Check publication author names, ordering, paper titles, venues and links against publishers' official records. The published OriStitch link uses DOI `10.1145/3745778.3766666`.
+- Unpublished projects on the public homepage and CV are intentionally limited to names and a generic status. Do **not** add project descriptions, methods, figures, screenshots, manuscript titles, target venues or detailed keywords until public disclosure is approved.
+- Deleting text or images from the latest branch does not delete previously published Git commit history or external caches. Treat the repository and its history as publicly accessible.
+- Confirm linked demos and external resources manually in a browser if automated checks are blocked by authentication, JavaScript, publisher rate limits or hosting protections.
+- The TOM research page contains a text-only figure placeholder; replace it only when an approved figure is provided.
 
-1. In Vercel, select **Add New → Project** and import `Scaffolder666/homepage`.
-2. Select **Other** or let Vercel auto-detect static HTML; leave the build command empty and deploy. The root `index.html` is the entry point.
-3. Confirm that the generated `*.vercel.app` preview looks correct first.
-4. In **Project → Settings → Domains**, add `shuofeng.org` and `www.shuofeng.org`.
-5. Only after Vercel shows its actual required DNS records, replace the legacy Wix A records for the apex domain and the `www` CNAME in Wix's DNS manager. Leave MX/TXT email verification records and unrelated records unchanged. Select one preferred hostname and redirect the other.
-6. Confirm HTTPS and both hostname variants work before cancelling an unused Wix website plan. Keep the domain registration/renewal active.
+## Deployment and domain
 
-The domain is not transferred merely by editing DNS. Do not change the Wix name servers or delete unrelated records just to point the website to Vercel.
+The site uses plain HTML/CSS; there is no build command. Vercel is linked to this repository. `www.shuofeng.org` is the preferred hostname and the apex redirects to it. The domain registration and DNS are maintained separately in Wix. Preserve verification, email MX/TXT and other unrelated DNS records.
 
-## Editing
+A GitHub commit is not proof that production has deployed successfully. Confirm the latest Vercel production deployment and then check the live website in a browser.
 
-Edit `index.html`: content and styles are kept in one file for simplicity. Add a `resume.pdf` and a link only when an approved résumé is available. Unpublished work can be added later with confirmed disclosure and accurate status.
+## Maintenance
+
+When changing the research filters, keep each filter's `data-filter` aligned with project `data-topics`; `All` must show every project and counts must reflect visible items. When adding a public page, give it an internal link, a distinct page title and description, a canonical URL, and an entry in `sitemap.xml` if indexing is intended. Keep unpublished assets out of the public repository until disclosure is approved.
