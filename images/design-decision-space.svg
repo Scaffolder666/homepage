@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 770" role="img" aria-labelledby="title description">
   <title id="title">Design Decision Space</title>
-  <desc id="description">Two crossing axes. Horizontal axis shows decision awareness from not aware on the left to aware on the right. Vertical axis shows ability to resolve from cannot resolve at the bottom to can resolve at the top. aCADemy appears toward the lower left, CAMeleon sits just right of center and slightly below the horizontal axis, and FuzzyCAD appears in the lower right. The markers describe illustrative research focus, not measured scores.</desc>
+  <desc id="description">Two crossing axes. Horizontal axis shows decision awareness from not aware on the left to aware on the right. Vertical axis shows ability to resolve from cannot resolve at the bottom to can resolve at the top. The three main projects appear as solid colored markers: aCADemy toward the lower left, CAMeleon just right of center and slightly below the horizontal axis, and FuzzyCAD in the lower right. Two related projects are shown as smaller muted dashed circles: TOM Search below and slightly left of center, and Y-AR in the lower right. All positions are conceptual illustrations, not measured scores.</desc>
   <rect width="1000" height="770" fill="#fff"/>
   <g font-family="Arial, Helvetica, sans-serif" fill="#17202a">
     <text x="500" y="46" font-size="32" font-weight="700" text-anchor="middle">Design Decision Space</text>
@@ -29,5 +29,13 @@
     <text x="764" y="566" font-size="24" font-weight="700">FuzzyCAD</text>
     <text x="764" y="589" font-size="16" fill="#35414d">Share unresolved</text>
     <text x="764" y="608" font-size="16" fill="#35414d">decisions for input</text>
+    <g fill="none" stroke="#85919a" stroke-width="2" stroke-dasharray="5 4">
+      <circle cx="430" cy="516" r="17"/>
+      <circle cx="645" cy="524" r="17"/>
+    </g>
+    <g fill="#67737d" font-size="18" font-weight="600">
+      <text x="430" y="484" text-anchor="middle">TOM Search</text>
+      <text x="674" y="530">Y-AR</text>
+    </g>
   </g>
 </svg>
