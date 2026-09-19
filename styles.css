@@ -98,3 +98,5 @@ img{display:block;max-width:100%;height:auto}h1,h2,h3,p{margin:0}
 }
 @media(max-width:360px){.wrap{width:calc(100% - 30px)}.topnav{gap:0}.topnav a{font-size:.71rem;padding:0 1px}.profile{grid-template-columns:70px minmax(0,1fr);column-gap:11px}.portrait{width:70px;height:70px}.profile h2{font-size:1.47rem}.profile .interests{font-size:.77rem}.profile-links{gap:0 13px}.profile-links a{font-size:.75rem}.intro h1{font-size:1.55rem}.news li{grid-template-columns:1fr;gap:3px}.media{aspect-ratio:1.5}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.section .filter-btn{transition:none}}
+/* Keep the decision-space overview compact on desktop; mobile remains fluid. */
+@media(min-width:761px){.intro .agenda-overview{max-width:760px;margin:17px auto 0}}
