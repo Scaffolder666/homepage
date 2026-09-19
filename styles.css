@@ -122,14 +122,3 @@ img{display:block;max-width:100%;height:auto}h1,h2,h3,p{margin:0}
  #research .filter-count{margin-top:6px}
  #research .work:first-child{padding-top:17px}
 }
-/* Standardize the complete published/applied research rows, not only their thumbnails.
-   Keep in-progress entries compact, and never clip longer descriptions or author lists. */
-@media(min-width:761px){
- #research .work:not([data-topics~="ongoing"]){min-height:455px;align-items:stretch}
- #research .work:not([data-topics~="ongoing"]) .work-info{display:flex;flex-direction:column}
- #research .work:not([data-topics~="ongoing"]) .keywords{margin-top:auto;padding-top:12px}
- #research .work:not([data-topics~="ongoing"]) .project-links{margin-top:12px}
-}
-@media(min-width:761px) and (max-width:1000px){
- #research .work:not([data-topics~="ongoing"]){min-height:570px}
-}
