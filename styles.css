@@ -51,7 +51,8 @@ img{display:block;max-width:100%;height:auto}h1,h2,h3,p{margin:0}
 .projects{display:grid;gap:0}
 .work{display:grid;grid-template-columns:260px minmax(0,1fr);gap:23px;align-items:start;padding:25px 0;border:0;border-bottom:1px solid #f0f1f1;border-radius:0;background:none;box-shadow:none;transform:none}
 .work:last-child{border:0}
-.media{display:block;width:100%;aspect-ratio:1.53;overflow:hidden;border:0;border-radius:0;background:#f5f6f6;box-shadow:none}
+/* Give every project image and placeholder an identical frame, regardless of source proportions. */
+.media{display:block;width:100%;height:170px;overflow:hidden;border:0;border-radius:0;background:#f5f6f6;box-shadow:none}
 .media img{width:100%;height:100%;object-fit:contain;transition:none}.media.photo img{object-fit:cover}
 .media:hover img{filter:none;transform:none}
 .media.empty{display:flex;align-items:center;justify-content:center;text-align:center;padding:18px;color:var(--muted);background:#f1f2f2;font-size:.99rem;font-weight:600}
@@ -79,7 +80,7 @@ img{display:block;max-width:100%;height:auto}h1,h2,h3,p{margin:0}
 .work[hidden]{display:none!important}
 .contact-card{padding:0;border:0;border-radius:0;background:none;box-shadow:none;color:var(--body);font-size:.96rem}
 .contact-card p+p{margin-top:9px}.footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-size:.82rem}.footer .wrap{display:flex;justify-content:space-between;gap:16px}
-@media(max-width:1000px){.profile{grid-template-columns:minmax(0,1fr) 175px;column-gap:30px}.portrait{width:175px;height:175px}.work{grid-template-columns:220px minmax(0,1fr);gap:20px}.section-header h2{font-size:1.85rem}}
+@media(max-width:1000px){.profile{grid-template-columns:minmax(0,1fr) 175px;column-gap:30px}.portrait{width:175px;height:175px}.work{grid-template-columns:220px minmax(0,1fr);gap:20px}.media{height:144px}.section-header h2{font-size:1.85rem}}
 @media(max-width:760px){
  .wrap{width:calc(100% - 38px)}.site-header{position:relative}.topbar{display:block;min-height:0;padding:5px 0}.brand{display:none}
  .topnav{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));align-items:stretch;gap:2px;padding:0}.topnav a{justify-content:center;min-height:44px;padding:0 2px;font-size:.76rem;font-weight:570;white-space:nowrap}.topnav .cv-nav{font-weight:640}
@@ -93,7 +94,7 @@ img{display:block;max-width:100%;height:auto}h1,h2,h3,p{margin:0}
  .news li{grid-template-columns:83px minmax(0,1fr);gap:11px;padding:10px 0}.news time{font-size:.76rem}.news p{font-size:.87rem;line-height:1.55}
  .section .filter-panel{margin:11px 0 4px;padding:12px}.section .filter-heading small{display:none}.section .filter-btn{min-height:42px;padding:8px 10px;font-size:.76rem}.section .filter-count{font-size:.77rem}
  .work{grid-template-columns:1fr;gap:0;padding:22px 0;margin:0;border:0;border-bottom:1px solid var(--line);border-radius:0;background:none;box-shadow:none}.work:last-child{border:0}
- .media{width:100%;aspect-ratio:1.65;margin-bottom:15px;border:0;border-radius:0}.work h3{font-size:1.11rem;line-height:1.42}.authors{font-size:.8rem;line-height:1.5}.desc{font-size:.91rem;line-height:1.61}.project-links{gap:3px 17px;font-size:.85rem}.project-links a{min-height:42px}
+ .media{width:100%;height:auto;aspect-ratio:1.65;margin-bottom:15px;border:0;border-radius:0}.work h3{font-size:1.11rem;line-height:1.42}.authors{font-size:.8rem;line-height:1.5}.desc{font-size:.91rem;line-height:1.61}.project-links{gap:3px 17px;font-size:.85rem}.project-links a{min-height:42px}
  .work .keywords{gap:6px;margin-top:11px}.work .keyword{font-size:.72rem;padding:4px 7px}.contact-card{font-size:.9rem}.footer .wrap{display:block}.footer .wrap span{display:block;margin-bottom:6px}
 }
 @media(max-width:360px){.wrap{width:calc(100% - 30px)}.topnav{gap:0}.topnav a{font-size:.71rem;padding:0 1px}.profile{grid-template-columns:70px minmax(0,1fr);column-gap:11px}.portrait{width:70px;height:70px}.profile h2{font-size:1.47rem}.profile .interests{font-size:.77rem}.profile-links{gap:0 13px}.profile-links a{font-size:.75rem}.intro h1{font-size:1.55rem}.news li{grid-template-columns:1fr;gap:3px}.media{aspect-ratio:1.5}}
