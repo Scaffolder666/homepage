@@ -107,3 +107,17 @@ img{display:block;max-width:100%;height:auto}h1,h2,h3,p{margin:0}
  .intro .agenda-more{align-self:start}
 }
 @media(min-width:761px) and (max-width:980px){.intro .agenda-overview{max-width:560px;margin:17px auto 0}}
+/* Tighten the homepage news-to-research transition without affecting mobile. */
+@media(min-width:761px){
+ #news .news li{gap:18px;padding:7px 0}
+ #news .older-news{margin-top:0}
+ #news .older-news summary{min-height:38px;padding:5px 0}
+ #research{margin-top:32px}
+ #research .section-header{margin-bottom:10px}
+ #research .filter-panel{margin-top:8px;padding:10px 12px}
+ #research .filter-heading{margin-bottom:7px}
+ #research .filter-buttons{gap:5px}
+ #research .filter-btn{min-height:38px;padding:7px 9px;font-size:.76rem}
+ #research .filter-count{margin-top:6px}
+ #research .work:first-child{padding-top:17px}
+}
