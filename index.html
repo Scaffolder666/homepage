@@ -7,19 +7,26 @@
 <title>Shuo Feng | Cornell Tech | HCI &amp; CAD Research</title>
 <link rel="stylesheet" href="styles.css">
 <style>
-/* Compact research filters and consistent resource links. */
-.section .filter-panel{margin:12px 0 3px;padding:13px 15px;background:#fafafa;border:1px solid #eceeee;border-radius:3px}
-.section .filter-heading{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap;margin-bottom:10px}
-.section .filter-heading strong{font-size:.89rem;font-weight:620}.section .filter-heading small{font-size:.79rem;color:var(--muted)}
-.section .filter-buttons{display:flex;flex-wrap:wrap;gap:7px}
-.section .filter-btn{appearance:none;min-height:40px;padding:8px 12px;border:1px solid #dce0e1;border-radius:3px;background:white;color:var(--body);font:inherit;font-size:.79rem;font-weight:560;cursor:pointer}
-.section .filter-btn:hover{background:var(--blue-light);border-color:#e0b4b9}.section .filter-btn[aria-pressed="true"]{background:var(--blue);border-color:var(--blue);color:#fff}
-.section .filter-count{margin-top:9px;font-size:.79rem;color:var(--muted)}
+/* A single accessible filter control keeps the publication list compact. */
+#research .filter-panel{display:flex;align-items:center;flex-wrap:wrap;gap:8px 14px;margin:8px 0 3px;padding:10px 12px;background:#fafafa;border:1px solid #eceeee;border-radius:3px}
+#research .filter-panel label{font-size:.88rem;font-weight:650;white-space:nowrap}
+#research .filter-select{min-width:195px;max-width:100%;width:clamp(195px,28vw,295px);min-height:42px;padding:8px 31px 8px 11px;border:1px solid #dce0e1;border-radius:3px;background:#fff;color:var(--ink);font:inherit;font-size:.85rem;cursor:pointer}
+#research .filter-select:hover{border-color:var(--blue)}
+#research .filter-select:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+#research .filter-count{margin:0 0 0 auto;color:var(--muted);font-size:.79rem;white-space:nowrap}
 .work .keywords{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}.work .keyword{padding:3px 7px;border:1px solid #e5e8e8;border-radius:2px;background:#f8f9f9;color:var(--muted);font-size:.73rem;font-weight:530;line-height:1.35}
 .work .project-links{gap:3px 18px;margin-top:13px}.work .project-links a{font-weight:600;text-decoration:underline;text-decoration-color:#ddb7bc;text-underline-offset:4px;text-decoration-thickness:1px}.work .project-links a:hover{text-decoration-color:var(--blue)}
 .work[hidden]{display:none!important}.work .unpublished-note{font-size:.9rem;color:var(--muted);margin:6px 0 0}
 .intro .agenda-intro{margin:12px 0 0}.agenda-overview{margin:17px 0 0}.agenda-overview img{display:block;width:100%;height:auto;max-width:100%;background:#fff}.agenda-overview figcaption{margin-top:8px;color:var(--muted);font-size:.84rem;line-height:1.55}.agenda-more{margin:9px 0 0!important;font-size:.91rem!important}.agenda-more a{font-weight:650;text-decoration:underline;text-underline-offset:4px}
-@media(max-width:760px){.section .filter-heading small{display:none}.section .filter-btn{font-size:.76rem;min-height:42px;padding:8px 10px}.work .keyword{font-size:.72rem;padding:4px 7px}.topnav{grid-template-columns:repeat(6,minmax(0,1fr))}.topnav a{font-size:.70rem;padding:0 1px}}
+/* Navigation follows the current section; hover and focus remain visible. */
+.topnav a[aria-current="location"]{color:var(--ink);text-decoration:underline;text-decoration-color:var(--blue);text-decoration-thickness:2px;text-underline-offset:7px}
+.topnav a:hover,.profile-links a:hover,.section a:not(.media):hover{text-decoration:underline;text-underline-offset:4px}
+@media(hover:hover) and (prefers-reduced-motion:no-preference){
+ .work a.media img{transition:transform .22s ease-out}
+ .work a.media:hover img,.work a.media:focus-visible img{transform:scale(1.025)}
+}
+@media(prefers-reduced-motion:no-preference){.older-news[open]>.news{animation:news-reveal .2s ease-out both}@keyframes news-reveal{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:translateY(0)}}}
+@media(max-width:760px){#research .filter-panel{gap:7px 10px}#research .filter-panel label{width:100%}#research .filter-select{width:100%}#research .filter-count{width:100%;margin:0}.work .keyword{font-size:.72rem;padding:4px 7px}.topnav{grid-template-columns:repeat(6,minmax(0,1fr))}.topnav a{font-size:.70rem;padding:0 1px}}
 @media(max-width:360px){.topnav a{font-size:.65rem}}
 </style>
 </head>
@@ -32,7 +39,7 @@
 <section class="intro" id="about"><p class="eyebrow">Research question · Human–computer interaction</p><h1>How might we support design reasoning in CAD?</h1><p class="lead">Design is a wicked problem. Goals, constraints, and design decisions become clearer and evolve as designers explore possible solutions. AI creates new opportunities to streamline the process from a design goal to a final product through automation. My research focuses on how interactive CAD tools can support design reasoning and learning throughout this evolving process.</p><p class="agenda-intro">I approach design reasoning through two dimensions: <strong>decision awareness</strong> and <strong>the ability to resolve a decision</strong>. Do designers recognize a decision that needs attention? Do they have the knowledge and resources to reason through it?</p><figure class="agenda-overview"><a href="images/design-decision-space.svg" target="_blank" rel="noopener noreferrer" aria-label="Open the full-size Design Decision Space diagram"><img src="images/design-decision-space.svg" width="1000" height="770" loading="lazy" decoding="async" alt="Conceptual Design Decision Space with awareness on the horizontal axis and ability to resolve on the vertical axis. aCADemy, CAMeleon and FuzzyCAD are primary markers indicating the decision situations each project focuses on; TOM Search and Design with Myself are related work with dashed circles."></a></figure><p class="agenda-more"><a href="agenda.html">Research agenda ↗</a></p></section>
 <section class="section" id="news"><div class="section-header"><h2>News</h2><p>Updates &amp; milestones</p></div><ul class="news"><li><time datetime="2026-06">Summer 2026</time><p>Siegel PiTech PhD Impact Fellow with <a href="https://www.tomglobal.org/">TOM Global</a>. Built a multi-source assistive technology search tool. <a href="tom.html">Project details ↗</a></p></li><li><time datetime="2026-04">Apr 2026</time><p>CAMeleon was accepted to <a href="https://dl.acm.org/doi/10.1145/3772318.3790516">ACM CHI 2026</a>; I attended and presented the work in Barcelona, April 13–17.</p></li><li><time datetime="2025-12-10">Dec 2025</time><p>OriStitch was featured in <a href="https://news.cornell.edu/stories/2025/12/seamless-tech-oristitch-threads-computation-and-3d-textiles">Cornell News ↗</a>.</p></li><li><time datetime="2025-11">Nov 2025</time><p>Y-AR and OriStitch were published at the ACM Symposium on Computational Fabrication.</p></li></ul><details class="older-news"><summary>Earlier news ↓</summary><ul class="news"><li><time datetime="2025-11">Nov 2025</time><p>2025 PiTech fellowship work featured in a <a href="https://www.pi.tech.cornell.edu/spotlight/making-environmental-data-more-accessible-through-a-digital-tool-for-nyc-flood-preparedness">Cornell spotlight ↗</a>.</p></li><li><time datetime="2025-06">Jun–Sep 2025</time><p>PiTech PhD Impact Fellow with NYC Mayor's Office of Climate &amp; Environmental Justice. <a href="https://environmental-dashboard-chi.vercel.app/">Flood dashboard ↗</a></p></li><li><time datetime="2024-11-05">Nov 2024</time><p>Released preprints for <a href="https://arxiv.org/abs/2410.18299">CAMeleon</a> and <a href="https://arxiv.org/abs/2410.23540">Y-AR</a>.</p></li><li><time datetime="2024-10-29">Oct 2024</time><p>Invited talk at Cornell Tech's XR Collaboratory.</p></li><li><time datetime="2024-03-20">Mar 2024</time><p>Invited talk at Carnegie Mellon University's Generative Systems for Design class.</p></li><li><time datetime="2024">2024</time><p>Received an <a href="https://tech.cornell.edu/news/xr-collaboratory-announces-inaugural-grant-winners/">XR Collaboratory Prototyping Grant ↗</a>.</p></li></ul></details><p><a href="news.html">News archive ↗</a></p></section>
 <section class="section" id="research"><div class="section-header"><h2>Research</h2><p>Publications, ongoing research &amp; applied projects</p></div>
-<div class="filter-panel" role="group" aria-label="Filter research projects"><div class="filter-heading"><strong>Explore by topic</strong><small>Select a topic to filter projects</small></div><div class="filter-buttons" id="research-filters"><button class="filter-btn" type="button" data-filter="all" aria-pressed="true">All</button><button class="filter-btn" type="button" data-filter="cad" aria-pressed="false">CAD &amp; reasoning</button><button class="filter-btn" type="button" data-filter="ai" aria-pressed="false">Human–AI</button><button class="filter-btn" type="button" data-filter="fabrication" aria-pressed="false">Fabrication</button><button class="filter-btn" type="button" data-filter="assistive" aria-pressed="false">Assistive tech</button><button class="filter-btn" type="button" data-filter="immersive" aria-pressed="false">BCI &amp; XR</button><button class="filter-btn" type="button" data-filter="civic" aria-pressed="false">Civic tech</button><button class="filter-btn" type="button" data-filter="ongoing" aria-pressed="false">In progress</button></div><p id="filter-count" class="filter-count" role="status" aria-live="polite">Showing all 9 projects</p></div>
+<div class="filter-panel" role="group" aria-label="Filter research projects"><label for="research-topic">Explore by topic</label><select class="filter-select" id="research-topic"><option value="all">All projects</option><option value="cad">CAD &amp; reasoning</option><option value="ai">Human–AI</option><option value="fabrication">Fabrication</option><option value="assistive">Assistive tech</option><option value="immersive">BCI &amp; XR</option><option value="civic">Civic tech</option><option value="ongoing">In progress</option></select><p id="filter-count" class="filter-count" role="status" aria-live="polite">Showing all 9 projects</p></div>
 <div class="projects" id="research-projects">
 <article class="work" data-topics="cad fabrication"><a class="media" href="https://matteroftechlab.org/projects/2026-shuo-cameleon/cameleon.html" aria-label="CAMeleon project"><img loading="lazy" decoding="async" src="https://matteroftechlab.org/projects/2026-shuo-cameleon/img/figure1-1.png" alt="CAMeleon fabrication workflow comparisons"></a><div class="work-info"><p class="meta"><span class="tag">Published</span> ACM CHI · 2026</p><h3><a href="https://matteroftechlab.org/projects/2026-shuo-cameleon/cameleon.html">CAMeleon: Comparing Fabrication Workflows in CAD to Support Design Reasoning</a></h3><p class="authors"><strong>Shuo Feng</strong>, Xuening Wang, Yifan (Lavenda) Shan, Krista U Singh, Bo Liu, Amritansh Kwatra, Ritik Batra, Tobias M Weinberg, Thijs Roumen</p><p class="desc">Learners often begin with a familiar fabrication workflow and may lack the knowledge to judge alternatives. Early modeling choices can make it difficult to change direction as their design develops. CAMeleon lets learners compare workflow outcomes for the same model, supporting exploration of trade-offs and the development of informed design judgments.</p><div class="keywords" aria-label="Project keywords"><span class="keyword">CAD</span><span class="keyword">Design reasoning</span><span class="keyword">Workflow comparison</span><span class="keyword">Learning</span></div><div class="project-links"><a href="https://matteroftechlab.org/projects/2026-shuo-cameleon/cameleon.html" title="CAMeleon project page at Matter of Tech Lab">Project</a><a href="https://dl.acm.org/doi/10.1145/3772318.3790516" title="Published CHI 2026 paper at ACM Digital Library">Paper</a><a href="https://cameleon-react-frontend-184431316116.us-central1.run.app/" title="Interactive CAMeleon demo">Live demo</a><a href="https://www.youtube.com/watch?v=M247AZIjbdI">Video</a></div></div></article>
 <article class="work" data-topics="ongoing"><div class="media"><img loading="lazy" decoding="async" src="images/academy.jpg" alt="aCADemy research project image"></div><div class="work-info"><p class="meta"><span class="tag progress">Research in progress</span></p><h3>aCADemy: Guided Reflection on Fabrication-centric CAD Decisions Through AI</h3><p class="unpublished-note">Details forthcoming.</p><div class="keywords" aria-label="Project keywords"><span class="keyword">CAD</span><span class="keyword">Design reasoning</span><span class="keyword">Guided reflection</span><span class="keyword">Human–AI</span></div></div></article>
@@ -49,18 +56,34 @@
 <script>
 (function(){
   'use strict';
-  const buttons=Array.from(document.querySelectorAll('#research-filters .filter-btn'));
+  const select=document.getElementById('research-topic');
   const projects=Array.from(document.querySelectorAll('#research-projects .work'));
   const count=document.getElementById('filter-count');
-  if(!buttons.length||!projects.length||!count)return;
-  function applyFilter(topic){
-    let shown=0;
-    projects.forEach(function(project){const topics=(project.dataset.topics||'').split(/\s+/);const visible=topic==='all'||topics.includes(topic);project.hidden=!visible;if(visible)shown++;});
-    buttons.forEach(function(button){button.setAttribute('aria-pressed',String(button.dataset.filter===topic));});
-    count.textContent=topic==='all'?'Showing all '+projects.length+' projects':'Showing '+shown+' of '+projects.length+' projects';
+  if(select&&projects.length&&count){
+    function applyFilter(topic){
+      let shown=0;
+      projects.forEach(function(project){const topics=(project.dataset.topics||'').split(/\s+/);const visible=topic==='all'||topics.includes(topic);project.hidden=!visible;if(visible)shown++;});
+      count.textContent=topic==='all'?'Showing all '+projects.length+' projects':'Showing '+shown+' of '+projects.length+' projects';
+    }
+    select.addEventListener('change',function(){applyFilter(select.value);});
+    applyFilter(select.value);
   }
-  buttons.forEach(function(button){button.addEventListener('click',function(){applyFilter(button.dataset.filter);});});
-  applyFilter('all');
+  const nav=Array.from(document.querySelectorAll('.topnav a[href^="#"]')).map(function(link){return {link:link,section:document.getElementById(link.getAttribute('href').slice(1))};}).filter(function(item){return item.section;});
+  if(nav.length){
+    let queued=false;
+    function updateActive(){
+      queued=false;
+      let active=nav[0];
+      const threshold=Math.min(180,window.innerHeight*.36);
+      nav.forEach(function(item){if(item.section.getBoundingClientRect().top<=threshold)active=item;});
+      nav.forEach(function(item){if(item===active)item.link.setAttribute('aria-current','location');else item.link.removeAttribute('aria-current');});
+    }
+    function scheduleUpdate(){if(!queued){queued=true;window.requestAnimationFrame(updateActive);}}
+    window.addEventListener('scroll',scheduleUpdate,{passive:true});
+    window.addEventListener('resize',scheduleUpdate);
+    window.addEventListener('hashchange',scheduleUpdate);
+    updateActive();
+  }
 })();
 </script>
 </body></html>
