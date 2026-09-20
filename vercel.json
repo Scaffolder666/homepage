@@ -5,5 +5,13 @@
     { "source": "/news", "destination": "/news.html", "permanent": true },
     { "source": "/cv", "destination": "/cv.html", "permanent": true },
     { "source": "/cameleon", "destination": "/cameleon.html", "permanent": true }
+  ],
+  "headers": [
+    {
+      "source": "/research-notes-68ddfcf2e6251c2519a02b29.html",
+      "headers": [
+        { "key": "X-Robots-Tag", "value": "noindex, nofollow, noarchive" }
+      ]
+    }
   ]
 }
