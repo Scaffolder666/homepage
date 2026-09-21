@@ -1,60 +1,54 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 770" role="img" aria-labelledby="title description">
-  <title id="title">Design Decision Space: Awareness and Adequacy of Decision Grounds</title>
-  <desc id="description">An exploratory two-by-two matrix for a specific design decision at a particular moment. The horizontal axis is decision awareness: not recognized on the left, recognized on the right. The vertical axis is adequacy of available decision grounds: sufficient above, insufficient below. Top left: discover an unnoticed decision when grounds are sufficient. Top right: compare and judge using available grounds. Bottom left: surface an unnoticed decision and missing grounds, a situation explored by aCADemy. Bottom right: gather grounds or defer, with CAMeleon and FuzzyCAD shown as conceptual research entry points. Project placement is illustrative, not a measured score or claim of an outcome.</desc>
-  <rect width="1000" height="770" fill="#fff"/>
-  <g font-family="Arial, Helvetica, sans-serif" fill="#17202a">
-    <text x="500" y="42" font-size="30" font-weight="700" text-anchor="middle">Design Decision Space</text>
-    <text x="500" y="71" font-size="16" fill="#526170" text-anchor="middle">One decision · One person or team · One moment</text>
-    <g stroke="#dce3e8" stroke-width="1.5">
-      <rect x="104" y="130" width="374" height="221" rx="12" fill="#f2f6fa"/>
-      <rect x="522" y="130" width="374" height="221" rx="12" fill="#f0f7f3"/>
-      <rect x="104" y="414" width="374" height="221" rx="12" fill="#f3f7fb"/>
-      <rect x="522" y="414" width="374" height="221" rx="12" fill="#fcf5f2"/>
-    </g>
-    <g font-size="16" font-weight="700" fill="#526170">
-      <text x="126" y="163">01 · NOT RECOGNIZED / SUFFICIENT</text>
-      <text x="544" y="163">02 · RECOGNIZED / SUFFICIENT</text>
-      <text x="126" y="447">03 · NOT RECOGNIZED / INSUFFICIENT</text>
-      <text x="544" y="447">04 · RECOGNIZED / INSUFFICIENT</text>
+  <title id="title">Design Decision Support Space</title>
+  <desc id="description">A conceptual two-by-two decision support matrix. Horizontal axis: decision awareness, from not recognized to recognized. Vertical axis: adequacy of decision grounds, from insufficient to sufficient. The top-left situation calls for noticing a decision. The bottom-left calls for noticing a decision and discovering missing grounds. The bottom-right calls for obtaining grounds, seeking input, or deferring a commitment. The top-right is a conditional stop point for targeted support when a person can proceed independently, not a separate active research theme. aCADemy, CAMeleon, and FuzzyCAD are colored project labels in their illustrative research situations. Positions are conceptual, not measured scores.</desc>
+  <rect width="1000" height="770" fill="#ffffff"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#202830">
+    <text x="500" y="42" font-size="30" font-weight="700" text-anchor="middle">Design Decision Support Space</text>
+    <text x="500" y="70" font-size="16" fill="#62707c" text-anchor="middle">One decision · One person or team · One moment</text>
+    <path d="M98 385 H900 M500 140 V648" fill="none" stroke="#5c6872" stroke-width="1.8"/>
+    <path d="M98 385 l11 -6 v12 z M900 385 l-11 -6 v12 z M500 140 l-6 11 h12 z M500 648 l-6 -11 h12 z" fill="#5c6872"/>
+    <g fill="#556370" font-size="14" font-weight="700" letter-spacing="1">
+      <text x="122" y="176">NOT RECOGNIZED · SUFFICIENT</text>
+      <text x="530" y="176">RECOGNIZED · SUFFICIENT</text>
+      <text x="122" y="426">NOT RECOGNIZED · INSUFFICIENT</text>
+      <text x="530" y="426">RECOGNIZED · INSUFFICIENT</text>
     </g>
     <g font-size="25" font-weight="700">
-      <text x="126" y="204">Discover a decision</text>
-      <text x="544" y="204">Compare and judge</text>
-      <text x="126" y="488">Surface decision + gaps</text>
-      <text x="544" y="488">Gather grounds or defer</text>
+      <text x="122" y="220">Discover the decision</text>
+      <text x="530" y="220">Stop targeted support</text>
+      <text x="122" y="470">Surface decision + gaps</text>
+      <text x="530" y="470">Gather grounds or defer</text>
     </g>
-    <g font-size="18" fill="#435466">
-      <text x="126" y="244">Grounds are available, but the</text>
-      <text x="126" y="269">decision has not been noticed.</text>
-      <text x="544" y="244">Recognize the choice; use criteria,</text>
-      <text x="544" y="269">knowledge and evidence.</text>
-      <text x="126" y="528">Neither the decision nor the</text>
-      <text x="126" y="553">missing grounds are recognized.</text>
-      <text x="544" y="528">The choice is known, but more</text>
-      <text x="544" y="553">evidence or input is needed.</text>
+    <g font-size="17" fill="#51606c">
+      <text x="122" y="257">The relevant grounds are available;</text>
+      <text x="122" y="281">the decision has not been noticed.</text>
+      <text x="530" y="257">If the designer can proceed independently,</text>
+      <text x="530" y="281">the tool steps back.</text>
+      <text x="122" y="507">Neither the decision nor its missing</text>
+      <text x="122" y="531">grounds have been recognized.</text>
+      <text x="530" y="507">The decision is known, but more grounds</text>
+      <text x="530" y="531">or contributions are needed.</text>
     </g>
-    <g font-size="17" font-weight="700">
-      <rect x="126" y="580" width="116" height="35" rx="17" fill="#d6ebfc" stroke="#95bfdf"/>
-      <text x="184" y="603" text-anchor="middle" fill="#255b89">aCADemy</text>
-      <rect x="544" y="580" width="128" height="35" rx="17" fill="#fff0cc" stroke="#e2c681"/>
-      <text x="608" y="603" text-anchor="middle" fill="#845d11">CAMeleon</text>
-      <rect x="682" y="580" width="129" height="35" rx="17" fill="#fde5e9" stroke="#e0afb8"/>
-      <text x="746" y="603" text-anchor="middle" fill="#9d3e50">FuzzyCAD</text>
+    <rect x="530" y="298" width="210" height="31" rx="15" fill="none" stroke="#9ca7b0" stroke-width="1.2"/>
+    <text x="635" y="319" text-anchor="middle" fill="#66727c" font-size="14" font-weight="700">NO ACTIVE TOOL TASK</text>
+    <g font-size="16" font-weight="700">
+      <rect x="122" y="557" width="115" height="35" rx="17" fill="#d6ebfc" stroke="#95bfdf"/>
+      <text x="179" y="580" text-anchor="middle" fill="#255b89">aCADemy</text>
+      <rect x="530" y="557" width="130" height="35" rx="17" fill="#fff0cc" stroke="#e2c681"/>
+      <text x="595" y="580" text-anchor="middle" fill="#845d11">CAMeleon</text>
+      <rect x="671" y="557" width="126" height="35" rx="17" fill="#fde5e9" stroke="#e0afb8"/>
+      <text x="734" y="580" text-anchor="middle" fill="#9d3e50">FuzzyCAD</text>
     </g>
-    <g stroke="#344556" stroke-width="2" fill="none">
-      <path d="M104 384 H896 M500 130 V635"/>
-      <path d="M104 384 l12 -6 v12 z M896 384 l-12 -6 v12 z M500 130 l-6 12 h12 z M500 635 l-6 -12 h12 z" fill="#344556" stroke="none"/>
+    <g font-size="18" font-weight="700">
+      <text x="500" y="126" text-anchor="middle">Sufficient grounds</text>
+      <text x="500" y="676" text-anchor="middle">Insufficient grounds</text>
+      <text x="98" y="376" text-anchor="start">Not recognized</text>
+      <text x="900" y="376" text-anchor="end">Recognized</text>
     </g>
-    <g font-size="20" font-weight="700" fill="#17202a">
-      <text x="500" y="115" text-anchor="middle">Sufficient grounds</text>
-      <text x="500" y="666" text-anchor="middle">Insufficient grounds</text>
-      <text x="104" y="376" text-anchor="start">Not recognized</text>
-      <text x="896" y="376" text-anchor="end">Recognized</text>
-    </g>
-    <g font-size="16" fill="#526170" text-anchor="middle">
-      <text x="500" y="692">Y · Adequacy of decision grounds</text>
-      <text x="500" y="713">X · Decision awareness</text>
-      <text x="500" y="745">Project placements show conceptual research entry points, not measured outcomes.</text>
+    <g font-size="15" fill="#596672" text-anchor="middle">
+      <text x="500" y="704">Y · Adequacy of decision grounds</text>
+      <text x="500" y="726">X · Decision awareness</text>
+      <text x="500" y="754">Colored markers indicate project focus, not scores or measured outcomes.</text>
     </g>
   </g>
 </svg>
