@@ -10,8 +10,8 @@
     <g font-size="21" font-weight="700">
       <text x="500" y="86" text-anchor="middle">Sufficient grounds</text>
       <text x="500" y="733" text-anchor="middle">Insufficient grounds</text>
-      <text x="125" y="363" text-anchor="end">Not recognized</text>
-      <text x="890" y="363">Recognized</text>
+      <text x="160" y="363" text-anchor="start">Not recognized</text>
+      <text x="850" y="363" text-anchor="end">Recognized</text>
     </g>
     <g font-size="15" fill="#555f69">
       <text x="500" y="404" text-anchor="middle">Decision awareness</text>
