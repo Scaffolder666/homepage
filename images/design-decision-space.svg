@@ -1,21 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 770" role="img" aria-labelledby="title description">
-  <title id="title">Design Decision Space</title>
-  <desc id="description">Two crossing axes. Horizontal axis shows decision awareness from not aware on the left to aware on the right. Vertical axis shows ability to resolve from cannot resolve at the bottom to can resolve at the top. The three main projects appear as solid colored markers: aCADemy toward the lower left, CAMeleon in the aware and cannot resolve quadrant supporting informed fabrication decisions through workflow comparison, and FuzzyCAD in the aware and cannot resolve quadrant supporting collaboration on unresolved decisions. Two related projects appear as smaller muted dashed circles: TOM Search below and slightly left of center, and Design with Myself just right of center and below the horizontal axis, reflecting its adjacent focus on metacognitive monitoring and reconsideration during design rather than directly measuring decision awareness. Markers indicate the decision situations each project primarily addresses, not outcomes or measured transitions. Positions are conceptual illustrations, not measured scores or fixed states.</desc>
+  <title id="title">Design Decision Space: Awareness and Decision Grounds</title>
+  <desc id="description">Exploratory two-axis framework for a specific design decision at a particular moment. The horizontal axis runs from decision not recognized to recognized. The vertical axis runs from insufficient to sufficient available decision grounds, including relevant knowledge, criteria, evidence, and expertise. Availability is distinct from whether the designer uses those grounds or forms a justified judgment. Conceptual project markers show areas of inquiry, not measured scores or research outcomes. aCADemy is illustrated toward the lower left; CAMeleon and FuzzyCAD appear in the lower right; TOM Search and Design with Myself are shown as related projects with dashed outlines.</desc>
   <rect width="1000" height="770" fill="#fff"/>
   <g font-family="Arial, Helvetica, sans-serif" fill="#17202a">
-    <text x="500" y="46" font-size="32" font-weight="700" text-anchor="middle">Design Decision Space</text>
+    <text x="500" y="46" font-size="31" font-weight="700" text-anchor="middle">Design Decision Space</text>
     <g stroke="#17202a" stroke-width="2" fill="none">
       <path d="M145 373 H870 M500 105 V700"/>
       <path d="M145 373 l13 -7 v14 z M870 373 l-13 -7 v14 z M500 105 l-7 13 h14 z M500 700 l-7 -13 h14 z" fill="#17202a" stroke="none"/>
     </g>
     <g font-size="21" font-weight="700">
-      <text x="500" y="89" text-anchor="middle">Can resolve</text>
-      <text x="500" y="734" text-anchor="middle">Cannot resolve</text>
+      <text x="500" y="89" text-anchor="middle">Sufficient grounds</text>
+      <text x="500" y="734" text-anchor="middle">Insufficient grounds</text>
       <text x="125" y="363" text-anchor="end">Not aware</text>
       <text x="890" y="363">Aware</text>
     </g>
     <g font-size="15" fill="#555f69">
-      <text x="500" y="755" text-anchor="middle">Ability to resolve: knowledge and resources to reason through a choice</text>
+      <text x="500" y="755" text-anchor="middle">Adequacy of decision grounds: available knowledge, criteria, evidence and expertise</text>
       <text x="500" y="402" text-anchor="middle">Decision awareness</text>
     </g>
     <circle cx="235" cy="610" r="23" fill="#c8e4f7" stroke="#3585c5" stroke-width="2"/>
