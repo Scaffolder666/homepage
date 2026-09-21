@@ -1,41 +1,60 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 770" role="img" aria-labelledby="title description">
-  <title id="title">Design Decision Space: Awareness and Decision Grounds</title>
-  <desc id="description">Exploratory two-axis framework for a specific design decision at a particular moment. The horizontal axis runs from decision not recognized to recognized. The vertical axis runs from insufficient to sufficient available decision grounds, including relevant knowledge, criteria, evidence, and expertise. Availability is distinct from whether the designer uses those grounds or forms a justified judgment. Conceptual project markers show areas of inquiry, not measured scores or research outcomes. aCADemy is illustrated toward the lower left; CAMeleon and FuzzyCAD appear in the lower right; TOM Search and Design with Myself are shown as related projects with dashed outlines.</desc>
+  <title id="title">Design Decision Space: Awareness and Adequacy of Decision Grounds</title>
+  <desc id="description">An exploratory two-by-two matrix for a specific design decision at a particular moment. The horizontal axis is decision awareness: not recognized on the left, recognized on the right. The vertical axis is adequacy of available decision grounds: sufficient above, insufficient below. Top left: discover an unnoticed decision when grounds are sufficient. Top right: compare and judge using available grounds. Bottom left: surface an unnoticed decision and missing grounds, a situation explored by aCADemy. Bottom right: gather grounds or defer, with CAMeleon and FuzzyCAD shown as conceptual research entry points. Project placement is illustrative, not a measured score or claim of an outcome.</desc>
   <rect width="1000" height="770" fill="#fff"/>
   <g font-family="Arial, Helvetica, sans-serif" fill="#17202a">
-    <text x="500" y="46" font-size="31" font-weight="700" text-anchor="middle">Design Decision Space</text>
-    <g stroke="#17202a" stroke-width="2" fill="none">
-      <path d="M145 373 H870 M500 105 V700"/>
-      <path d="M145 373 l13 -7 v14 z M870 373 l-13 -7 v14 z M500 105 l-7 13 h14 z M500 700 l-7 -13 h14 z" fill="#17202a" stroke="none"/>
+    <text x="500" y="42" font-size="30" font-weight="700" text-anchor="middle">Design Decision Space</text>
+    <text x="500" y="71" font-size="16" fill="#526170" text-anchor="middle">One decision · One person or team · One moment</text>
+    <g stroke="#dce3e8" stroke-width="1.5">
+      <rect x="104" y="130" width="374" height="221" rx="12" fill="#f2f6fa"/>
+      <rect x="522" y="130" width="374" height="221" rx="12" fill="#f0f7f3"/>
+      <rect x="104" y="414" width="374" height="221" rx="12" fill="#f3f7fb"/>
+      <rect x="522" y="414" width="374" height="221" rx="12" fill="#fcf5f2"/>
     </g>
-    <g font-size="21" font-weight="700">
-      <text x="500" y="89" text-anchor="middle">Sufficient grounds</text>
-      <text x="500" y="734" text-anchor="middle">Insufficient grounds</text>
-      <text x="125" y="363" text-anchor="end">Not aware</text>
-      <text x="890" y="363">Aware</text>
+    <g font-size="16" font-weight="700" fill="#526170">
+      <text x="126" y="163">01 · NOT RECOGNIZED / SUFFICIENT</text>
+      <text x="544" y="163">02 · RECOGNIZED / SUFFICIENT</text>
+      <text x="126" y="447">03 · NOT RECOGNIZED / INSUFFICIENT</text>
+      <text x="544" y="447">04 · RECOGNIZED / INSUFFICIENT</text>
     </g>
-    <g font-size="15" fill="#555f69">
-      <text x="500" y="755" text-anchor="middle">Adequacy of decision grounds: available knowledge, criteria, evidence and expertise</text>
-      <text x="500" y="402" text-anchor="middle">Decision awareness</text>
+    <g font-size="25" font-weight="700">
+      <text x="126" y="204">Discover a decision</text>
+      <text x="544" y="204">Compare and judge</text>
+      <text x="126" y="488">Surface decision + gaps</text>
+      <text x="544" y="488">Gather grounds or defer</text>
     </g>
-    <circle cx="235" cy="610" r="23" fill="#c8e4f7" stroke="#3585c5" stroke-width="2"/>
-    <text x="268" y="605" font-size="24" font-weight="700">aCADemy</text>
-    <text x="268" y="629" font-size="16" fill="#35414d">Surface hidden design decisions</text>
-    <circle cx="655" cy="451" r="25" fill="#ffe3a4" stroke="#df9c2c" stroke-width="2"/>
-    <text x="690" y="440" font-size="24" font-weight="700">CAMeleon</text>
-    <text x="690" y="465" font-size="16" fill="#35414d">Compare workflows for</text>
-    <text x="690" y="487" font-size="16" fill="#35414d">informed decisions</text>
-    <circle cx="731" cy="570" r="23" fill="#ffd5dc" stroke="#e16d7e" stroke-width="2"/>
-    <text x="764" y="566" font-size="24" font-weight="700">FuzzyCAD</text>
-    <text x="764" y="589" font-size="16" fill="#35414d">Share unresolved</text>
-    <text x="764" y="608" font-size="16" fill="#35414d">decisions for input</text>
-    <g fill="none" stroke="#85919a" stroke-width="2" stroke-dasharray="5 4">
-      <circle cx="430" cy="516" r="17"/>
-      <circle cx="545" cy="474" r="17"/>
+    <g font-size="18" fill="#435466">
+      <text x="126" y="244">Grounds are available, but the</text>
+      <text x="126" y="269">decision has not been noticed.</text>
+      <text x="544" y="244">Recognize the choice; use criteria,</text>
+      <text x="544" y="269">knowledge and evidence.</text>
+      <text x="126" y="528">Neither the decision nor the</text>
+      <text x="126" y="553">missing grounds are recognized.</text>
+      <text x="544" y="528">The choice is known, but more</text>
+      <text x="544" y="553">evidence or input is needed.</text>
     </g>
-    <g fill="#67737d" font-size="18" font-weight="600">
-      <text x="430" y="484" text-anchor="middle">TOM Search</text>
-      <text x="545" y="513" text-anchor="middle">Design with Myself</text>
+    <g font-size="17" font-weight="700">
+      <rect x="126" y="580" width="116" height="35" rx="17" fill="#d6ebfc" stroke="#95bfdf"/>
+      <text x="184" y="603" text-anchor="middle" fill="#255b89">aCADemy</text>
+      <rect x="544" y="580" width="128" height="35" rx="17" fill="#fff0cc" stroke="#e2c681"/>
+      <text x="608" y="603" text-anchor="middle" fill="#845d11">CAMeleon</text>
+      <rect x="682" y="580" width="129" height="35" rx="17" fill="#fde5e9" stroke="#e0afb8"/>
+      <text x="746" y="603" text-anchor="middle" fill="#9d3e50">FuzzyCAD</text>
+    </g>
+    <g stroke="#344556" stroke-width="2" fill="none">
+      <path d="M104 384 H896 M500 130 V635"/>
+      <path d="M104 384 l12 -6 v12 z M896 384 l-12 -6 v12 z M500 130 l-6 12 h12 z M500 635 l-6 -12 h12 z" fill="#344556" stroke="none"/>
+    </g>
+    <g font-size="20" font-weight="700" fill="#17202a">
+      <text x="500" y="115" text-anchor="middle">Sufficient grounds</text>
+      <text x="500" y="666" text-anchor="middle">Insufficient grounds</text>
+      <text x="104" y="376" text-anchor="start">Not recognized</text>
+      <text x="896" y="376" text-anchor="end">Recognized</text>
+    </g>
+    <g font-size="16" fill="#526170" text-anchor="middle">
+      <text x="500" y="692">Y · Adequacy of decision grounds</text>
+      <text x="500" y="713">X · Decision awareness</text>
+      <text x="500" y="745">Project placements show conceptual research entry points, not measured outcomes.</text>
     </g>
   </g>
 </svg>
