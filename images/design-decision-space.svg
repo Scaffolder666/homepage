@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 770" role="img" aria-labelledby="title description">
   <title id="title">Decision awareness and adequacy of decision grounds</title>
-  <desc id="description">A conceptual space for individual design decisions. The horizontal axis runs from not recognized on the left to recognized on the right. The vertical axis runs from insufficient decision grounds at the bottom to sufficient grounds at the top. The upper-left region illustrates a decision whose relevant use context is already available but whose implications are overlooked. The lower-left region illustrates a decision not yet recognized where context or evidence still needs to be elicited. Context is not itself a quadrant or a third axis; its availability and relevance depend on the specific decision. The upper-right area is otherwise intentionally empty. Three colored markers locate research focuses: aCADemy in the lower left, CAMeleon and FuzzyCAD in the lower right. Two smaller dashed markers indicate adjacent work, TOM Search and Design with Myself. Project positions illustrate areas of inquiry, not measured values or outcomes.</desc>
+  <desc id="description">A conceptual space for individual design decisions. The horizontal axis runs from not recognized on the left to recognized on the right. The vertical axis runs from insufficient decision grounds at the bottom to sufficient grounds at the top. The upper-right area is intentionally empty. Three colored markers locate research focuses: aCADemy in the lower left, CAMeleon and FuzzyCAD in the lower right. Two smaller dashed markers indicate adjacent work, TOM Search and Design with Myself. Project positions illustrate areas of inquiry, not measured values or outcomes.</desc>
   <rect width="1000" height="770" fill="#ffffff"/>
   <g font-family="Arial, Helvetica, sans-serif" fill="#17202a">
     <g stroke="#17202a" stroke-width="2" fill="none">
@@ -16,12 +16,6 @@
     <g font-size="15" fill="#555f69">
       <text x="500" y="404" text-anchor="middle">Decision awareness</text>
       <text x="500" y="755" text-anchor="middle">Adequacy of decision grounds</text>
-    </g>
-    <g font-size="19" fill="#5a6872">
-      <text x="168" y="169">Context already available;</text>
-      <text x="168" y="195">its design implications overlooked</text>
-      <text x="168" y="519">Context or evidence still missing;</text>
-      <text x="168" y="545">the decision is also overlooked</text>
     </g>
     <circle cx="235" cy="610" r="23" fill="#c8e4f7" stroke="#3585c5" stroke-width="2"/>
     <text x="268" y="619" font-size="24" font-weight="700">aCADemy</text>
