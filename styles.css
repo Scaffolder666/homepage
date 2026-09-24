@@ -187,10 +187,10 @@ body.agenda-page .agenda-footer{margin-top:0;border-top:1px solid var(--line);pa
  body.agenda-page .agenda-section{margin-top:35px;scroll-margin-top:16px}
  body.agenda-page .agenda-section h2{font-size:1.48rem;line-height:1.25;margin-bottom:14px}
  body.agenda-page .agenda-section>p{font-size:.94rem;line-height:1.72;margin-bottom:14px}
- body.agenda-page .agenda-figure{margin:20px 0 22px;padding:10px 0 11px;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:thin;border-radius:9px;-webkit-overflow-scrolling:touch}
- body.agenda-page .agenda-figure::before{content:"↔ Swipe to explore the diagram · Tap to enlarge";position:sticky;left:0;display:block;width:max-content;max-width:100%;padding:0 12px 9px;font-size:.7rem;color:var(--muted);letter-spacing:.01em}
- body.agenda-page .agenda-figure a{display:block;width:max-content;max-width:none}
- body.agenda-page .agenda-figure img{width:665px;max-width:none;height:auto;margin:0}
+ body.agenda-page .agenda-figure{margin:20px 0 22px;padding:10px;border-radius:9px;overflow:visible}
+ body.agenda-page .agenda-figure::before{content:none}
+ body.agenda-page .agenda-figure a{display:block;width:100%;max-width:100%}
+ body.agenda-page .agenda-figure img{display:block;width:100%;max-width:100%;height:auto;margin:0 auto}
  body.agenda-page .foundation-notes{grid-template-columns:1fr;gap:5px;margin-top:18px}
  body.agenda-page .foundation-notes article{padding:12px 0}
  body.agenda-page .agenda-context{margin-top:18px}
