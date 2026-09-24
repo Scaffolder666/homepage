@@ -1,72 +1,66 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 770" role="img" aria-labelledby="title description">
   <title id="title">Epistemic states of design decisions</title>
-  <desc id="description">A four-quadrant matrix. The vertical axis runs from not recognized to recognized. The horizontal axis runs from relevant knowledge not yet available for resolution to available. The upper-left quadrant is Known Unknowns and contains CAMeleon and FuzzyCAD. The lower-left quadrant is Unknown Unknowns and contains aCADemy. The lower-right quadrant is Unknown Knowns. The upper-right quadrant is Known Knowns and is marked execution and automation outside the primary research scope.</desc>
+  <desc id="description">Four quadrants describe known unknowns, known knowns, unknown unknowns, and unknown knowns. CAMeleon and FuzzyCAD sit in known unknowns. aCADemy sits in unknown unknowns. Unknown knowns are a future research direction. Known knowns are associated with execution and automation.</desc>
   <rect width="1000" height="770" fill="#ffffff"/>
   <g font-family="Arial, Helvetica, sans-serif" fill="#17202a">
-    <text x="500" y="48" text-anchor="middle" font-size="28" font-weight="700">Epistemic States of Design Decisions</text>
+    <text x="500" y="48" text-anchor="middle" font-size="30" font-weight="700">Epistemic States of Design Decisions</text>
 
-    <g stroke="#17202a" stroke-width="2" fill="none">
-      <rect x="145" y="105" width="355" height="270" rx="3"/>
-      <rect x="500" y="105" width="355" height="270" rx="3"/>
-      <rect x="145" y="375" width="355" height="270" rx="3"/>
-      <rect x="500" y="375" width="355" height="270" rx="3"/>
+    <rect x="150" y="105" width="350" height="260" fill="#ffffff" stroke="#17202a" stroke-width="2"/>
+    <rect x="500" y="105" width="350" height="260" fill="#f7f7f5" stroke="#17202a" stroke-width="2"/>
+    <rect x="150" y="365" width="350" height="260" fill="#ffffff" stroke="#17202a" stroke-width="2"/>
+    <rect x="500" y="365" width="350" height="260" fill="#fafafa" stroke="#17202a" stroke-width="2"/>
+
+    <g font-size="25" font-weight="700">
+      <text x="176" y="145">Known Unknowns</text>
+      <text x="526" y="145">Known Knowns</text>
+      <text x="176" y="405">Unknown Unknowns</text>
+      <text x="526" y="405">Unknown Knowns</text>
     </g>
 
-    <rect x="500" y="105" width="355" height="270" fill="#f7f7f5"/>
-    <rect x="500" y="375" width="355" height="270" fill="#fafafa"/>
+    <g font-size="17" fill="#5b6570">
+      <text x="176" y="177">I know what I don't know.</text>
+      <text x="176" y="205">Compare · reason · seek expertise · defer</text>
 
-    <g font-size="24" font-weight="700">
-      <text x="174" y="145">Known Unknowns</text>
-      <text x="529" y="145">Known Knowns</text>
-      <text x="174" y="415">Unknown Unknowns</text>
-      <text x="529" y="415">Unknown Knowns</text>
-    </g>
+      <text x="526" y="177">I know what I know.</text>
+      <text x="526" y="205">Execute · accelerate · automate</text>
 
-    <g font-size="16" fill="#59636d">
-      <text x="174" y="174">The gap is recognized.</text>
-      <text x="174" y="197">Reason, compare, seek expertise, or defer.</text>
+      <text x="176" y="437">I don't know what I don't know.</text>
+      <text x="176" y="465">Surface the issue or knowledge gap</text>
 
-      <text x="529" y="174">The decision and a viable resolution are clear.</text>
-      <text x="529" y="197">Execute, accelerate, or automate.</text>
-
-      <text x="174" y="444">The consequential issue or gap is not recognized.</text>
-      <text x="174" y="467">Surface it so it can become reasoned about.</text>
-
-      <text x="529" y="444">Relevant knowledge exists but is not activated.</text>
-      <text x="529" y="467">Elicit, retrieve, or externalize it.</text>
+      <text x="526" y="437">I don't know what I know.</text>
+      <text x="526" y="465">Elicit · retrieve · externalize</text>
     </g>
 
     <g>
-      <circle cx="216" cy="255" r="18" fill="#ffe3a4" stroke="#df9c2c" stroke-width="2"/>
-      <text x="246" y="263" font-size="21" font-weight="700">CAMeleon</text>
+      <circle cx="202" cy="258" r="18" fill="#ffe3a4" stroke="#df9c2c" stroke-width="2"/>
+      <text x="232" y="266" font-size="21" font-weight="700">CAMeleon</text>
+      <circle cx="202" cy="313" r="18" fill="#ffd5dc" stroke="#e16d7e" stroke-width="2"/>
+      <text x="232" y="321" font-size="21" font-weight="700">FuzzyCAD</text>
 
-      <circle cx="216" cy="312" r="18" fill="#ffd5dc" stroke="#e16d7e" stroke-width="2"/>
-      <text x="246" y="320" font-size="21" font-weight="700">FuzzyCAD</text>
-
-      <circle cx="216" cy="548" r="18" fill="#c8e4f7" stroke="#3585c5" stroke-width="2"/>
-      <text x="246" y="556" font-size="21" font-weight="700">aCADemy</text>
+      <circle cx="202" cy="528" r="18" fill="#c8e4f7" stroke="#3585c5" stroke-width="2"/>
+      <text x="232" y="536" font-size="21" font-weight="700">aCADemy</text>
     </g>
 
-    <g font-size="14" font-weight="600" fill="#7b838a">
-      <text x="678" y="255" text-anchor="middle">Automation / execution</text>
-      <text x="678" y="278" text-anchor="middle">outside primary research scope</text>
-      <text x="678" y="548" text-anchor="middle">Future research direction</text>
+    <g font-size="15" font-weight="600" fill="#7b838a">
+      <text x="675" y="272" text-anchor="middle">Automation / execution</text>
+      <text x="675" y="296" text-anchor="middle">outside primary research scope</text>
+      <text x="675" y="534" text-anchor="middle">Future research direction</text>
     </g>
 
     <g stroke="#17202a" stroke-width="2" fill="none">
-      <path d="M145 684 H855"/>
-      <path d="M145 684 l13 -7 v14 z M855 684 l-13 -7 v14 z" fill="#17202a" stroke="none"/>
-      <path d="M105 645 V105"/>
-      <path d="M105 105 l-7 13 h14 z M105 645 l-7 -13 h14 z" fill="#17202a" stroke="none"/>
+      <path d="M150 670 H850"/>
+      <path d="M150 670 l13 -7 v14 z M850 670 l-13 -7 v14 z" fill="#17202a" stroke="none"/>
+      <path d="M110 625 V105"/>
+      <path d="M110 105 l-7 13 h14 z M110 625 l-7 -13 h14 z" fill="#17202a" stroke="none"/>
     </g>
 
-    <g font-size="16" fill="#17202a" font-weight="700">
-      <text x="145" y="715" text-anchor="start">Relevant knowledge not yet available</text>
-      <text x="855" y="715" text-anchor="end">Relevant knowledge available</text>
-      <text x="500" y="746" text-anchor="middle" font-size="14" fill="#59636d">Knowledge / evidence / experience / expertise available for resolution</text>
-      <text x="83" y="125" text-anchor="end" transform="rotate(-90 83 125)">Recognized</text>
-      <text x="83" y="625" text-anchor="start" transform="rotate(-90 83 625)">Not recognized</text>
-      <text x="55" y="375" text-anchor="middle" font-size="14" fill="#59636d" transform="rotate(-90 55 375)">Awareness of the decision or knowledge gap</text>
+    <g fill="#17202a" font-weight="700">
+      <text x="150" y="705" font-size="15">Knowledge not available</text>
+      <text x="850" y="705" text-anchor="end" font-size="15">Knowledge available</text>
+      <text x="500" y="735" text-anchor="middle" font-size="14" fill="#59636d">Availability of relevant knowledge / evidence / experience / expertise</text>
+      <text x="90" y="122" text-anchor="end" font-size="15" transform="rotate(-90 90 122)">Aware</text>
+      <text x="90" y="610" text-anchor="start" font-size="15" transform="rotate(-90 90 610)">Not aware</text>
+      <text x="56" y="365" text-anchor="middle" font-size="14" fill="#59636d" transform="rotate(-90 56 365)">Awareness of the knowledge state</text>
     </g>
   </g>
 </svg>
