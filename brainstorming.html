@@ -16,11 +16,12 @@
 <main class="wrap brainstorm-main" id="main">
 <p class="eyebrow">Research notes · Brainstorming · Selected precedents</p>
 <h1>Interaction precedents worth exploring in CAD</h1>
-<p class="brainstorm-intro">Two interaction patterns selected for further thought. The emphasis is on what people can control while working with a three-dimensional design, rather than adding numeric dashboards or transferring a familiar interface unchanged.</p>
-<p class="brainstorm-note">Status: archived candidates, not implemented systems or validated research contributions. The original product behavior and proposed CAD transfer are intentionally separated below.</p>
+<p class="brainstorm-intro">Two archived interaction patterns selected for further thought. I now read them through the epistemic-state framework: what state of a design decision they might support, which cognitive mechanism the interaction could invoke, and what would have to be true for that mapping to hold.</p>
+<p class="brainstorm-note">Status: archived candidates, not implemented systems or validated research contributions. The original product behavior, proposed CAD transfer, and current framework interpretation are intentionally separated below.</p>
 <section class="brainstorm-item" id="layer-masks" aria-labelledby="layer-masks-title">
 <p class="brainstorm-meta">ARCHIVED 13 · PHOTOSHOP · SCOPE OF CHANGE</p>
 <h2 id="layer-masks-title">Layer Masks — change one part while preserving context</h2>
+<p class="brainstorm-note"><strong>Current framework:</strong> primarily a <strong>known unknowns</strong> interaction candidate. The user already recognizes an unresolved region; the mechanism is <strong>decomposition + externalization of scope</strong>, making explicit what may change and what should remain fixed while reasoning continues.</p>
 <figure class="brainstorm-figure"><img src="images/brainstorm-layer-mask.svg" width="960" height="460" alt="Illustration of a selected local modification region in an assembled model, with unchanged surrounding geometry visible and a mask control alongside it." loading="lazy" decoding="async"><figcaption>Interaction schematic illustrating the proposed CAD transfer, not a Photoshop screenshot. See Adobe's linked documentation below for the original product interaction.</figcaption></figure>
 <h3>Existing interaction</h3>
 <p>In Photoshop, a user can add a layer mask and edit it to show or hide selected portions of a layer. A mask on an adjustment layer can limit that adjustment to chosen parts of an image, leaving other regions untouched. The mask remains editable.</p>
@@ -33,6 +34,7 @@
 <section class="brainstorm-item" id="dev-mode" aria-labelledby="dev-mode-title">
 <p class="brainstorm-meta">ARCHIVED 14 · FIGMA · CONTEXT OF INSPECTION</p>
 <h2 id="dev-mode-title">Dev Mode — inspect the same design through another working context</h2>
+<p class="brainstorm-note"><strong>Current framework:</strong> potentially spans <strong>unknown knowns</strong> and <strong>known unknowns</strong>. Switching context can activate knowledge from another disciplinary perspective, or help a user seek expertise once a gap is already recognized. The candidate mechanism is <strong>perspective taking + contextualization</strong>.</p>
 <figure class="brainstorm-figure"><img src="images/brainstorm-context-view.svg" width="960" height="460" alt="Illustration of one shared CAD assembly alongside user-selectable design, engineering, physical therapy, and fabrication views, with engineering-specific inspection information visible." loading="lazy" decoding="async"><figcaption>Interaction schematic of a possible CAD contextual view, not a Figma screenshot. The linked Figma help page documents the original Dev Mode interface.</figcaption></figure>
 <h3>Existing interaction</h3>
 <p>Figma provides a dedicated developer-facing inspection and handoff environment. Its Dev Mode includes inspection tools, design-specific information and focus views. The mode does not automatically infer everything a user needs from their identity.</p>
