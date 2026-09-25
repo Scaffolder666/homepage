@@ -45,6 +45,10 @@ img{display:block;max-width:100%;height:auto}h1,h2,h3,p{margin:0}
 .news{list-style:none;margin:0;padding:0}.news li{display:grid;grid-template-columns:122px minmax(0,1fr);gap:22px;align-items:start;padding:10px 0;border-bottom:1px solid #f0f1f1}
 .news li:last-child{border-bottom:0}.news time{font-size:.88rem;font-weight:600;color:var(--muted);padding-top:1px}
 .news p{font-size:.96rem;line-height:1.58;color:var(--body)}
+.news-entry{min-width:0}
+.featured-news .news-entry{display:grid;grid-template-columns:minmax(0,1fr) 112px;gap:18px;align-items:start}
+.news-photo{display:block;width:112px;overflow:hidden;background:#f5f6f6}
+.news-photo img{display:block;width:100%;height:auto;aspect-ratio:3/4;object-fit:cover}
 .older-news{margin-top:4px}.older-news summary{display:inline-flex;align-items:center;min-height:44px;width:max-content;padding:8px 0;color:var(--blue);cursor:pointer;font-size:.9rem;font-weight:570}
 .older-news[open] summary{margin-bottom:4px}
 /* Publications: the same image-left, text-right treatment for every project. */
@@ -91,13 +95,13 @@ img{display:block;max-width:100%;height:auto}h1,h2,h3,p{margin:0}
  .profile-links{grid-column:1/-1;grid-row:5;gap:2px 16px;margin-top:10px}.profile-links a{min-height:43px;padding:8px 0;border:0;background:none;color:var(--blue);font-size:.78rem;font-weight:570}
  .intro{max-width:100%;padding-top:21px;margin:0;border:0}.intro .eyebrow{font-size:.67rem;margin-bottom:7px}.intro h1{font-size:clamp(1.53rem,6.6vw,1.9rem);line-height:1.25;margin-bottom:12px}.intro p,.intro .lead{font-size:.95rem;line-height:1.65;margin-bottom:10px}
  .section{margin-top:40px;scroll-margin-top:16px}.section-header{margin-bottom:8px}.section-header h2{font-size:1.55rem}.section-header p{display:none}
- .news li{grid-template-columns:83px minmax(0,1fr);gap:11px;padding:10px 0}.news time{font-size:.76rem}.news p{font-size:.87rem;line-height:1.55}
+ .news li{grid-template-columns:83px minmax(0,1fr);gap:11px;padding:10px 0}.featured-news .news-entry{grid-template-columns:minmax(0,1fr) 92px;gap:12px}.news-photo{width:92px}.news time{font-size:.76rem}.news p{font-size:.87rem;line-height:1.55}
  .section .filter-panel{margin:11px 0 4px;padding:12px}.section .filter-heading small{display:none}.section .filter-btn{min-height:42px;padding:8px 10px;font-size:.76rem}.section .filter-count{font-size:.77rem}
  .work{grid-template-columns:1fr;gap:0;padding:22px 0;margin:0;border:0;border-bottom:1px solid var(--line);border-radius:0;background:none;box-shadow:none}.work:last-child{border:0}
  .media{width:100%;height:auto;aspect-ratio:1.65;margin-bottom:15px;border:0;border-radius:0}.work h3{font-size:1.11rem;line-height:1.42}.authors{font-size:.8rem;line-height:1.5}.desc{font-size:.91rem;line-height:1.61}.project-links{gap:3px 17px;font-size:.85rem}.project-links a{min-height:42px}
  .work .keywords{gap:6px;margin-top:11px}.work .keyword{font-size:.72rem;padding:4px 7px}.contact-card{font-size:.9rem}.footer .wrap{display:block}.footer .wrap span{display:block;margin-bottom:6px}
 }
-@media(max-width:360px){.wrap{width:calc(100% - 30px)}.topnav{gap:0}.topnav a{font-size:.71rem;padding:0 1px}.profile{grid-template-columns:70px minmax(0,1fr);column-gap:11px}.portrait{width:70px;height:70px}.profile h2{font-size:1.47rem}.profile .interests{font-size:.77rem}.profile-links{gap:0 13px}.profile-links a{font-size:.75rem}.intro h1{font-size:1.55rem}.news li{grid-template-columns:1fr;gap:3px}.media{aspect-ratio:1.5}}
+@media(max-width:360px){.wrap{width:calc(100% - 30px)}.topnav{gap:0}.topnav a{font-size:.71rem;padding:0 1px}.profile{grid-template-columns:70px minmax(0,1fr);column-gap:11px}.portrait{width:70px;height:70px}.profile h2{font-size:1.47rem}.profile .interests{font-size:.77rem}.profile-links{gap:0 13px}.profile-links a{font-size:.75rem}.intro h1{font-size:1.55rem}.news li{grid-template-columns:1fr;gap:3px}.featured-news .news-entry{grid-template-columns:minmax(0,1fr) 88px;gap:10px}.news-photo{width:88px}.media{aspect-ratio:1.5}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.section .filter-btn{transition:none}}
 /* Put the compact decision-space diagram beside the introduction on wide screens. */
 @media(min-width:981px){
