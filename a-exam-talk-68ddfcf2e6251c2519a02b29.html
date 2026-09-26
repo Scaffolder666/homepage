@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#fcfcfb">
+<meta name="description" content="Shuo Feng A Exam talk planning notes: slide-by-slide structure for a research agenda on design reasoning in CAD.">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<link rel="canonical" href="https://www.shuofeng.org/a-exam-talk-68ddfcf2e6251c2519a02b29.html">
+<title>A Exam Talk Plan | Shuo Feng</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+.aexam-page .site-header{position:relative;border:0}.aexam-page .wrap{width:min(980px,calc(100% - 52px))}
+.aexam-page .topbar{min-height:65px}.aexam-page .brand{font-size:1rem;color:var(--ink)}.aexam-page .topnav{gap:17px}.aexam-page .topnav a{font-size:.84rem;font-weight:600}
+.aexam-main{padding:38px 0 76px}.hero{padding-bottom:8px}.hero .eyebrow{color:var(--blue);font-weight:700;font-size:.77rem}.hero h1{font-size:clamp(2.05rem,4.4vw,2.8rem);line-height:1.16;letter-spacing:-.04em;margin:0 0 12px}.hero p{max-width:78ch;color:var(--body);font-size:1rem;line-height:1.68;margin:0 0 11px}
+.spine{margin:20px 0 0;padding:17px 19px;border-left:3px solid var(--blue);background:#f7f8f8}.spine strong{display:block;margin-bottom:5px}.spine p{margin:0;font-size:.93rem}
+.section{margin-top:38px;scroll-margin-top:20px}.section-kicker{font-size:.72rem;letter-spacing:.075em;text-transform:uppercase;font-weight:750;color:var(--muted);margin:0 0 5px}.section h2{font-size:1.5rem;letter-spacing:-.025em;margin:0 0 10px}.section>p{max-width:80ch;color:var(--body);font-size:.96rem;line-height:1.68;margin:0 0 12px}
+.source-card{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:17px 0;margin-top:18px}.source-card h3{font-size:1.05rem;margin:0 0 8px}.source-card p{font-size:.9rem;line-height:1.62;color:var(--body);margin:0 0 8px}.source-card ol{margin:8px 0 0;padding-left:1.25rem;color:var(--body)}.source-card li{margin:6px 0;font-size:.9rem;line-height:1.56}
+.deck-map{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin:18px 0}.deck-map div{padding:11px 10px;border-top:2px solid var(--line);background:#fafafa;min-width:0}.deck-map strong{display:block;font-size:.77rem;margin-bottom:3px}.deck-map span{font-size:.75rem;color:var(--muted);line-height:1.4}
+.act{margin-top:34px}.act-header{display:flex;align-items:baseline;justify-content:space-between;gap:14px;border-bottom:1px solid var(--line);padding-bottom:7px;margin-bottom:3px}.act-header h3{font-size:1.15rem;margin:0}.act-header span{font-size:.76rem;color:var(--muted)}
+.slide{display:grid;grid-template-columns:64px minmax(0,1fr);gap:17px;padding:18px 0;border-bottom:1px solid #eceeee}.slide-num{font-size:.82rem;color:var(--muted);font-weight:700;font-variant-numeric:tabular-nums;padding-top:2px}.slide-body h4{font-size:1.03rem;line-height:1.35;margin:0 0 7px;color:var(--ink)}.slide-body p{font-size:.88rem;line-height:1.6;color:var(--body);margin:0 0 7px}.slide-body p:last-child{margin-bottom:0}.slide-label{font-size:.69rem!important;letter-spacing:.055em;text-transform:uppercase;color:var(--blue)!important;font-weight:740;margin-top:9px!important;margin-bottom:3px!important}.slide-claim{font-weight:650;color:var(--ink)!important}
+.compact-table{width:100%;border-collapse:collapse;margin:15px 0 6px;font-size:.82rem}.compact-table th,.compact-table td{text-align:left;vertical-align:top;padding:8px 9px;border-top:1px solid var(--line);line-height:1.48}.compact-table th{font-size:.69rem;letter-spacing:.045em;text-transform:uppercase;color:var(--muted);font-weight:730}.compact-table td:first-child{font-weight:680;white-space:nowrap}
+.appendix-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:14px}.appendix-card{border-top:1px solid var(--line);padding:12px 0}.appendix-card h4{font-size:.94rem;margin:0 0 5px}.appendix-card p{font-size:.84rem;line-height:1.55;color:var(--body);margin:0}
+.rules{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:14px}.rule{background:#f7f8f8;padding:13px 14px}.rule strong{display:block;font-size:.84rem;margin-bottom:4px}.rule span{font-size:.82rem;color:var(--body);line-height:1.5}
+.aexam-footer{border:0;padding:18px 0 26px;font-size:.82rem;color:var(--muted)}.aexam-footer .wrap{display:flex;justify-content:space-between;gap:15px}
+@media(max-width:760px){.aexam-page .wrap{width:calc(100% - 36px)}.aexam-page .topbar{display:flex;flex-wrap:wrap;gap:2px;padding:10px 0 6px;min-height:0}.aexam-page .brand{display:block}.aexam-page .topnav{display:flex;flex-wrap:wrap;width:100%;gap:4px 15px}.aexam-main{padding:25px 0 50px}.deck-map{grid-template-columns:1fr 1fr}.slide{grid-template-columns:42px minmax(0,1fr);gap:10px}.appendix-grid,.rules{grid-template-columns:1fr}.compact-table{font-size:.76rem}.compact-table th,.compact-table td{padding:7px 6px}.compact-table td:first-child{white-space:normal}.aexam-footer .wrap{display:block}}
+@media(max-width:420px){.deck-map{grid-template-columns:1fr}.slide{grid-template-columns:1fr;gap:3px}.slide-num{font-size:.72rem}.compact-table{display:block;overflow-x:auto}}
+</style>
+</head>
+<body class="aexam-page">
+<a class="skip" href="#main">Skip to A Exam plan</a>
+<header class="site-header"><div class="wrap topbar"><a class="brand" href="research-notes-68ddfcf2e6251c2519a02b29.html">← Research Agenda</a><nav class="topnav" aria-label="A Exam navigation"><a href="#structure">Structure</a><a href="#slides">Slides</a><a href="#appendix">Appendix</a><a href="index.html">Home</a><a href="cv.html">CV ↗</a></nav></div></header>
+<main class="wrap aexam-main" id="main">
+<section class="hero"><p class="eyebrow">A Exam · talk planning</p><h1>How might we support design reasoning in CAD?</h1><p>这一页专门用来规划 A Exam 的 presentation。初版按 <strong>42 分钟、30 张主 slides</strong> 编排。每一页都要承担一个具体任务：给一个例子、解释一个 interaction、报告一组 evidence、或者把三个 projects 接回同一条 research agenda。</p><div class="spine"><strong>Talk spine</strong><p>Design decisions enter CAD with different epistemic conditions. I study how CAD interactions can surface overlooked decisions, develop grounds for unresolved decisions, preserve decisions that need more input, and bring relevant knowledge into the model.</p></div></section>
+
+<section class="section" id="structure"><p class="section-kicker">01 · Structure</p><h2>从 Thijs 的 dissertation 学 deck 怎么立起来</h2><p>Thijs Roumen 的 dissertation <a href="https://doi.org/10.25932/publishup-57814">Portable models for laser cutting ↗</a> 很适合作为结构参考。他先提出一个 field-level goal，再指出一个具体 blocker，随后给出 central thesis，并用三个技术方向推进同一个目标：让 2D cutting plans 对 machine variation 更稳健、用 3D representation 支持修改与复用、把 legacy 2D plans 转回 3D。最后一章重新回到总目标并展开 future outlook。</p>
+<div class="source-card"><h3>我可以直接借用的结构习惯</h3><ol><li><strong>先讲一个具体问题。</strong> 听众先看到一个 model 里的几个 consequential decisions，理解为什么 CAD 里会出现 reasoning gap。</li><li><strong>很早给出 central question。</strong> How might we support design reasoning in CAD?</li><li><strong>projects 作为同一问题的三次推进。</strong> aCADemy 研究 overlooked decisions；CAMeleon 研究已识别但缺少比较 grounds 的 decisions；FuzzyCAD 研究需要更多 expertise 的 unresolved decisions。</li><li><strong>每个 project 都用同一套节奏。</strong> concrete decision → interaction → study → evidence → 对 agenda 增加了什么。</li><li><strong>结尾回到 program。</strong> 三个 projects 合起来说明 CAD 可以承载 reasoning；future work 继续研究 distributed knowledge 和 mechanism timing。</li></ol></div>
+<div class="deck-map"><div><strong>Slides 1–5</strong><span>一个 model → decision → framework</span></div><div><strong>6–10</strong><span>aCADemy · reflection</span></div><div><strong>11–15</strong><span>CAMeleon · comparison</span></div><div><strong>16–22</strong><span>FuzzyCAD · unresolved decisions</span></div><div><strong>23–30</strong><span>synthesis + future</span></div></div>
+</section>
+
+<section class="section" id="slides"><p class="section-kicker">02 · Slide-by-slide</p><h2>主 deck</h2>
+
+<div class="act"><div class="act-header"><h3>Act 1 · 先把 decision 讲清楚</h3><span>Slides 1–5 · ~7 min</span></div>
+
+<article class="slide"><div class="slide-num">01</div><div class="slide-body"><h4>How might we support design reasoning in CAD?</h4><p class="slide-label">画面</p><p>标题、名字、committee。底部放 aCADemy、CAMeleon、FuzzyCAD 三个小图，尺寸一致。</p><p class="slide-label">讲</p><p class="slide-claim">我的研究围绕 CAD 里的 design decisions。我关心一个 decision 出现时，designer 目前看到了什么、掌握了什么、还缺什么，以及 interface 可以怎样支持接下来的 reasoning。</p></div></article>
+
+<article class="slide"><div class="slide-num">02</div><div class="slide-body"><h4>One CAD model, three consequential decisions</h4><p class="slide-label">画面</p><p>用 crawling trainer 一张大图，只标三个位置：headrest orientation、support-frame cross section、front-frame topology / arm clearance。</p><p class="slide-label">讲</p><p>三个位置都已经在 CAD 里。headrest angle 需要 clinical input；frame cross section 需要 structural evidence；front topology 还牵涉 arm movement。几何可以同时存在，做决定需要的 grounds 不一样。</p></div></article>
+
+<article class="slide"><div class="slide-num">03</div><div class="slide-body"><h4>A design decision at a particular moment</h4><p class="slide-label">画面</p><p>只放一个 decision card：<strong>Front-frame topology</strong>。卡片里写 Decision / Current grounds / Missing input / Geometry affected。</p><p class="slide-label">讲</p><p class="slide-claim">我的 unit of analysis 是一个具体 design decision 在一个具体时刻的状态。</p><p>同一个人同时处理多个 decisions；同一个 decision 也会在新的 evidence、geometry change、reflection、collaborator input 进入后变化。</p></div></article>
+
+<article class="slide"><div class="slide-num">04</div><div class="slide-body"><h4>Epistemic states of design decisions</h4><p class="slide-label">画面</p><p>用现有 Known / Unknown matrix。每个象限只留一句人话：I know what I know / I know what I don’t know / I don’t know what I don’t know / I don’t know what I know。</p><p class="slide-label">讲</p><p>纵轴讲 awareness，横轴讲 relevant knowledge / evidence / experience / expertise 是否已经可用于这个 decision。把 project marker 放进去。</p></div></article>
+
+<article class="slide"><div class="slide-num">05</div><div class="slide-body"><h4>Three projects study three reasoning conditions</h4><p class="slide-label">画面</p><table class="compact-table"><thead><tr><th>Project</th><th>Decision condition</th><th>Mechanism</th></tr></thead><tbody><tr><td>aCADemy</td><td>一个 consequential fabrication decision 还没有进入注意力</td><td>Reflection</td></tr><tr><td>CAMeleon</td><td>workflow choice 已经被识别，alternative 的 grounds 还不充分</td><td>Comparison</td></tr><tr><td>FuzzyCAD</td><td>decision 已经明确 unresolved，后续需要 evidence 或 collaborator expertise</td><td>Externalization + deferred commitment</td></tr></tbody></table><p class="slide-label">讲</p><p>后面三章都回答同一个问题：对于这个 decision，此刻需要什么 reasoning support？</p></div></article>
+</div>
+
+<div class="act"><div class="act-header"><h3>Act 2 · aCADemy</h3><span>Slides 6–10 · ~8 min</span></div>
+
+<article class="slide"><div class="slide-num">06</div><div class="slide-body"><h4>A consequential fabrication decision can remain outside attention</h4><p class="slide-label">画面</p><p>放两个 study task：phone stand 和 desktop drawer。旁边用真实 study examples：phone stand tilt、drawer knob length、drawer bottom、base weight。</p><p class="slide-label">讲</p><p>这些 issue 会直接影响 fabrication 或使用。designer 可以继续建模并完成 geometry，同时这些 questions 还没有进入 active reasoning。</p></div></article>
+
+<article class="slide"><div class="slide-num">07</div><div class="slide-body"><h4>aCADemy asks reflective questions during modeling</h4><p class="slide-label">画面</p><p>用 Figure 1 两条 lane：User goal → CAD operations → reflection → final design；AI 观察 screenshot、intent、phase、implications，再生成 question。</p><p class="slide-label">讲</p><p>系统不生成 CAD geometry。它在 modeling 过程中提出与当前设计相关的问题，让 designer 自己判断、解释和修改。</p></div></article>
+
+<article class="slide"><div class="slide-num">08</div><div class="slide-body"><h4>One prompt can enter the reasoning now or later</h4><p class="slide-label">画面</p><p>放一张真实 question card，例如 laser vs CNC，接一张 material question。旁边画 response paths：Articulated / Not Now / Not Applicable / Ignored / Enacted。</p><p class="slide-label">讲</p><p>question 的价值不依赖即时修改。designer 可以先看到问题，继续建模，后面再回到这个 decision。</p></div></article>
+
+<article class="slide"><div class="slide-num">09</div><div class="slide-body"><h4>Study: reflection during two fabrication-centric CAD tasks</h4><p class="slide-label">画面</p><p>N=12，within-subjects，counterbalanced。aCADemy + Tinkercad vs baseline GenAI；Phone Stand + Small Desktop Drawer；think-aloud；两件都 fabricate。</p><p class="slide-label">讲</p><p>说明 90-min session、five reflection questions per task、post-task survey、interview、fabrication、post-fabrication reflection。方法细节一页讲完。</p></div></article>
+
+<article class="slide"><div class="slide-num">10</div><div class="slide-body"><h4>Reflection surfaced decisions and remained under user control</h4><p class="slide-label">画面</p><p>左边放 survey distributions 的核心结果；右边放 interaction counts：211 question appearances，73 Not Now，28 later enacted；再放 1–2 个 fabrication example。</p><p class="slide-label">讲</p><p class="slide-claim">aCADemy 给我的第一个答案：CAD 可以通过 reflection 让一个原本没有进入注意力的 consequential decision 变成 designer 可以继续 reasoning 的对象。</p></div></article>
+</div>
+
+<div class="act"><div class="act-header"><h3>Act 3 · CAMeleon</h3><span>Slides 11–15 · ~7 min</span></div>
+
+<article class="slide"><div class="slide-num">11</div><div class="slide-body"><h4>I know workflow choice matters; I do not yet have grounds to choose</h4><p class="slide-label">画面</p><p>同一个 3D model，中间写 “Which fabrication workflow?”，四周放几个 workflow outcome。</p><p class="slide-label">讲</p><p>learner 已经知道 workflow choice 是一个 decision。困难来自 alternative 的 consequences 和 trade-offs 还没有形成可比较的 grounds。</p></div></article>
+
+<article class="slide"><div class="slide-num">12</div><div class="slide-body"><h4>Compare fabrication outcomes for the same model</h4><p class="slide-label">画面</p><p>CAMeleon 主界面截图，明确圈出 same model、workflow alternatives、outcome preview。</p><p class="slide-label">讲</p><p>comparison 发生在用户自己的 current model 上。每个 alternative 都回到同一个 design goal，用户可以看到选择会怎样改变 fabrication plan。</p></div></article>
+
+<article class="slide"><div class="slide-num">13</div><div class="slide-body"><h4>Interaction: Import → Compare → Choose and export</h4><p class="slide-label">画面</p><p>三步横向 workflow，每一步配一张界面小图。</p><p class="slide-label">讲</p><p>重点只讲 interaction mechanism。Import 保留 current model；Compare 把多个 workflow outcomes 放到一起；Choose and export 把 decision 接回 fabrication。</p></div></article>
+
+<article class="slide"><div class="slide-num">14</div><div class="slide-body"><h4>Evaluation: educators first, learners second</h4><p class="slide-label">画面</p><p>7 fabrication educators → prototype refinement → 12-participant user evaluation。</p><p class="slide-label">讲</p><p>educator interviews 用来确认 comparison 怎样进入教学场景。12-person evaluation 看 learner 如何使用比较来考虑 workflows、trade-offs 和 planning approaches。</p></div></article>
+
+<article class="slide"><div class="slide-num">15</div><div class="slide-body"><h4>Comparison develops decision grounds</h4><p class="slide-label">画面</p><p>用 2–3 个最清楚的 study examples，展示 participant 从 familiar workflow 开始，看到 alternative，解释 trade-off，做出选择。</p><p class="slide-label">讲</p><p class="slide-claim">CAMeleon 给我的第二个答案：当一个 decision 已经被识别，CAD 可以把 alternatives 和 consequences 放到同一个 model context 里，让 designer 建立更充分的 grounds。</p></div></article>
+</div>
+
+<div class="act"><div class="act-header"><h3>Act 4 · FuzzyCAD</h3><span>Slides 16–22 · ~11 min</span></div>
+
+<article class="slide"><div class="slide-num">16</div><div class="slide-body"><h4>I know this decision is unresolved; another person may hold the missing grounds</h4><p class="slide-label">画面</p><p>回到 crawling trainer。只突出 support frame size、front topology、headrest orientation。</p><p class="slide-label">讲</p><p>designer 能明确指出哪里还没定。继续推进需要 structural analysis、clinical knowledge、anthropometric constraint 或 fabrication knowledge。</p></div></article>
+
+<article class="slide"><div class="slide-num">17</div><div class="slide-body"><h4>Express unresolved decisions on the geometry</h4><p class="slide-label">画面</p><p>四个 Fuzzy tools：Placement / Orientation / Size / Shape，再放 Compare、Conflict、Constraint / comment。每个只配一个具体 screenshot。</p><p class="slide-label">讲</p><p>这些 interaction 让 collaborator 说明哪一部分还 unresolved、目前知道什么、需要什么 input，并保持与 component 或 geometry 的关联。</p></div></article>
+
+<article class="slide"><div class="slide-num">18</div><div class="slide-body"><h4>Unresolved decisions persist across asynchronous handoffs</h4><p class="slide-label">画面</p><p>Designer → Mechanical Engineer → Physical Therapist，一条 chain。模型在中间，decision cards 跟着 geometry 走。</p><p class="slide-label">讲</p><p>handoff 的对象包含 geometry、unresolved decision、constraints、alternatives 和 prior reasoning。后一个 collaborator 可以继续同一个 decision。</p></div></article>
+
+<article class="slide"><div class="slide-num">19</div><div class="slide-body"><h4>Mechanical engineer: add structural evidence</h4><p class="slide-label">画面</p><p>四帧：Review card → 200 N FEA → replace vertical supports with PVC tubes → T-frame vs triangular-brace Conflict。</p><p class="slide-label">讲</p><p>Size decision 通过 structural evidence 被推进；front topology 仍然有 competing requirements，于是 alternatives 被保留给下一位 collaborator。</p></div></article>
+
+<article class="slide"><div class="slide-num">20</div><div class="slide-body"><h4>Physical therapist: add movement and support constraints</h4><p class="slide-label">画面</p><p>四帧：choose T-frame for arm movement → resolve headrest orientation → add head-support constraints → move torso support and leave placement open。</p><p class="slide-label">讲</p><p>PT 对自己有 grounds 的 decisions 做出推进；需要 mechanical review 的 placement 继续保留 unresolved state。</p></div></article>
+
+<article class="slide"><div class="slide-num">21</div><div class="slide-body"><h4>Study: three asynchronous collaboration chains</h4><p class="slide-label">画面</p><p>N=9，three chains，每条三人。列出三种 expertise：design、assistive technology / clinical practice、digital fabrication / mechanical engineering。</p><p class="slide-label">讲</p><p>每个人只通过 shared CAD model 接收前一位的 work。分析 unit 是 unresolved decision 在 handoff 中怎样被理解、推进、保持和重新定义。</p></div></article>
+
+<article class="slide"><div class="slide-num">22</div><div class="slide-body"><h4>Decisions were progressively refined across expertise</h4><p class="slide-label">画面</p><p>用三条 chain trajectory。每个 decision 用短状态：raised → constrained → refined → resolved / remained open。旁边留一小块放 accept / reject / default / reframe 的分析结果，等当前 coding 定稿后填具体 counts。</p><p class="slide-label">讲</p><p class="slide-claim">FuzzyCAD 给我的第三个答案：一个 unresolved decision 可以留在 shared model 中继续发展。collaborators 能提供自己有 grounds 的 partial contribution，并把剩余问题交给后续 expertise。</p></div></article>
+</div>
+
+<div class="act"><div class="act-header"><h3>Act 5 · 把三个 projects 合起来</h3><span>Slides 23–25 · ~4 min</span></div>
+
+<article class="slide"><div class="slide-num">23</div><div class="slide-body"><h4>Three projects, one research program</h4><p class="slide-label">画面</p><table class="compact-table"><thead><tr><th>Decision</th><th>Project</th><th>Interaction</th><th>What changes</th></tr></thead><tbody><tr><td>还没被注意</td><td>aCADemy</td><td>Reflective question</td><td>decision enters active reasoning</td></tr><tr><td>已识别，grounds 不足</td><td>CAMeleon</td><td>Side-by-side comparison</td><td>alternatives become comparable</td></tr><tr><td>已识别，需要更多 input</td><td>FuzzyCAD</td><td>Geometry-linked unresolved state</td><td>decision persists across handoffs</td></tr></tbody></table></div></article>
+
+<article class="slide"><div class="slide-num">24</div><div class="slide-body"><h4>Design support changes the state of a decision</h4><p class="slide-label">画面</p><p>只画四条 transitions：Unknown Unknown → Known Unknown；Known Unknown → stronger grounds；Known Unknown → remain open with explicit constraints；Unknown Known → activated knowledge。前三条标 aCADemy / CAMeleon / FuzzyCAD。</p><p class="slide-label">讲</p><p>我的 agenda 关注 decision 怎样被 surfaced、developed、kept open、resolved。state transition 给 future systems 一个可以继续研究的单位。</p></div></article>
+
+<article class="slide"><div class="slide-num">25</div><div class="slide-body"><h4>Representation is one recurring intervention strategy</h4><p class="slide-label">画面</p><p>三列：aCADemy 把 overlooked issue 变成 question；CAMeleon 把 workflow consequences 变成 comparable views；FuzzyCAD 把 uncertainty 变成 geometry-linked record。</p><p class="slide-label">讲</p><p>三个 projects 都在改变 decision 的 representation，让新的 reasoning action 成为可能。这个 observation 可以连接到后面的 Unknown Knowns。</p></div></article>
+</div>
+
+<div class="act"><div class="act-header"><h3>Act 6 · Future research</h3><span>Slides 26–30 · ~5 min</span></div>
+
+<article class="slide"><div class="slide-num">26</div><div class="slide-body"><h4>Relevant knowledge can already exist outside the current decision</h4><p class="slide-label">画面</p><p>四个小例子：Environmental Dashboard、TOM problem description、Design with Myself、A11yShape。每个写“knowledge exists here → representation brings it into reasoning”。</p><p class="slide-label">讲</p><p>environmental data 在 public datasets 里；Need-Knower 的身体尺寸和使用场景在 brief 里；affective response 在身体信号里；3D geometry 在 model 里。interaction 决定这些 knowledge 能否进入当前 decision。</p></div></article>
+
+<article class="slide"><div class="slide-num">27</div><div class="slide-body"><h4>Future project: bring distributed knowledge into CAD</h4><p class="slide-label">画面</p><p>Need-Knower narrative → dimensions / reference geometry / movement envelope / constraints / precedent model → CAD decision。</p><p class="slide-label">讲</p><p>研究问题：problem descriptions、users、past discussions 和 prior artifacts 中已经存在的信息，怎样在相关 geometry 出现时被 retrieve、translate、re-represent，并保持 provenance。</p></div></article>
+
+<article class="slide"><div class="slide-num">28</div><div class="slide-body"><h4>Future project: invoke the right cognitive mechanism at the right decision</h4><p class="slide-label">画面</p><p>四个 concrete trigger：repeated edits → reframing；new exact dimension → reflection；multiple alternatives → comparison；downstream effect hard to judge → mental simulation。</p><p class="slide-label">讲</p><p>CAD 已经记录 geometry、parameters、features、history、dependencies 和 editing actions。这些 traces 可以成为 mechanism timing 的研究材料。</p></div></article>
+
+<article class="slide"><div class="slide-num">29</div><div class="slide-body"><h4>Thinking tool for finding the next project</h4><p class="slide-label">画面</p><p>Decision ↓ What kind of decision? ↓ What is its epistemic state? ↓ What cognitive work could help? ↓ What CAD interaction could instantiate that mechanism?</p><p class="slide-label">讲</p><p>reasoning domain 用来扩展 research breadth；epistemic state 定位 decision condition；cognitive mechanism 定义 intervention；interaction 把 mechanism 放进 CAD。</p></div></article>
+
+<article class="slide"><div class="slide-num">30</div><div class="slide-body"><h4>How might we support design reasoning in CAD?</h4><p class="slide-label">画面</p><p>回到一张 crawler model 或三个 project 的组合图。只留四个 verbs：<strong>surface · compare · keep open · activate</strong>。</p><p class="slide-label">讲</p><p class="slide-claim">我的研究把 design decision 作为贯穿 CAD reasoning 的单位。我已经研究 reflection、comparison 和 deferred commitment。下一步继续研究 distributed knowledge 如何进入 decision，以及 CAD 在什么时刻调用哪一种 reasoning mechanism。</p></div></article>
+</div>
+</section>
+
+<section class="section" id="appendix"><p class="section-kicker">03 · Backup</p><h2>Q&amp;A 时准备的 appendix slides</h2><div class="appendix-grid">
+<article class="appendix-card"><h4>A1 · Framework definitions</h4><p>decision、awareness、available grounds、Unknown Unknown、Known Unknown、Unknown Known、Known Known。每个定义配一个 concrete CAD example。</p></article>
+<article class="appendix-card"><h4>A2 · Why CAD is a useful research setting</h4><p>geometry、parameters、feature history、dependencies、selection、fabrication outcomes 都能和具体 decision 建立关联。</p></article>
+<article class="appendix-card"><h4>A3 · aCADemy study details</h4><p>10-item survey、211 question appearances、response coding、fabrication comparison、participant quotes。</p></article>
+<article class="appendix-card"><h4>A4 · CAMeleon study details</h4><p>7 educator interviews、12-participant evaluation、study tasks、comparison workflow、key qualitative evidence。</p></article>
+<article class="appendix-card"><h4>A5 · FuzzyCAD interaction details</h4><p>Placement / Orientation / Size / Shape / Compare / Conflict / Constraints，逐个放一张 screenshot。</p></article>
+<article class="appendix-card"><h4>A6 · FuzzyCAD analysis</h4><p>三条 chain、每个 unresolved decision trajectory、accept / reject / default / reframe coding 和 representative examples。</p></article>
+<article class="appendix-card"><h4>A7 · Related theory</h4><p>reflection、metacognition、comparison、mental simulation、distributed cognition、boundary objects、deferred commitment。每个理论只留和一个 project 的直接连接。</p></article>
+<article class="appendix-card"><h4>A8 · Prior and applied work</h4><p>Environmental Dashboard、TOM Search、Design with Myself。用它们回答 agenda 怎样扩展到 distributed / embodied / institutional knowledge。</p></article>
+</div></section>
+
+<section class="section"><p class="section-kicker">04 · Writing and delivery rules</p><h2>每页怎么写</h2><div class="rules">
+<div class="rule"><strong>一页一个 claim</strong><span>标题直接写这一页要成立的句子。</span></div>
+<div class="rule"><strong>先放 object，再放 concept</strong><span>先让 committee 看到 model、decision、interaction、study evidence，再说 epistemic state 或 mechanism。</span></div>
+<div class="rule"><strong>沿用 paper wording</strong><span>design decision、unresolved decision、defer commitment、comparison、reflection、geometry、collaborator、relevant expertise / evidence。</span></div>
+<div class="rule"><strong>每个 project 用同一节奏</strong><span>decision → interaction → study → evidence → agenda takeaway。</span></div>
+<div class="rule"><strong>数字直接放 slide</strong><span>N、chains、question counts、study conditions、tasks 都写在画面里，口头讲解释。</span></div>
+<div class="rule"><strong>transition 说清楚下一页为什么出现</strong><span>每章结尾用一句话把 project 的结果接回 research question。</span></div>
+</div></section>
+
+<section class="section"><p class="section-kicker">05 · Sources used for this planning page</p><h2>结构参考</h2><p><a href="https://doi.org/10.25932/publishup-57814">Thijs Roumen. Portable models for laser cutting. Doctoral dissertation ↗</a></p><p><a href="https://hcc.engin.umich.edu/event/portable-laser-cutting">Portable Laser Cutting talk abstract, University of Michigan ↗</a></p><p><a href="https://www.thijsroumen.eu/">Thijs Roumen research page · Portable Laser-Cutting ↗</a></p></section>
+</main>
+<footer class="aexam-footer"><div class="wrap"><span>Private planning page · noindex</span><span><a href="research-notes-68ddfcf2e6251c2519a02b29.html">Research Agenda</a> · <a href="index.html">Home</a></span></div></footer>
+</body></html>
