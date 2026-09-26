@@ -1,0 +1,34 @@
+name: Collect news image candidates
+
+on:
+  push:
+    paths:
+      - ".github/workflows/collect-news-images.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download candidate news images
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -fL --retry 3 "https://news.cornell.edu/sites/default/files/styles/story_thumbnail_lg/public/2025-12/20251118-dsc00844-copy-a.jpg?itok=4ILH7UEs" -o images/news-oristitch-cornell.jpg
+          curl -fL --retry 3 "https://images.squarespace-cdn.com/content/v1/64f7282ac7818a537fe9f402/126a8cae-6a8c-453f-af61-d97f9e9f447a/Screenshot+2025-11-07+101950.png" -o images/news-flood-spotlight.png
+          curl -fL --retry 3 "https://images.squarespace-cdn.com/content/v1/64f7282ac7818a537fe9f402/dd638a78-423e-46b4-927b-864164136241/Shuo__Feng___sf522.jpg" -o images/news-pitech-shuo.jpg
+          curl -fL --retry 3 "https://www.tech.cornell.edu/wp-content/uploads/2024/01/164A2729-scaled.jpg" -o images/news-xr-grant-hero.jpg
+          curl -fL --retry 3 "https://tech.cornell.edu/wp-content/uploads/2024/01/2023_1276_SH_025.jpg" -o images/news-xr-grant-secondary.jpg
+          file images/news-*
+      - name: Commit candidates
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add images/news-*
+          git commit -m "Add news image candidates"
+          git push
