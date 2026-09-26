@@ -1,0 +1,61 @@
+name: Inspect news images
+
+on:
+  push:
+    paths:
+      - ".github/workflows/inspect-news-images.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Inspect image metadata on linked news pages
+        shell: python
+        run: |
+          import re, html, urllib.request
+          pages = {
+            "AI and Accessibility Summit": "https://catai.ai.cornell.edu/summit.html",
+            "TOM Global": "https://www.tomglobal.org/",
+            "CAMeleon ACM": "https://dl.acm.org/doi/10.1145/3772318.3790516",
+            "OriStitch Cornell News": "https://news.cornell.edu/stories/2025/12/seamless-tech-oristitch-threads-computation-and-3d-textiles",
+            "PiTech flood spotlight": "https://www.pi.tech.cornell.edu/spotlight/making-environmental-data-more-accessible-through-a-digital-tool-for-nyc-flood-preparedness",
+            "Flood dashboard": "https://environmental-dashboard-chi.vercel.app/",
+            "CAMeleon arXiv": "https://arxiv.org/abs/2410.18299",
+            "Y-AR arXiv": "https://arxiv.org/abs/2410.23540",
+            "XR grant": "https://tech.cornell.edu/news/xr-collaboratory-announces-inaugural-grant-winners/",
+          }
+          ua={"User-Agent":"Mozilla/5.0"}
+          patterns = [
+            ("og:image", r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)'),
+            ("og:image", r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']'),
+            ("twitter:image", r'<meta[^>]+(?:name|property)=["\']twitter:image(?::src)?["\'][^>]+content=["\']([^"\']+)'),
+            ("twitter:image", r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+(?:name|property)=["\']twitter:image(?::src)?["\']'),
+          ]
+          for name,url in pages.items():
+            print("\n===",name,"===")
+            try:
+              req=urllib.request.Request(url,headers=ua)
+              with urllib.request.urlopen(req,timeout=25) as r:
+                final=r.geturl()
+                body=r.read(3_000_000).decode("utf-8","ignore")
+              print("URL:",final)
+              found=[]
+              for label,pat in patterns:
+                for m in re.finditer(pat,body,re.I):
+                  u=html.unescape(m.group(1))
+                  if u not in [x[1] for x in found]:
+                    found.append((label,u))
+              for label,u in found[:8]:
+                print(label+":",u)
+              imgs=[]
+              for m in re.finditer(r'<img[^>]+src=["\']([^"\']+)["\']',body,re.I):
+                u=html.unescape(m.group(1))
+                if u not in imgs:
+                  imgs.append(u)
+              for u in imgs[:12]:
+                print("img:",u)
+            except Exception as e:
+              print("ERROR:",repr(e))
