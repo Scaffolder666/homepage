@@ -14,7 +14,7 @@
 </head>
 <body class="agenda-page">
 <a class="skip" href="#main">Skip to research agenda</a>
-<header class="site-header"><div class="wrap topbar"><a class="brand" href="index.html">← Shuo Feng</a><nav class="topnav" aria-label="Research agenda navigation"><a href="#intro">Introduction</a><a href="#holding-back">1.1 Bottleneck</a><a href="#support">1.2 Approach</a><a href="#contributions">1.3 Contributions</a><a href="#future">1.4 Agenda</a><a href="interaction-precedents-68ddfcf2e6251c2519a02b29.html">Precedents</a><a href="secret-places-68ddfcf2e6251c2519a02b29.html">Secret Places</a></nav></div></header>
+<header class="site-header"><div class="wrap topbar"><a class="brand" href="index.html">← Shuo Feng</a><nav class="topnav" aria-label="Research agenda navigation"><a href="#intro">Introduction</a><a href="#related">Related Work</a><a href="#projects">Projects</a><a href="#future">Outlook</a><a href="interaction-precedents-68ddfcf2e6251c2519a02b29.html">Precedents</a><a href="secret-places-68ddfcf2e6251c2519a02b29.html">Secret Places</a></nav></div></header>
 <main class="wrap agenda-main" id="main">
 <section class="hero" id="intro"><p class="eyebrow">Research agenda · Working draft</p><h1>Interactive Support for Informed Design Reasoning</h1>
 <p class="lead">Design rarely begins with a fully specified problem. A brief may provide initial goals and requirements, but these do not completely determine what the problem is or how it should be solved. Designers continue to develop their understanding of the problem as they develop possible solutions. A proposed solution can expose limitations in the original framing, while a newly recognized constraint can redirect the solution. Research on wicked problems and problem–solution co-evolution describes this as a fundamental condition of design: problem understanding and possible solutions develop together through the act of designing.</p>
@@ -32,7 +32,7 @@
 <p>We conclude that supporting design activity requires more than enabling designers to represent and manipulate increasingly specific design states. A precise representation can still express a judgment formed without relevant grounds, while later evidence can require that an apparently settled judgment be reopened. Interactive support for informed reasoning therefore needs to address <strong>what grounds become available to the designer and how those grounds can enter a developing judgment.</strong></p>
 </section>
 
-<section class="section" id="support"><p class="kicker">1.2 · Supporting informed design reasoning</p><h2>From the bottleneck to a research space</h2>
+<section class="section" id="support"><p class="kicker">1.2 · Interactive support for informed design reasoning</p><h2>From the bottleneck to a research space</h2>
 <p>In this research, I investigate how interactive design tools can make relevant grounds available as design judgments develop. I organize this problem around two questions: <strong>(1) what aspect of the design is being reasoned about, and (2) what form of reasoning can help the designer become better informed about it?</strong> Together, these questions define a research space for interactive reasoning support. I investigate this space through interactive systems that support different ways for relevant grounds to enter design reasoning.</p>
 
 <h3>1.2.1 · What aspect of the design is being reasoned about?</h3>
@@ -58,32 +58,38 @@
 <h3 style="margin-top:28px">Design-to-Fabrication as an empirical domain</h3>
 <p>I begin investigating this broader research space through <strong>Design-to-Fabrication</strong>, where the relationship between design judgments and their grounds becomes particularly observable. Digital choices acquire concrete consequences through geometry, material, assembly, tolerance, and physical behavior. Fabrication and testing generate new evidence that can change how an earlier judgment is understood. Relevant knowledge is also distributed among designers, fabricators, engineers, domain experts, and users. Design-to-Fabrication therefore makes three properties of informed reasoning particularly visible: <strong>consequences become concrete, new evidence emerges through making, and relevant knowledge is distributed.</strong> I use this domain as a starting point for investigating the broader problem of design reasoning.</p>
 
-<h3 style="margin-top:28px">1.2.4 · Bringing overlooked grounds into reasoning — aCADemy</h3>
-<p>Our initial approach addresses situations in which potentially relevant grounds are available to the designer but may not enter the current judgment. <strong>aCADemy</strong> introduces situated reflective questions during CAD modeling that prompt designers to consider fabrication-related issues as their designs develop. The questions respond to the evolving artifact while leaving designers responsible for deciding whether and how each consideration matters. Through this approach, we investigate whether interactive tools can create moments for overlooked grounds to enter ongoing design reasoning.</p>
-
-<h3 style="margin-top:28px">1.2.5 · Keeping alternatives available for comparison — CAMeleon</h3>
-<p>Reflective prompts can bring an issue into attention, <strong>but awareness alone may not provide enough grounds to form a judgment.</strong> In many design situations, understanding depends on considering alternatives in relation to one another. <strong>CAMeleon</strong> preserves different fabrication approaches so that designers can inspect how they differ in their implications and trade-offs before narrowing around one approach. Through this approach, we investigate how interactive tools can keep alternatives available long enough for comparative reasoning to inform a developing judgment.</p>
-
-<h3 style="margin-top:28px">1.2.6 · Keeping unresolved judgments open — FuzzyCAD</h3>
-<p>Comparison can help designers reason among alternatives, <strong>but it still assumes that the current designer has sufficient knowledge to resolve the judgment.</strong> In collaborative design, relevant expertise may belong to another person, and some evidence may not yet be available. <strong>FuzzyCAD</strong> allows designers to leave aspects of geometry unresolved, associate constraints and requests for input with those unresolved judgments, and enable later collaborators to contribute within those bounds. Through this approach, we investigate how interactive tools can preserve unresolved judgments so that additional grounds can enter reasoning across collaborators and time.</p>
-
-<h3 style="margin-top:28px">Orchestrating reasoning support</h3>
-<p>Making additional reasoning available does not imply that a system should continuously intervene. Designers also rely on fluent, experience-based activity, and unnecessary intervention can disrupt this activity. Dual-process accounts provide a lens for studying this tension between fluent and more deliberate reasoning. This motivates a further question: <strong>How can interactive tools preserve fluent design activity while creating opportunities for deliberate reasoning when additional grounds become consequential?</strong> I investigate this question through observable changes in the design context without assuming that a system can infer the designer's internal cognitive state.</p>
 </section>
 
-<section class="section" id="contributions"><p class="kicker">1.3 · Contributions</p><h2>Interactive design tools that support informed reasoning as judgments develop</h2>
-<p>The main contribution of this research is a framework and set of interactive approaches for making relevant grounds available while designers develop judgments under incomplete knowledge. Existing design tools provide powerful means for creating and manipulating representations, but the ability to specify a design does not ensure that the grounds relevant to that specification have entered reasoning. To investigate this higher-level goal, I make the following contributions:</p>
+<section class="section" id="contributions"><p class="kicker">1.3 · Contributions</p><h2>Contributions</h2>
+<p>This research develops a framing of informed design reasoning, a research space for interactive reasoning support, and interactive approaches for bringing relevant grounds into developing design judgments. The dissertation investigates these contributions through systems that support reflection, comparison, and distributed reasoning in Design-to-Fabrication.</p>
+</section>
+
+<section class="section" id="structure"><p class="kicker">1.4 · Structure of the thesis</p><h2>Structure of the thesis</h2>
+<p>The remainder of the thesis first establishes the relevant literature and then develops the research agenda through three system chapters. The final chapter synthesizes the contributions and identifies future opportunities for interactive support of design reasoning.</p>
+</section>
+
+<section class="section" id="related"><p class="kicker">2 · Related Work</p><h2>Related Work</h2>
+<p>This chapter will position the agenda in relation to prior work. The detailed argument for each section remains to be developed.</p>
 <div class="projects">
-<article class="project"><h3>A framing of informed design reasoning</h3><p>I characterize an informed design judgment in terms of the relevant grounds available while that judgment is being formed. This framing distinguishes informed reasoning from complete information or successful outcomes and provides a basis for studying how interactive systems can support judgment under evolving design understanding.</p></article>
-<article class="project"><h3>A research space for interactive reasoning support</h3><p>I organize reasoning support along two dimensions: the aspect of the design being reasoned about, grounded in Function, Behavior, and Structure; and the form of reasoning being supported, synthesized as Reflection, Knowledge Retrieval, Analogical Reasoning, Comparison, Consequence Reasoning, and Prototyping. This space connects design cognition to opportunities for interactive system design.</p></article>
-<article class="project"><h3>Interactive approaches for bringing grounds into developing judgments</h3><p>Through aCADemy, CAMeleon, and FuzzyCAD, I develop and study approaches that bring overlooked considerations into ongoing reasoning, preserve alternatives for comparison, and keep unresolved judgments open to additional expertise. Together, these systems show different ways that interactive representations can change when and how relevant grounds become available.</p></article>
-<article class="project"><h3>Empirical accounts of reasoning support in Design-to-Fabrication</h3><p>Across these systems, I study how designers engage with reflective prompts, alternatives, uncertainty, and distributed expertise as they develop designs toward fabrication. These studies identify opportunities and limitations for integrating reasoning support into ongoing design activity.</p></article>
+<article class="project"><h3>2.1 · Design Reasoning and Problem–Solution Co-evolution</h3></article>
+<article class="project"><h3>2.2 · Interactive Support for Design Reasoning</h3></article>
+<article class="project"><h3>2.3 · External Representations and External Cognition</h3></article>
+<article class="project"><h3>2.4 · Reasoning Support in Design Tools</h3></article>
+<article class="project"><h3>2.5 · Design-to-Fabrication as a Reasoning Context</h3></article>
 </div>
 </section>
 
-<section class="section" id="future"><p class="kicker">1.4 · Research agenda</p><h2>Extending interactive reasoning support beyond the current work</h2>
-<p>My current work establishes initial approaches to reflection, comparison, and distributed reasoning in Design-to-Fabrication, while leaving substantial parts of the research space unexplored. Future work will investigate how analogical reasoning, consequence reasoning, and evidence generated through prototyping can be integrated into interactive design environments; how these forms of support differ across Function, Behavior, and Structure; and how systems can orchestrate reasoning support without disrupting fluent design activity.</p>
-<p>FuzzyCAD further opens a broader direction in <strong>distributed design reasoning</strong>. Relevant grounds may move among collaborators, representations, simulations, prototypes, and physical artifacts as a judgment develops. This raises a broader question: <strong>How can interactive design systems support the movement of relevant grounds across people, representations, artifacts, and time?</strong> Together, these directions extend the agenda beyond Design-to-Fabrication toward interactive systems that support informed reasoning across design domains.</p>
+<section class="section" id="projects"><p class="kicker">3–5 · Research Projects</p><h2>Interactive approaches to informed design reasoning</h2>
+<div class="projects">
+<article class="project"><p class="tag">Chapter 3 · Reflection</p><h3>aCADemy · Bringing overlooked grounds into ongoing reasoning</h3><p>aCADemy investigates how situated reflective questions can create opportunities for fabrication-related considerations to enter reasoning while a design is still developing.</p></article>
+<article class="project"><p class="tag">Chapter 4 · Comparison</p><h3>CAMeleon · Keeping alternatives available for comparative reasoning</h3><p>CAMeleon investigates how preserving alternative fabrication approaches can allow their differences and trade-offs to enter judgment before the designer narrows around one approach.</p></article>
+<article class="project"><p class="tag">Chapter 5 · Distributed reasoning</p><h3>FuzzyCAD · Keeping unresolved judgments open to distributed expertise</h3><p>FuzzyCAD investigates how unresolved geometric judgments can remain expressible and workable so that additional expertise can enter reasoning across collaborators and time.</p></article>
+</div>
+</section>
+
+<section class="section" id="future"><p class="kicker">6 · Conclusions and Outlook</p><h2>Conclusions and future research</h2>
+<p>Future work will extend the research space toward analogical reasoning, consequence reasoning, and evidence generated through prototyping; investigate how reasoning support differs across Function, Behavior, and Structure; and study how support can enter design activity without unnecessarily disrupting fluent work.</p>
+<p>FuzzyCAD also opens a broader direction in <strong>distributed design reasoning</strong>: how relevant grounds move across people, representations, artifacts, and time while a design judgment develops.</p>
 </section>
 
 <aside class="archive"><h2>Previous framework and literature archive</h2><p>The previous agenda organized design support through known unknowns, unknown unknowns, unknown knowns, and known knowns. That framework and its literature remain available as provenance. <a href="research-agenda-epistemic-states-archive.html">Open the archived agenda →</a> · <a href="interaction-precedents-68ddfcf2e6251c2519a02b29.html">Browse the 62 interaction precedents →</a> · <a href="decision-grounding-axis-notes.html">Earlier framework-development notes →</a></p></aside>
