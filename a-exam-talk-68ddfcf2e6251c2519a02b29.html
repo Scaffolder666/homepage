@@ -2,7 +2,7 @@
 <html lang="zh-Hans">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#fcfcfb">
-<meta name="description" content="Shuo Feng A Exam story planning notes, reconstructed from Thijs Roumen's Portable Laser Cutting seminar and mapped to Supporting Informed Design Reasoning in CAD.">
+<meta name="description" content="Shuo Feng A Exam story planning notes based on the current research agenda, with presentation moves and figure plans.">
 <meta name="robots" content="noindex,nofollow,noarchive">
 <link rel="canonical" href="https://www.shuofeng.org/a-exam-talk-68ddfcf2e6251c2519a02b29.html">
 <title>A Exam Storyboard | Shuo Feng</title>
@@ -10,247 +10,194 @@
 <style>
 .aexam-page .site-header{position:relative;border:0}.aexam-page .wrap{width:min(1120px,calc(100% - 52px))}
 .aexam-page .topbar{min-height:65px}.aexam-page .brand{font-size:1rem;color:var(--ink)}.aexam-page .topnav{gap:16px}.aexam-page .topnav a{font-size:.83rem;font-weight:600}
-.aexam-main{padding:40px 0 78px}.hero{padding-bottom:8px}.hero .eyebrow,.kicker{color:var(--blue);font-weight:760;font-size:.74rem;letter-spacing:.065em;text-transform:uppercase}
-.hero h1{font-size:clamp(2.15rem,4.8vw,3.05rem);line-height:1.12;letter-spacing:-.045em;margin:4px 0 13px;max-width:20ch}.hero .lead{max-width:82ch;color:var(--body);font-size:1rem;line-height:1.7;margin:0 0 12px}
-.promise{margin:24px 0 0;padding:18px 20px;border-left:3px solid var(--blue);background:#f7f8f8}.promise small{display:block;font-size:.69rem;text-transform:uppercase;letter-spacing:.055em;font-weight:760;color:var(--muted);margin-bottom:5px}.promise strong{display:block;font-size:1.05rem;line-height:1.55;max-width:78ch}
-.section{margin-top:48px;scroll-margin-top:20px}.section h2{font-size:1.58rem;letter-spacing:-.025em;margin:0 0 12px}.section>p{max-width:85ch;color:var(--body);font-size:.96rem;line-height:1.7;margin:0 0 12px}
-.rules{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:18px 0}.rule{padding:14px 15px;background:#fafafa;border-top:2px solid var(--line)}.rule strong{display:block;font-size:.86rem;margin-bottom:5px}.rule span{display:block;font-size:.81rem;line-height:1.52;color:var(--body)}
-.source-note{margin-top:16px;padding:13px 15px;background:#fafafa;border:1px solid var(--line);font-size:.84rem;line-height:1.58;color:var(--body)}
-.spine-map{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:7px;margin:18px 0 2px}.spine-map div{padding:10px 9px;background:#fafafa;border-top:2px solid var(--line)}.spine-map strong{display:block;font-size:.73rem;margin-bottom:3px}.spine-map span{display:block;font-size:.7rem;line-height:1.35;color:var(--muted)}
-.legend{display:flex;gap:13px;flex-wrap:wrap;margin:14px 0 5px}.legend span{font-size:.73rem;color:var(--muted)}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#222;margin-right:5px}.dot.blue{background:var(--blue)}.dot.light{background:#b9c1c5}
-.story{margin-top:23px;border-top:1px solid var(--line)}.beat{display:grid;grid-template-columns:72px minmax(0,1fr);gap:17px;padding:25px 0;border-bottom:1px solid var(--line)}.beat-num{font-size:.77rem;color:var(--muted);font-weight:750;padding-top:2px}.beat-num b{display:block;color:var(--ink);font-size:.94rem;margin-bottom:3px}.beat-main h3{font-size:1.12rem;line-height:1.35;margin:0 0 9px}.bridge{display:grid;grid-template-columns:minmax(0,1fr) 44px minmax(0,1fr);gap:13px;align-items:start}.side{min-width:0}.arrow{text-align:center;font-size:1.22rem;color:var(--muted);padding-top:52px}.label{font-size:.67rem!important;letter-spacing:.055em;text-transform:uppercase;color:var(--blue)!important;font-weight:760;margin:9px 0 3px!important}.side p{font-size:.84rem;line-height:1.58;color:var(--body);margin:0 0 6px}.quote{font-size:.86rem!important;color:var(--ink)!important;font-weight:630}.job{padding:9px 11px;background:#f8f9f9;border-left:2px solid #cbd1d4;margin:8px 0}.job strong{font-size:.78rem}.job span{font-size:.8rem;line-height:1.5;color:var(--body)}
-.shuo-title{font-size:1rem!important;color:var(--ink)!important;font-weight:720;margin:1px 0 7px!important}.script{padding:10px 12px;background:#fbfbfb;border:1px solid #eceeee}.script p{font-size:.82rem!important;color:var(--ink)!important;line-height:1.55!important;margin:0 0 5px!important}.script p:last-child{margin-bottom:0!important}
-.insert{margin-top:9px;padding-top:7px;border-top:1px dashed #ccd2d5}.insert strong{font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.045em}.insert span{font-size:.79rem;color:var(--body);line-height:1.5}
-.chapter{margin:34px 0 0;padding:10px 0 8px;border-bottom:2px solid #222;display:flex;justify-content:space-between;align-items:baseline;gap:12px}.chapter h3{font-size:1.06rem;margin:0}.chapter span{font-size:.73rem;color:var(--muted)}
-.matrix{width:100%;border-collapse:collapse;margin:17px 0 4px;font-size:.8rem}.matrix th,.matrix td{text-align:left;vertical-align:top;padding:9px 9px;border-top:1px solid var(--line);line-height:1.5}.matrix th{font-size:.67rem;text-transform:uppercase;letter-spacing:.045em;color:var(--muted)}.matrix td:first-child{font-weight:700;width:8%}.matrix td:nth-child(2){width:25%}
-.open-q{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:13px}.open-card{padding:14px 15px;background:#fafafa;border-top:2px solid var(--line)}.open-card strong{display:block;font-size:.85rem;margin-bottom:5px}.open-card p{font-size:.81rem;line-height:1.55;color:var(--body);margin:0}
+.aexam-main{padding:40px 0 78px}.hero{padding-bottom:8px}.eyebrow,.kicker{color:var(--blue);font-weight:760;font-size:.74rem;letter-spacing:.065em;text-transform:uppercase}
+.hero h1{font-size:clamp(2.15rem,4.8vw,3.05rem);line-height:1.12;letter-spacing:-.045em;margin:4px 0 13px;max-width:22ch}.lead{max-width:84ch;color:var(--body);font-size:1rem;line-height:1.7;margin:0 0 12px}
+.thesis{margin:24px 0 0;padding:18px 20px;border-left:3px solid var(--blue);background:#f7f8f8}.thesis small{display:block;font-size:.69rem;text-transform:uppercase;letter-spacing:.055em;font-weight:760;color:var(--muted);margin-bottom:5px}.thesis strong{display:block;font-size:1.04rem;line-height:1.55;max-width:82ch}
+.section{margin-top:48px;scroll-margin-top:20px}.section h2{font-size:1.58rem;letter-spacing:-.025em;margin:0 0 12px}.section>p{max-width:86ch;color:var(--body);font-size:.96rem;line-height:1.7;margin:0 0 12px}
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0}.compare-card{padding:15px 16px;background:#fafafa;border-top:2px solid var(--line)}.compare-card h3{font-size:.96rem;margin:0 0 7px}.compare-card p{font-size:.83rem;line-height:1.55;color:var(--body);margin:0}.compare-card strong{color:var(--ink)}
+.logic{margin-top:20px;border-top:1px solid var(--line)}.step{display:grid;grid-template-columns:78px minmax(0,1fr) minmax(0,1fr);gap:18px;padding:22px 0;border-bottom:1px solid var(--line)}.step-num{font-size:.76rem;color:var(--muted);font-weight:740;padding-top:2px}.step-num b{display:block;color:var(--ink);font-size:.95rem;margin-bottom:3px}.step h3{font-size:1.06rem;margin:0 0 7px}.step p{font-size:.84rem;line-height:1.57;color:var(--body);margin:0 0 6px}.label{font-size:.66rem!important;letter-spacing:.055em;text-transform:uppercase;color:var(--blue)!important;font-weight:760;margin:8px 0 3px!important}.claim{font-weight:660;color:var(--ink)!important}.move{background:#fafafa;padding:10px 11px;border-left:2px solid #cbd1d4}.move strong{font-size:.77rem}.move span{display:block;font-size:.8rem;line-height:1.5;color:var(--body);margin-top:3px}
+.figure-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:18px 0}.fig{border:1px solid var(--line);background:#fff;padding:15px}.fig h3{font-size:.94rem;margin:0 0 5px}.fig p{font-size:.8rem;line-height:1.5;color:var(--body);margin:0 0 10px}.fig svg{display:block;width:100%;height:auto;background:#fcfcfb}.fig-note{margin-top:8px!important;font-size:.75rem!important;color:var(--muted)!important}.ready{color:#246b45;font-weight:730}.needs{color:#8b5a00;font-weight:730}
+.deck{width:100%;border-collapse:collapse;margin:16px 0;font-size:.8rem}.deck th,.deck td{text-align:left;vertical-align:top;padding:9px;border-top:1px solid var(--line);line-height:1.5}.deck th{font-size:.67rem;text-transform:uppercase;letter-spacing:.045em;color:var(--muted)}.deck td:first-child{font-weight:700;width:6%}.deck td:nth-child(2){width:31%}.deck td:nth-child(3){width:29%}
+.project-row{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-top:15px}.project-card{background:#fafafa;border-top:2px solid var(--line);padding:14px}.project-card h3{font-size:.9rem;margin:0 0 6px}.project-card p{font-size:.79rem;line-height:1.5;color:var(--body);margin:0}
+.open-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:15px}.open-card{padding:14px 15px;background:#fafafa;border-top:2px solid var(--line)}.open-card strong{display:block;font-size:.84rem;margin-bottom:5px}.open-card p{font-size:.8rem;line-height:1.55;color:var(--body);margin:0}
 .aexam-footer{border:0;padding:18px 0 26px;font-size:.82rem;color:var(--muted)}.aexam-footer .wrap{display:flex;justify-content:space-between;gap:15px}
-@media(max-width:850px){.rules{grid-template-columns:1fr 1fr}.spine-map{grid-template-columns:repeat(3,1fr)}.bridge{grid-template-columns:1fr}.arrow{padding:0;transform:rotate(90deg)}}
-@media(max-width:650px){.aexam-page .wrap{width:calc(100% - 34px)}.aexam-main{padding:25px 0 50px}.beat{grid-template-columns:1fr;gap:4px}.beat-num{display:flex;gap:8px;align-items:baseline}.beat-num b{display:inline}.rules,.open-q{grid-template-columns:1fr}.spine-map{grid-template-columns:1fr 1fr}.aexam-page .topbar{flex-wrap:wrap;padding:9px 0}.aexam-page .topnav{flex-wrap:wrap}.aexam-footer .wrap{display:block}.matrix{display:block;overflow-x:auto}}
+@media(max-width:850px){.compare,.figure-grid{grid-template-columns:1fr}.step{grid-template-columns:56px 1fr}.step>:last-child{grid-column:2}.project-row{grid-template-columns:1fr}.open-grid{grid-template-columns:1fr}}
+@media(max-width:650px){.aexam-page .wrap{width:calc(100% - 34px)}.aexam-main{padding:25px 0 50px}.step{grid-template-columns:1fr;gap:4px}.step>:last-child{grid-column:1}.step-num{display:flex;gap:8px;align-items:baseline}.step-num b{display:inline}.aexam-page .topbar{flex-wrap:wrap;padding:9px 0}.aexam-page .topnav{flex-wrap:wrap}.aexam-footer .wrap{display:block}.deck{display:block;overflow-x:auto}}
 </style>
 </head>
 <body class="aexam-page">
 <a class="skip" href="#main">Skip to A Exam storyboard</a>
-<header class="site-header"><div class="wrap topbar"><a class="brand" href="research-notes-68ddfcf2e6251c2519a02b29.html">← Research Agenda</a><nav class="topnav" aria-label="A Exam storyboard navigation"><a href="#principles">Principles</a><a href="#story">Story map</a><a href="#deck">My deck</a><a href="#open">Open questions</a><a href="interaction-precedents-68ddfcf2e6251c2519a02b29.html">Precedents</a><a href="index.html">Home</a></nav></div></header>
+<header class="site-header"><div class="wrap topbar"><a class="brand" href="research-notes-68ddfcf2e6251c2519a02b29.html">← Research Agenda</a><nav class="topnav" aria-label="A Exam storyboard navigation"><a href="#logic">Agenda logic</a><a href="#figures">Figures</a><a href="#deck">Deck spine</a><a href="#projects">Projects</a><a href="#open">Open questions</a><a href="index.html">Home</a></nav></div></header>
 <main class="wrap aexam-main" id="main">
+
 <section class="hero">
 <p class="eyebrow">A Exam · Storyboard · Working page</p>
-<h1>How to tell the A Exam story</h1>
-<p class="lead">这页不是 research-agenda 正文，也不是最终 slides。它只处理一件事：<strong>committee 为什么会愿意跟着下一页走</strong>。左边按时间顺序拆解 Thijs Roumen 在 <em>Portable Laser Cutting</em> seminar 里的实际讲法，右边给出我在 A Exam 中承担同一种 rhetorical job 的页面。</p>
-<p class="lead">核心原则是保留他的叙事机制，不复制他的技术依赖关系。Portable Laser Cutting 可以天然写成 2D → 3D → legacy reconstruction → automation。我的三个 projects 不是前一个失败后才产生下一个，所以它们要由一个更大的 research promise 串起来。</p>
-<div class="promise"><small>Current working promise</small><strong>CAD makes geometric decisions explicit. My research asks how CAD can support the reasoning designers need while those decisions are still developing.</strong></div>
+<h1>Present the agenda without changing its logic</h1>
+<p class="lead">这页以当前 Research Agenda 为骨架。Thijs Roumen 的 <em>Portable Laser Cutting</em> talk 只作为 presentation rhetoric 的参考，用来学习什么时候先给 concrete example、什么时候 zoom out、什么时候命名概念、什么时候 checkpoint。它不决定我的 research-program structure。</p>
+<div class="thesis"><small>Current agenda spine</small><strong>Design understanding develops together with possible solutions → designers make decisions while both are still developing → CAD mediates many of these decisions → supporting reasoning requires knowing both what the designer is reasoning about and what form of reasoning can help → their intersection defines a Design Reasoning Space → current projects investigate selected intersections.</strong></div>
 </section>
 
-<section class="section" id="principles">
-<p class="kicker">01 · What to learn from Thijs</p>
-<h2>不是模仿句子，是模仿 audience 的认知路径</h2>
-<div class="rules">
-<div class="rule"><strong>Concrete object first</strong><span>先让 audience 看见一个 artifact 和具体困难，再把问题命名。</span></div>
-<div class="rule"><strong>Create a promise</strong><span>整个 talk 有一个 audience 可以不断拿回来检查的目标。</span></div>
-<div class="rule"><strong>Define the central idea early</strong><span>Thijs 很早定义 portability。我的 talk 也要很早说明什么叫 informed design reasoning。</span></div>
-<div class="rule"><strong>Plant open loops</strong><span>在讲 project 之前先告诉 audience 还有哪些问题没有解决，让后面的 project 有必然性。</span></div>
-<div class="rule"><strong>Checkpoint after each project</strong><span>先承认这一部分解决了，再回到更大的 promise，看还缺什么。</span></div>
-<div class="rule"><strong>Let the audience experience a failure</strong><span>能用一个具体 task 让 committee 自己发现困难，就不要先给抽象结论。</span></div>
-<div class="rule"><strong>Reality breaks the clean solution</strong><span>下一步不是因为上一项研究“失败”，而是现实条件暴露出新的 reasoning demand。</span></div>
-<div class="rule"><strong>Return to the opening</strong><span>结尾重新出现最开始的 artifact / promise，让整个 talk 闭环。</span></div>
-<div class="rule"><strong>Agenda must generate next questions</strong><span>Q&amp;A 里最强的回答不是列 future work，而是用顶层 aspiration 推出下一层 abstraction。</span></div>
+<section class="section">
+<p class="kicker">01 · What is and is not borrowed</p>
+<h2>Thijs provides the delivery pattern, not the research structure</h2>
+<div class="compare">
+<div class="compare-card"><h3>Borrow</h3><p><strong>Concrete before abstract.</strong> Let the audience see a phenomenon before naming it. Move broad → narrow → concrete. Make every slide create the need for the next. Revisit the central question after a major section. Put technical depth after the motivation is already clear. Close by returning to the opening question or artifact.</p></div>
+<div class="compare-card"><h3>Do not borrow</h3><p><strong>Sequential project dependency.</strong> Portable Laser Cutting can be narrated as one engineering problem exposing the next. aCADemy, CAMeleon, and FuzzyCAD are not a chain in which the previous project fails and causes the next. They are parallel investigations of different regions in a larger research space.</p></div>
 </div>
-<div class="source-note"><strong>Primary source.</strong> HCII Seminar Series: Thijs Roumen — <em>Portable Laser Cutting</em>, Panopto captions. 下面的时间段和 short quotes 均来自这场 talk 的 transcript；自动字幕里的人名和术语有识别错误，所以这里只依赖其可确认的论述顺序。</div>
 </section>
 
-<section class="section" id="story">
-<p class="kicker">02 · Thijs → Shuo</p>
-<h2>逐页 story map</h2>
-<p>下面每一行是一张“叙事页”。真实 A Exam deck 可以在这些 anchor slides 后插入 system、method、study evidence 和 figure slides，但不要改变这些 anchor 之间的因果顺序。</p>
-<div class="legend"><span><i class="dot"></i>Thijs 的实际 story beat</span><span><i class="dot blue"></i>我的对应页</span><span><i class="dot light"></i>可插入 evidence slides</span></div>
-<div class="story">
+<section class="section" id="logic">
+<p class="kicker">02 · Agenda logic → presentation move</p>
+<h2>The conceptual progression stays the same</h2>
+<p>这里每一步都来自现有 agenda。右栏只处理“怎么讲”，不改变左栏的理论关系。</p>
+<div class="logic">
 
-<div class="chapter"><h3>Act I · 先让 audience 看见问题</h3><span>Thijs 1:50–9:20 · Shuo Slides 1–6</span></div>
+<article class="step"><div class="step-num"><b>01</b>Broad</div><div><h3>Design understanding develops together with possible solutions</h3><p class="claim">Agenda claim</p><p>Design problems cannot be fully specified before designing begins. Goals, requirements, constraints, and possible solutions develop together.</p></div><div><p class="label">Presentation move</p><div class="move"><strong>Show one evolving design first.</strong><span>不要先念 wicked problems。用一个设计例子展示：最初目标很简单，随着 modeling / feedback / constraints 进入，designer 对“这个设计应该是什么”的理解发生变化。然后再给一句总结。</span></div></div></article>
 
-<article class="beat"><div class="beat-num"><b>01</b>1:50–2:25</div><div class="beat-main"><h3>从一个看起来已经很好的 artifact 开始</h3><div class="bridge">
-<div class="side"><p class="label">Thijs</p><p class="quote">“Laser-cut files look like this… in many ways, this is a great format. But my talk today is about why this will have to die.”</p><div class="job"><strong>Rhetorical job</strong> <span>先建立 familiar object，再制造 contradiction。Audience 会自然想知道“它明明不错，为什么要死？”</span></div></div>
-<div class="arrow">→</div>
-<div class="side"><p class="label">A Exam · Slide 1</p><p class="shuo-title">A precise CAD model can still hide an unfinished reasoning process</p><div class="script"><p>“This model tells us exactly what geometry was chosen.”</p><p>“But from the geometry alone, we cannot tell whether the designer considered the relevant criteria, compared plausible alternatives, or had the knowledge needed to commit.”</p></div><div class="insert"><strong>Visual</strong> <span>一张你最干净的 CAD final model。只标 2–3 个 consequential decisions，不放 framework。</span></div></div>
-</div></div></article>
+<article class="step"><div class="step-num"><b>02</b>Narrow</div><div><h3>Designers therefore make decisions while understanding is still developing</h3><p class="claim">Agenda claim</p><p>Design reasoning does not finish before modeling starts. It continues alongside the developing design.</p></div><div><p class="label">Presentation move</p><div class="move"><strong>Turn the evolving example into decisions.</strong><span>把刚才的 design evolution 标成 3–4 个 decision moments。让 committee 看到“design evolves”不是抽象理论，而是 decision 不断被形成、修改、重开。</span></div></div></article>
 
-<article class="beat"><div class="beat-num"><b>02</b>2:25–4:12</div><div class="beat-main"><h3>从具体 artifact 暂时 zoom out 到一个更远的未来</h3><div class="bridge">
-<div class="side"><p class="label">Thijs</p><p>他转向 computing history，先讲 millions → billions users 对应 mobility，再用 mobile fabrication / broken bike lamp 展示一个 2–3 decades away 的 vision。</p><div class="job"><strong>Rhetorical job</strong> <span>先给 audience 一个值得努力的 future，再承认它还太远。</span></div></div>
-<div class="arrow">→</div>
-<div class="side"><p class="label">A Exam · Slide 2</p><p class="shuo-title">CAD should support more than the specification of geometry</p><div class="script"><p>“CAD has become extremely good at helping designers specify, inspect, and modify geometry.”</p><p>“My longer-term goal is for the CAD environment to also support the reasoning through which designers decide how that geometry should develop.”</p></div><div class="insert"><strong>Visual</strong> <span>左边 current CAD operations，右边 developing reasoning。不要上 taxonomy。</span></div></div>
-</div></div></article>
+<article class="step"><div class="step-num"><b>03</b>Setting</div><div><h3>CAD mediates many of these decisions</h3><p class="claim">Agenda claim</p><p>CAD gives designers representations through which they specify, inspect, and modify a design. This makes CAD an important site for supporting design reasoning.</p></div><div><p class="label">Presentation move</p><div class="move"><strong>Now enter CAD.</strong><span>先承认 CAD 已经非常擅长 precise geometry。这样后面的 critique 不是“CAD 不好”，而是“它很好地表示 geometry，但 reasoning support 还有空间”。</span></div></div></article>
 
-<article class="beat"><div class="beat-num"><b>03</b>4:12–5:10</div><div class="beat-main"><h3>把远未来收回来：我们现在到底处在哪一步？</h3><div class="bridge">
-<div class="side"><p class="label">Thijs</p><p>他说 fabrication 还没有到 billions。当前更像从 thousands → millions，于是追问 computing 当年这一跳靠什么完成。</p><div class="job"><strong>Rhetorical job</strong> <span>把 aspiration 缩成一个当前可研究的 transition。</span></div></div>
-<div class="arrow">→</div>
-<div class="side"><p class="label">A Exam · Slide 3</p><p class="shuo-title">The immediate problem is not whether CAD can represent a decision</p><div class="script"><p>“The geometry is already representable.”</p><p>“The immediate gap is whether the considerations needed to form that decision can enter the design process while the decision is still developing.”</p></div><div class="insert"><strong>Visual</strong> <span>同一 CAD decision 左边是 explicit geometry，右边是 criteria / alternatives / knowledge 尚未进入 reasoning。</span></div></div>
-</div></div></article>
+<article class="step"><div class="step-num"><b>04</b>Blocker 1</div><div><h3>A precise CAD model does not necessarily reveal what the designer is reasoning about</h3><p class="claim">Agenda claim</p><p>The same geometric representation can respond to different design concerns. A dimension or placement may reflect a requirement, criterion, constraint, or possible solution.</p></div><div><p class="label">Presentation move</p><div class="move"><strong>Use the same geometry, change the meaning.</strong><span>一张 dimension / placement 图不动，依次出现四种可能的 design concern。Audience 会直接理解为什么 geometry alone 不够。</span></div></div></article>
 
-<article class="beat"><div class="beat-num"><b>04</b>5:10–6:39</div><div class="beat-main"><h3>很早定义整场 talk 的核心概念</h3><div class="bridge">
-<div class="side"><p class="label">Thijs</p><p>compiler → hardware abstraction → standards → portability。他给出一句可重复使用的定义：portability 是从一个 machine/system 转到另一个。</p><div class="job"><strong>Rhetorical job</strong> <span>给 audience 一把尺子，之后每个 project 都可以问：这有没有推进 portability？</span></div></div>
-<div class="arrow">→</div>
-<div class="side"><p class="label">A Exam · Slide 4</p><p class="shuo-title">What do I mean by informed design reasoning?</p><div class="script"><p>“I do not use informed to mean that a designer has complete information or reaches an objectively correct outcome.”</p><p>“I mean that relevant considerations can enter the reasoning while a decision is being formed.”</p><p>“Those considerations may include criteria, alternatives, consequences, evidence, uncertainty, or expertise.”</p></div><div class="insert"><strong>Need to refine</strong> <span>这页要继续磨成你自己的 portability-definition moment。它必须短，且后面每个 project 都能回来检查。</span></div></div>
-</div></div></article>
+<article class="step"><div class="step-num"><b>05</b>Question 1</div><div><h3>What are designers reasoning about?</h3><p class="claim">First dimension</p><p>Goals / Requirements · Criteria · Constraints · Possible Solutions.</p></div><div><p class="label">Presentation move</p><div class="move"><strong>Name the first dimension only after Blocker 1 is visible.</strong><span>这时候 classification 是解决刚才那个 ambiguity 的工具，不是开场要 audience 记的一套 taxonomy。</span></div></div></article>
 
-<article class="beat"><div class="beat-num"><b>05</b>6:44–8:53</div><div class="beat-main"><h3>回到 artifact，把大问题拆成 audience 看得见的小问题</h3><div class="bridge">
-<div class="side"><p class="label">Thijs</p><p>回到 microscope。他依次指出 joint fit、moving mechanism、以及更大的 parametric modification 三类问题。前两类对应“PDF-like portability”，第三类对应 underlying editable representation。</p><div class="job"><strong>Rhetorical job</strong> <span>在任何 project 出现前，先把 larger promise 分解成若干 concrete blockers。</span></div></div>
-<div class="arrow">→</div>
-<div class="side"><p class="label">A Exam · Slide 5</p><p class="shuo-title">Three ways a CAD decision can still lack what it needs</p><div class="script"><p>“A decision can be geometrically explicit while a relevant criterion has not entered attention.”</p><p>“Several possible solutions can remain plausible without a useful basis for comparison.”</p><p>“A solution can remain unresolved because the relevant knowledge or expertise is elsewhere.”</p></div><div class="insert"><strong>Visual</strong> <span>三个具体 CAD moments，分别对应 aCADemy、CAMeleon、FuzzyCAD。此时只讲现象，不讲项目名。</span></div></div>
-</div></div></article>
+<article class="step"><div class="step-num"><b>06</b>Blocker 2</div><div><h3>Knowing the concern is still not enough</h3><p class="claim">Agenda claim</p><p>The same concern can be developed through different forms of reasoning. A constraint can trigger reflection, knowledge retrieval, analogy, comparison, consequence reasoning, or prototyping.</p></div><div><p class="label">Presentation move</p><div class="move"><strong>Hold the concern constant, vary the reasoning.</strong><span>选一个 constraint，不换 design concern，只展示六种可能的 reasoning action。这样第二个维度和第一个维度真正独立。</span></div></div></article>
 
-<article class="beat"><div class="beat-num"><b>06</b>8:53–9:20</div><div class="beat-main"><h3>Plant an open loop：先告诉 audience 我现在只解决其中一部分</h3><div class="bridge">
-<div class="side"><p class="label">Thijs</p><p>“Let's look at these first two issues first.” 更大的 modification problem 被明确留到后面。</p><div class="job"><strong>Rhetorical job</strong> <span>Audience 已经知道后面还有一笔账没结，所以 project 之间不会像论文列表。</span></div></div>
-<div class="arrow">→</div>
-<div class="side"><p class="label">A Exam · Slide 6</p><p class="shuo-title">I started with the first failure: a relevant criterion may never enter attention</p><div class="script"><p>“I first looked at what happens when the issue is not yet part of the designer's active reasoning.”</p><p>“This became the starting point for aCADemy.”</p></div><div class="insert"><strong>Then insert</strong> <span>aCADemy system → study → evidence，约 3–4 slides。</span></div></div>
-</div></div></article>
+<article class="step"><div class="step-num"><b>07</b>Question 2</div><div><h3>What forms of reasoning help designers?</h3><p class="claim">Second dimension</p><p>Reflection · Knowledge Retrieval · Analogical Reasoning · Comparison · Consequence Reasoning · Prototyping.</p></div><div><p class="label">Presentation move</p><div class="move"><strong>Name the second dimension after the audience sees why one axis is insufficient.</strong><span>此时才有“×”的必要性。</span></div></div></article>
 
-<div class="chapter"><h3>Act II · Project 1 之后一定 checkpoint</h3><span>Thijs 9:20–16:52 · Shuo Slides 7–9 + evidence</span></div>
+<article class="step"><div class="step-num"><b>08</b>Synthesis</div><div><h3>The Design Reasoning Space</h3><p class="claim">Agenda structure</p><p>Crossing the two dimensions defines families of research questions about how interactive CAD tools can support a particular form of reasoning around a particular design concern.</p></div><div><p class="label">Presentation move</p><div class="move"><strong>Reveal the matrix progressively.</strong><span>先显示 rows，再显示 columns，最后交叉成 4 × 6。不要一上来甩完整表格。</span></div></div></article>
 
-<article class="beat"><div class="beat-num"><b>07</b>9:20–15:28</div><div class="beat-main"><h3>第一个 technical block 只解决它承诺的局部问题</h3><div class="bridge">
-<div class="side"><p class="label">Thijs</p><p>SpringFit / kerf-canceling mechanisms 把 machine/material variation 吸收进 cutting plan。讲完后展示多个 model 在不同材料中仍能工作。</p><div class="job"><strong>Rhetorical job</strong> <span>用 system + mechanism + examples 让 audience 真正相信这一小块已经解决。</span></div></div>
-<div class="arrow">→</div>
-<div class="side"><p class="label">A Exam · Slides 7–8</p><p class="shuo-title">aCADemy · Criteria × Reflection</p><div class="script"><p>“aCADemy introduces situated reflective questions during modeling.”</p><p>“The questions do not prescribe a solution. They give relevant fabrication criteria a way to enter the designer's reasoning.”</p></div><div class="insert"><strong>Evidence slides</strong> <span>interaction → N=12 study → 211 question appearances / Not Now / later enacted / ownership &amp; reasoning support。</span></div></div>
-</div></div></article>
+<article class="step"><div class="step-num"><b>09</b>Current work</div><div><h3>Three projects investigate three intersections</h3><p class="claim">Current probes</p><p>aCADemy = Criteria × Reflection. CAMeleon = Possible Solutions × Comparison. FuzzyCAD = Possible Solutions × Knowledge Retrieval.</p></div><div><p class="label">Presentation move</p><div class="move"><strong>Projects appear after the space exists.</strong><span>三个项目是 parallel probes。每个 chapter 都从一个 cell 的 research question 开始，再讲 system、study、evidence、takeaway，然后回到 matrix 标记这个 cell。</span></div></div></article>
 
-<article class="beat"><div class="beat-num"><b>08</b>15:28–16:52</div><div class="beat-main"><h3>先承认成功，再回到最初 promise 看还欠什么</h3><div class="bridge">
-<div class="side"><p class="label">Thijs</p><p class="quote">“I promised you portability… we sort of achieved that. So great. Right. But… the bigger thing here is I sort of promised you something more.”</p><div class="job"><strong>Rhetorical job</strong> <span>Project 1 没有失败。它完成了自己的任务，但 overarching promise 还没完成。</span></div></div>
-<div class="arrow">→</div>
-<div class="side"><p class="label">A Exam · Slide 9</p><p class="shuo-title">Reflection can surface criteria. The broader reasoning problem remains.</p><div class="script"><p>“This gives us one answer: CAD can prompt reflection when relevant criteria may be overlooked.”</p><p>“But noticing what matters does not tell a designer how different possible solutions compare against those considerations.”</p></div><div class="insert"><strong>Transition</strong> <span>这不是说 aCADemy 有 limitation，而是把 audience 带回 Slide 5 里尚未解决的第二类 problem。</span></div></div>
-</div></div></article>
+<article class="step"><div class="step-num"><b>10</b>Future</div><div><h3>The remaining space generates future research</h3><p class="claim">Agenda generativity</p><p>The empty regions identify questions beyond current projects. A second future direction concerns how reasoning moves across concerns, representations, people, and time.</p></div><div><p class="label">Presentation move</p><div class="move"><strong>Do not read empty cells one by one.</strong><span>选 2–3 个有 dissertation potential 的 regions 或 transitions。结尾回到最开始那个 evolving design，说明 CAD 未来可以支持的不只是 geometry，还包括 design development 本身。</span></div></div></article>
 
-<div class="chapter"><h3>Act III · 让 audience 自己经历第二个问题</h3><span>Thijs 16:52–22:13 · Shuo Slides 10–12 + evidence</span></div>
+</div>
+</section>
 
-<article class="beat"><div class="beat-num"><b>09</b>16:52–20:17</div><div class="beat-main"><h3>不要先解释 difficulty，让 audience 亲自做一次</h3><div class="bridge">
-<div class="side"><p class="label">Thijs</p><p>他给 VR headset modification task，让 audience 判断哪些 2D plates 要改。最后指出大家实际上先 mentally reconstruct 3D，再 imagine modification，再 project back to 2D。</p><div class="job"><strong>Rhetorical job</strong> <span>Problem is demonstrated before it is named.</span></div></div>
-<div class="arrow">→</div>
-<div class="side"><p class="label">A Exam · Slide 10</p><p class="shuo-title">Which of these fabrication directions should we develop?</p><div class="script"><p>“Suppose the same model can be fabricated through several plausible workflows.”</p><p>“Which direction should we develop, and what would you need to know before choosing?”</p></div><div class="insert"><strong>Audience task</strong> <span>给 committee 一个具体 model + 2–3 fabrication approaches。不要一上来给 comparison theory。</span></div></div>
-</div></div></article>
+<section class="section" id="figures">
+<p class="kicker">03 · Figures I can prepare now</p>
+<h2>先把 narrative figures 做出来</h2>
+<p>下面四张不依赖最终 study screenshot，我现在就能准确准备。它们适合 A Exam 前半段，承担“把 abstract argument 变成可见关系”的作用。</p>
+<div class="figure-grid">
 
-<article class="beat"><div class="beat-num"><b>10</b>20:17–22:13</div><div class="beat-main"><h3>系统在 audience 已经理解需求之后才出现</h3><div class="bridge">
-<div class="side"><p class="label">Thijs</p><p class="quote">“I can't help but wonder what it would be like if you had that model in 3D in the first place.”</p><p>然后才展示 Cube 3D editor、parametric modification 和 machine-specific export。</p><div class="job"><strong>Rhetorical job</strong> <span>Solution feels inevitable because audience just experienced the representational mismatch.</span></div></div>
-<div class="arrow">→</div>
-<div class="side"><p class="label">A Exam · Slides 11–12</p><p class="shuo-title">CAMeleon · Possible Solutions × Comparison</p><div class="script"><p>“CAMeleon keeps alternative design-to-fabrication approaches available in one model context.”</p><p>“The interaction makes their fabrication implications and trade-offs available for comparison before a direction is selected.”</p></div><div class="insert"><strong>Evidence slides</strong> <span>interaction → educator interviews → learner evaluation → 2–3 concrete comparison trajectories。</span></div></div>
-</div></div></article>
+<article class="fig"><h3><span class="ready">Ready now</span> · Figure A — Design and understanding co-develop</h3><p>对应 Agenda Step 1–2。用同一个 design artifact 在三个时刻变化，同时上方的 goal / criterion / constraint cards 也随之增加或改变。</p>
+<svg viewBox="0 0 760 260" role="img" aria-label="Design and understanding co-develop diagram">
+<defs><marker id="a1" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 Z" fill="#777"/></marker></defs>
+<text x="20" y="28" font-size="14" font-weight="700">Understanding</text>
+<rect x="20" y="45" width="175" height="46" rx="5" fill="#f3f4f4" stroke="#bbb"/><text x="34" y="65" font-size="12">Goal: support body</text><text x="34" y="81" font-size="11" fill="#666">initial framing</text>
+<rect x="292" y="45" width="175" height="46" rx="5" fill="#f3f4f4" stroke="#bbb"/><text x="306" y="65" font-size="12">+ arm movement</text><text x="306" y="81" font-size="11" fill="#666">new criterion</text>
+<rect x="564" y="45" width="175" height="46" rx="5" fill="#f3f4f4" stroke="#bbb"/><text x="578" y="65" font-size="12">+ stability + dimensions</text><text x="578" y="81" font-size="11" fill="#666">new constraints</text>
+<line x1="195" y1="68" x2="285" y2="68" stroke="#777" marker-end="url(#a1)"/><line x1="467" y1="68" x2="557" y2="68" stroke="#777" marker-end="url(#a1)"/>
+<text x="20" y="145" font-size="14" font-weight="700">Design</text>
+<rect x="20" y="163" width="175" height="58" rx="5" fill="#fff" stroke="#222"/><text x="34" y="187" font-size="12">rough support frame</text><text x="34" y="204" font-size="11" fill="#666">geometry v1</text>
+<rect x="292" y="163" width="175" height="58" rx="5" fill="#fff" stroke="#222"/><text x="306" y="187" font-size="12">open front frame</text><text x="306" y="204" font-size="11" fill="#666">geometry v2</text>
+<rect x="564" y="163" width="175" height="58" rx="5" fill="#fff" stroke="#222"/><text x="578" y="187" font-size="12">repositioned supports</text><text x="578" y="204" font-size="11" fill="#666">geometry v3</text>
+<line x1="195" y1="191" x2="285" y2="191" stroke="#777" marker-end="url(#a1)"/><line x1="467" y1="191" x2="557" y2="191" stroke="#777" marker-end="url(#a1)"/>
+<line x1="108" y1="95" x2="108" y2="157" stroke="#bbb" stroke-dasharray="4 4"/><line x1="380" y1="95" x2="380" y2="157" stroke="#bbb" stroke-dasharray="4 4"/><line x1="652" y1="95" x2="652" y2="157" stroke="#bbb" stroke-dasharray="4 4"/>
+</svg>
+<p class="fig-note">最终版可以替换成你真实 crawling-trainer geometry，但逻辑结构已经可以用。</p></article>
 
-<div class="chapter"><h3>Act IV · Clean solution meets the real world</h3><span>Thijs 22:13–32:42 · Shuo Slides 13–15 + evidence</span></div>
+<article class="fig"><h3><span class="ready">Ready now</span> · Figure B — Same geometry, different design concerns</h3><p>对应 Blocker 1。保持同一个 dimension 不变，只改变它可能代表的 concern。</p>
+<svg viewBox="0 0 760 270" role="img" aria-label="Same geometry different design concerns diagram">
+<rect x="270" y="92" width="220" height="86" rx="7" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<line x1="315" y1="135" x2="445" y2="135" stroke="#222" stroke-width="3"/>
+<line x1="315" y1="118" x2="315" y2="152" stroke="#222"/><line x1="445" y1="118" x2="445" y2="152" stroke="#222"/>
+<text x="350" y="124" font-size="12">120 mm</text><text x="333" y="164" font-size="11" fill="#666">same CAD dimension</text>
+<rect x="20" y="24" width="170" height="54" rx="5" fill="#f6f6f6" stroke="#bbb"/><text x="34" y="46" font-size="12" font-weight="700">Goal / Requirement</text><text x="34" y="64" font-size="11">must reach the user</text>
+<rect x="570" y="24" width="170" height="54" rx="5" fill="#f6f6f6" stroke="#bbb"/><text x="584" y="46" font-size="12" font-weight="700">Criterion</text><text x="584" y="64" font-size="11">comfort matters</text>
+<rect x="20" y="198" width="170" height="54" rx="5" fill="#f6f6f6" stroke="#bbb"/><text x="34" y="220" font-size="12" font-weight="700">Constraint</text><text x="34" y="238" font-size="11">must fit clearance</text>
+<rect x="570" y="198" width="170" height="54" rx="5" fill="#f6f6f6" stroke="#bbb"/><text x="584" y="220" font-size="12" font-weight="700">Possible Solution</text><text x="584" y="238" font-size="11">one proposed size</text>
+<line x1="190" y1="68" x2="270" y2="110" stroke="#aaa"/><line x1="570" y1="68" x2="490" y2="110" stroke="#aaa"/><line x1="190" y1="215" x2="270" y2="160" stroke="#aaa"/><line x1="570" y1="215" x2="490" y2="160" stroke="#aaa"/>
+</svg>
+<p class="fig-note">这一张非常适合用 animation，四个 concern 一次出现一个。</p></article>
 
-<article class="beat"><div class="beat-num"><b>11</b>22:13–22:31</div><div class="beat-main"><h3>第二次 checkpoint：故意让 audience 觉得“这下总该结束了吧”</h3><div class="bridge">
-<div class="side"><p class="label">Thijs</p><p class="quote">“All these models are portable, they're parametric and everything is shared. So in many ways, we're done here, right?”</p><div class="job"><strong>Rhetorical job</strong> <span>先建立一个 clean solution，后面的 real-world constraint 才有冲击力。</span></div></div>
-<div class="arrow">→</div>
-<div class="side"><p class="label">A Exam · Slide 13</p><p class="shuo-title">Reflection and comparison still assume the needed knowledge is available here</p><div class="script"><p>“At this point, we can surface criteria and compare possible solutions.”</p><p>“But both interactions assume that the designer has access to the knowledge needed to continue the decision.”</p></div></div>
-</div></div></article>
+<article class="fig"><h3><span class="ready">Ready now</span> · Figure C — Same concern, different forms of reasoning</h3><p>对应 Blocker 2。保持“constraint”不变，六个 reasoning forms 围绕它展开。</p>
+<svg viewBox="0 0 760 330" role="img" aria-label="Same design concern different forms of reasoning diagram">
+<circle cx="380" cy="165" r="62" fill="#fff" stroke="#222" stroke-width="1.5"/><text x="344" y="158" font-size="13" font-weight="700">Constraint</text><text x="334" y="177" font-size="11" fill="#666">arm clearance</text>
+<g font-size="11"><rect x="40" y="32" width="160" height="46" rx="5" fill="#f6f6f6" stroke="#bbb"/><text x="78" y="59">Reflection</text>
+<rect x="300" y="18" width="160" height="46" rx="5" fill="#f6f6f6" stroke="#bbb"/><text x="330" y="46">Knowledge Retrieval</text>
+<rect x="560" y="32" width="160" height="46" rx="5" fill="#f6f6f6" stroke="#bbb"/><text x="596" y="59">Analogical Reasoning</text>
+<rect x="40" y="252" width="160" height="46" rx="5" fill="#f6f6f6" stroke="#bbb"/><text x="94" y="279">Comparison</text>
+<rect x="300" y="266" width="160" height="46" rx="5" fill="#f6f6f6" stroke="#bbb"/><text x="326" y="294">Consequence Reasoning</text>
+<rect x="560" y="252" width="160" height="46" rx="5" fill="#f6f6f6" stroke="#bbb"/><text x="611" y="279">Prototyping</text></g>
+<g stroke="#aaa"><line x1="200" y1="69" x2="328" y2="125"/><line x1="380" y1="64" x2="380" y2="102"/><line x1="560" y1="69" x2="432" y2="125"/><line x1="200" y1="266" x2="328" y2="205"/><line x1="380" y1="266" x2="380" y2="228"/><line x1="560" y1="266" x2="432" y2="205"/></g>
+</svg>
+<p class="fig-note">它的工作是证明第二个维度不是第一个维度的细分。</p></article>
 
-<article class="beat"><div class="beat-num"><b>12</b>22:31–24:19</div><div class="beat-main"><h3>Reality invalidates the clean solution</h3><div class="bridge">
-<div class="side"><p class="label">Thijs</p><p>大量 valuable models 仍是 legacy 2D cutting plans。Researcher 可以说“大家都改用 3D”，但 standards stick。他用 guitar tabs 说明 legacy format 为什么不会自己消失，再用 study 数据说明 modification 的实际成本。</p><div class="job"><strong>Rhetorical job</strong> <span>下一项研究不是补前一项技术漏洞，而是现实条件提出了新的 requirement。</span></div></div>
-<div class="arrow">→</div>
-<div class="side"><p class="label">A Exam · Slide 14</p><p class="shuo-title">In collaboration, the knowledge needed to resolve a solution may belong to someone else</p><div class="script"><p>“A mechanical designer can recognize that a support dimension is unresolved without having the clinical knowledge needed to settle it.”</p><p>“A therapist can know what movement must remain possible without being able to validate structural stability.”</p><p>“The question becomes how that unresolved decision survives until the relevant expertise can enter.”</p></div><div class="insert"><strong>Visual</strong> <span>直接用 crawling-trainer chain。Designer / mechanical / PT，每个人各有 partial knowledge。</span></div></div>
-</div></div></article>
+<article class="fig"><h3><span class="ready">Ready now</span> · Figure D — Design Reasoning Space + current projects</h3><p>对应 synthesis。先由 Figure B 和 C 生成两个维度，再交叉成 matrix，三个 project 作为 probes。</p>
+<svg viewBox="0 0 760 350" role="img" aria-label="Design Reasoning Space matrix">
+<g font-size="10" fill="#222">
+<text x="178" y="28" font-weight="700">Reflection</text><text x="265" y="28" font-weight="700">Knowledge</text><text x="353" y="28" font-weight="700">Analogy</text><text x="449" y="28" font-weight="700">Comparison</text><text x="540" y="28" font-weight="700">Consequence</text><text x="646" y="28" font-weight="700">Prototyping</text>
+<text x="16" y="78" font-weight="700">Goals / Requirements</text><text x="16" y="143" font-weight="700">Criteria</text><text x="16" y="208" font-weight="700">Constraints</text><text x="16" y="273" font-weight="700">Possible Solutions</text>
+</g>
+<g transform="translate(155,42)" stroke="#bbb" fill="#fff">
+<rect x="0" y="0" width="570" height="260"/><line x1="95" y1="0" x2="95" y2="260"/><line x1="190" y1="0" x2="190" y2="260"/><line x1="285" y1="0" x2="285" y2="260"/><line x1="380" y1="0" x2="380" y2="260"/><line x1="475" y1="0" x2="475" y2="260"/><line x1="0" y1="65" x2="570" y2="65"/><line x1="0" y1="130" x2="570" y2="130"/><line x1="0" y1="195" x2="570" y2="195"/>
+<rect x="0" y="65" width="95" height="65" fill="#f2f2f2"/><rect x="95" y="195" width="95" height="65" fill="#f2f2f2"/><rect x="285" y="195" width="95" height="65" fill="#f2f2f2"/>
+<text x="18" y="101" font-size="11" font-weight="700" fill="#222">aCADemy</text><text x="111" y="230" font-size="11" font-weight="700" fill="#222">FuzzyCAD</text><text x="300" y="230" font-size="11" font-weight="700" fill="#222">CAMeleon</text>
+</g>
+</svg>
+<p class="fig-note">正式 slide 建议 progressive reveal，不要一次把所有 row/column/project 全显示。</p></article>
 
-<article class="beat"><div class="beat-num"><b>13</b>24:19–30:30</div><div class="beat-main"><h3>第三个系统解决“如何把现有 representation 带到可继续工作的状态”</h3><div class="bridge">
-<div class="side"><p class="label">Thijs</p><p>Assembler 把 2D cutting plans reconstruct 回 3D。先 interactive assembly，再进入可 parametric modification 的环境。</p><div class="job"><strong>Rhetorical job</strong> <span>System 不是孤立 feature，而是维护 larger promise 与现实存量之间的 continuity。</span></div></div>
-<div class="arrow">→</div>
-<div class="side"><p class="label">A Exam · Slide 15 + evidence</p><p class="shuo-title">FuzzyCAD · Possible Solutions × Knowledge Retrieval</p><div class="script"><p>“FuzzyCAD allows parts of a developing solution to remain explicitly unresolved in the CAD model.”</p><p>“The unresolved decision carries its constraints, alternatives, and needed input into later handoffs, where another collaborator can contribute relevant expertise.”</p></div><div class="insert"><strong>Evidence slides</strong> <span>N=9 / three chains → walkthrough → decision trajectories → unresolved end states。</span></div></div>
-</div></div></article>
+</div>
 
-<article class="beat"><div class="beat-num"><b>14</b>30:42–32:01</div><div class="beat-main"><h3>展示 breadth，让 audience 相信 solution 不是只适用于一个 demo</h3><div class="bridge">
-<div class="side"><p class="label">Thijs</p><p>快速展示 100 个 online models 被 reconstruct，强调 variation 和 parametric reuse。</p><div class="job"><strong>Rhetorical job</strong> <span>从 mechanism proof 转到 research claim 的 breadth。</span></div></div>
-<div class="arrow">→</div>
-<div class="side"><p class="label">A Exam · Evidence slide</p><p class="shuo-title">Across chains, unresolved decisions were refined by different forms of expertise</p><div class="script"><p>“The important result is not that every decision became resolved.”</p><p>“Across handoffs, collaborators could contribute what they knew, preserve what remained uncertain, and leave a more specific problem for the next person.”</p></div></div>
-</div></div></article>
-
-<div class="chapter"><h3>Act V · 从 projects 升到 research program</h3><span>Thijs 32:01–35:41 · Shuo Slides 16–20</span></div>
-
-<article class="beat"><div class="beat-num"><b>15</b>32:01–32:42</div><div class="beat-main"><h3>“One step further” 不是再塞一篇 paper，而是再问一次谁还被排除在外</h3><div class="bridge">
-<div class="side"><p class="label">Thijs</p><p>Interactive assembly 已经很好，但普通 user 仍需要理解 model construction。于是提出 automatic reconstruction。</p><div class="job"><strong>Rhetorical job</strong> <span>更高层的 promise 继续检查当前 solution 的 accessibility。</span></div></div>
-<div class="arrow">→</div>
-<div class="side"><p class="label">A Exam · Slide 16</p><p class="shuo-title">These are three instances of a larger design-reasoning space</p><div class="script"><p>“At this point, I no longer want to treat these as three isolated CAD systems.”</p><p>“They differ along two questions: what aspect of the design is being reasoned about, and what form of reasoning helps develop it?”</p></div><div class="insert"><strong>Important</strong> <span>这里才正式把 framework 推出来。Matrix 是前三个 projects 累积后的 abstraction，不是开场 prerequisite。</span></div></div>
-</div></div></article>
-
-<article class="beat"><div class="beat-num"><b>16</b>32:42–34:06</div><div class="beat-main"><h3>技术 detail 可以很深，但只在 story 已经给出 why 以后</h3><div class="bridge">
-<div class="side"><p class="label">Thijs</p><p>到这里才进入 beam search、heuristics、79% reconstruction。Audience 已经完全知道为什么 automation 值得做。</p><div class="job"><strong>Rhetorical job</strong> <span>Depth follows motivation.</span></div></div>
-<div class="arrow">→</div>
-<div class="side"><p class="label">A Exam · Slide 17</p><p class="shuo-title">The Design Reasoning Space</p><div class="script"><p>“The first dimension asks what designers are reasoning about: Goals / Requirements, Criteria, Constraints, or Possible Solutions.”</p><p>“The second asks what form of reasoning can help: Reflection, Knowledge Retrieval, Analogical Reasoning, Comparison, Consequence Reasoning, or Prototyping.”</p></div><div class="insert"><strong>Visual</strong> <span>4 × 6 matrix。三个现有 projects 只标三个 cells，不把空白区域填满。</span></div></div>
-</div></div></article>
-
-<article class="beat"><div class="beat-num"><b>17</b>34:06–35:07</div><div class="beat-main"><h3>Conclusion 先回收所有 concrete problems，再升到 thesis claim</h3><div class="bridge">
-<div class="side"><p class="label">Thijs</p><p>先 recap 三类 laser-cut problems，再说 2D → 3D 的 approach 如何覆盖它们，最后才得出 “we have achieved portability”。</p><div class="job"><strong>Rhetorical job</strong> <span>结论不是 project list，是 problem → approach → thesis claim。</span></div></div>
-<div class="arrow">→</div>
-<div class="side"><p class="label">A Exam · Slide 18</p><p class="shuo-title">What the three projects establish</p><div class="script"><p>“Reflection can bring overlooked criteria into a developing decision.”</p><p>“Comparison can make alternative possible solutions and their trade-offs available for reasoning.”</p><p>“Knowledge retrieval can allow an unresolved solution to remain open until relevant expertise becomes available.”</p><p>“Together, they show that CAD can support distinct forms of reasoning around developing design concerns.”</p></div></div>
-</div></div></article>
-
-<article class="beat"><div class="beat-num"><b>18</b>35:07–35:41</div><div class="beat-main"><h3>最后一页回到开场 promise，形成闭环</h3><div class="bridge">
-<div class="side"><p class="label">Thijs</p><p>回到 compiler / thousands → millions，然后说 portability 可能是 laser cutting 的 analogous transition。最后再把最早的 mobility future 捞回来。</p><div class="job"><strong>Rhetorical job</strong> <span>Opening aspiration → current transition → technical work → same aspiration. 完整闭环。</span></div></div>
-<div class="arrow">→</div>
-<div class="side"><p class="label">A Exam · Slides 19–20</p><p class="shuo-title">Current coverage → future research → return to the opening model</p><div class="script"><p>“The three projects cover only three intersections in this space.”</p><p>“The remaining regions ask how other forms of reasoning can support other design concerns as the design develops.”</p><p>“So I return to the model I started with. I want CAD to tell us more than what geometry was chosen. I want the design environment to support the reasoning needed to decide how that geometry should develop.”</p></div><div class="insert"><strong>Future slides</strong> <span>只选 2–3 个真正能生成 dissertation work 的 cells / transitions，不要把 21 个空白格全部念一遍。</span></div></div>
-</div></div></article>
-
-<div class="chapter"><h3>Bonus · Q&amp;A 里他怎么证明 agenda 是 generative 的</h3><span>Thijs 45:03–49:08</span></div>
-
-<article class="beat"><div class="beat-num"><b>Q1</b>45:03–49:08</div><div class="beat-main"><h3>别人问“如果这些问题都解决了，你下一步做什么？”——他返回最顶层 aspiration</h3><div class="bridge">
-<div class="side"><p class="label">Thijs</p><p>他没有列 future-work bullets。先回到 “millions of users”，然后说真正的大众 user 不会关心某一种 fabrication process。所以下一层 abstraction 是从 laser cutting / knitting / printing 上升到人真正想做的 product。</p><div class="job"><strong>Rhetorical job</strong> <span>Research agenda 能生成下一层问题，因为 top-level aspiration 比现有 projects 更大。</span></div></div>
-<div class="arrow">→</div>
-<div class="side"><p class="label">A Exam · Q&amp;A stance</p><p class="shuo-title">If the current cells were solved, what is the next abstraction?</p><div class="script"><p>“The matrix is not the endpoint.”</p><p>“A next question is how reasoning moves across concerns, representations, people, and time as a design develops.”</p><p>“Another is how the tool recognizes when a form of reasoning is useful without taking over the designer's goal or decision.”</p></div></div>
-</div></div></article>
-
+<p>另外两张我也能做，但最好用你的真实材料：</p>
+<div class="compare">
+<div class="compare-card"><h3><span class="needs">Needs your existing screenshot</span> · Figure E — CAD mediates decisions</h3><p>用真实 Fusion / Tinkercad 模型，把 geometry、parameter、feature、decision callout 叠在同一张图上。这个最好基于你最终选的 opening artifact。</p></div>
+<div class="compare-card"><h3><span class="needs">Needs project figures</span> · Figure F — Three project probes</h3><p>三列统一 visual language。每列只放 <strong>design concern → reasoning form → interaction</strong>，再各接一张真实 system screenshot。比单纯放三个 logo / screenshot 更能说明 agenda。</p></div>
 </div>
 </section>
 
 <section class="section" id="deck">
-<p class="kicker">03 · Proposed A Exam spine</p>
-<h2>20 anchor slides；方法和结果页插在中间</h2>
-<p>这 20 张不是最终 deck 的全部页面，而是不能丢的 narrative anchors。三项 project 各自再插 system / method / evidence slides，最终主 deck 预计会回到约 30–34 张，但 audience 始终知道自己处在哪一个 argument 上。</p>
-<div class="spine-map">
-<div><strong>1–4</strong><span>artifact → gap → promise → define informed reasoning</span></div>
-<div><strong>5–6</strong><span>three failures → open loop</span></div>
-<div><strong>7–9</strong><span>aCADemy → checkpoint</span></div>
-<div><strong>10–13</strong><span>CAMeleon → checkpoint</span></div>
-<div><strong>14–15</strong><span>FuzzyCAD + evidence</span></div>
-<div><strong>16–20</strong><span>derive space → synthesis → future → close loop</span></div>
-</div>
-<table class="matrix"><thead><tr><th>#</th><th>Anchor slide title</th><th>What must be true before the next slide</th></tr></thead><tbody>
-<tr><td>01</td><td>A precise CAD model can still hide an unfinished reasoning process</td><td>Audience accepts that geometry alone is not enough to assess how a decision was formed.</td></tr>
-<tr><td>02</td><td>CAD should support more than the specification of geometry</td><td>Audience sees a larger ambition worth pursuing.</td></tr>
-<tr><td>03</td><td>The immediate gap is the reasoning around developing decisions</td><td>The ambition becomes a tractable research problem.</td></tr>
-<tr><td>04</td><td>What do I mean by informed design reasoning?</td><td>Audience has a reusable criterion for the rest of the talk.</td></tr>
-<tr><td>05</td><td>Three ways a CAD decision can still lack what it needs</td><td>Audience sees three concrete failure modes before project names appear.</td></tr>
-<tr><td>06</td><td>Start with a relevant criterion that never enters attention</td><td>aCADemy feels necessary.</td></tr>
-<tr><td>07</td><td>aCADemy · Criteria × Reflection</td><td>Mechanism is clear.</td></tr>
-<tr><td>08</td><td>aCADemy evidence</td><td>Audience believes reflection can surface relevant criteria while preserving ownership.</td></tr>
-<tr><td>09</td><td>Reflection helps, but the broader reasoning problem remains</td><td>Project 2 is motivated by the promise, not by aCADemy “failing.”</td></tr>
-<tr><td>10</td><td>Which fabrication direction should we develop?</td><td>Audience experiences the need for comparison.</td></tr>
-<tr><td>11</td><td>CAMeleon · Possible Solutions × Comparison</td><td>Mechanism is clear.</td></tr>
-<tr><td>12</td><td>CAMeleon evidence</td><td>Audience believes comparison can develop grounds for a choice.</td></tr>
-<tr><td>13</td><td>What if the needed knowledge is not here?</td><td>Collaboration becomes the next necessary case.</td></tr>
-<tr><td>14</td><td>In collaboration, expertise is distributed</td><td>Audience understands why a decision may need to remain unresolved.</td></tr>
-<tr><td>15</td><td>FuzzyCAD · Possible Solutions × Knowledge Retrieval</td><td>Audience sees unresolved state as a handoff mechanism, not indecision.</td></tr>
-<tr><td>16</td><td>These are three instances of a larger space</td><td>Framework now feels earned.</td></tr>
-<tr><td>17</td><td>The Design Reasoning Space</td><td>Audience understands the two dimensions and sees the three project locations.</td></tr>
-<tr><td>18</td><td>What the three projects establish</td><td>Contribution is stated at the research-program level.</td></tr>
-<tr><td>19</td><td>What remains open</td><td>Future work is generated by the space, not appended as a wish list.</td></tr>
-<tr><td>20</td><td>Return to the opening model</td><td>Talk closes on the same artifact and promise with a changed interpretation.</td></tr>
+<p class="kicker">04 · Proposed deck spine</p>
+<h2>先按 agenda 的依赖关系排，再插项目证据</h2>
+<table class="deck"><thead><tr><th>#</th><th>Slide job</th><th>Working title</th><th>Figure</th></tr></thead><tbody>
+<tr><td>01</td><td>让 audience 看见 design understanding 会变化</td><td>Design develops together with our understanding of the problem</td><td>Figure A</td></tr>
+<tr><td>02</td><td>把变化落实到 decision</td><td>Designers make decisions while both are still developing</td><td>Figure A + decision callouts</td></tr>
+<tr><td>03</td><td>进入 CAD setting</td><td>CAD mediates many of these developing decisions</td><td>Figure E</td></tr>
+<tr><td>04</td><td>建立 Blocker 1</td><td>A precise model does not tell us what the designer is reasoning about</td><td>Figure B</td></tr>
+<tr><td>05</td><td>推出 Dimension 1</td><td>What are designers reasoning about?</td><td>4 concern cards</td></tr>
+<tr><td>06</td><td>建立 Blocker 2</td><td>The same concern can require different forms of reasoning</td><td>Figure C</td></tr>
+<tr><td>07</td><td>推出 Dimension 2</td><td>What forms of reasoning help designers?</td><td>6 reasoning forms</td></tr>
+<tr><td>08</td><td>合成 agenda</td><td>The Design Reasoning Space</td><td>Figure D</td></tr>
+<tr><td>09</td><td>定位 current work</td><td>My current work investigates three intersections</td><td>Figure D + 3 highlights</td></tr>
+<tr><td>10–13</td><td>aCADemy chapter</td><td>Criteria × Reflection</td><td>system + method + evidence</td></tr>
+<tr><td>14–17</td><td>CAMeleon chapter</td><td>Possible Solutions × Comparison</td><td>system + method + evidence</td></tr>
+<tr><td>18–22</td><td>FuzzyCAD chapter</td><td>Possible Solutions × Knowledge Retrieval</td><td>system + chain walkthrough + evidence</td></tr>
+<tr><td>23</td><td>重新回 matrix</td><td>What have these three probes taught us?</td><td>Figure D</td></tr>
+<tr><td>24–26</td><td>future</td><td>Where does the research space lead next?</td><td>selected cells / transitions</td></tr>
+<tr><td>27</td><td>闭环</td><td>Supporting informed design reasoning as a design develops</td><td>回到 Figure A / opening artifact</td></tr>
 </tbody></table>
 </section>
 
+<section class="section" id="projects">
+<p class="kicker">05 · Project chapter rhythm</p>
+<h2>三个项目平行，不串成 “A 不够 → B → C”</h2>
+<div class="project-row">
+<div class="project-card"><h3>aCADemy · Criteria × Reflection</h3><p>cell question → concrete criterion problem → reflective interaction → study → evidence → what this cell teaches us → return to matrix.</p></div>
+<div class="project-card"><h3>CAMeleon · Possible Solutions × Comparison</h3><p>cell question → alternative realization problem → comparison interaction → study → evidence → what this cell teaches us → return to matrix.</p></div>
+<div class="project-card"><h3>FuzzyCAD · Possible Solutions × Knowledge Retrieval</h3><p>cell question → unresolved solution depends on distributed expertise → handoff interaction → study → evidence → what this cell teaches us → return to matrix.</p></div>
+</div>
+</section>
+
 <section class="section" id="open">
-<p class="kicker">04 · Open story decisions</p>
-<h2>接下来真正需要一起磨的不是更多 slides，而是这几句话</h2>
-<div class="open-q">
-<div class="open-card"><strong>1 · The promise</strong><p>“CAD makes geometric decisions explicit. My research asks how CAD can support the reasoning designers need while those decisions are still developing.” 这句已经能工作，但还要继续看是不是你的 “portability”。</p></div>
-<div class="open-card"><strong>2 · Definition of informed</strong><p>要做到像 portability 一样短、稳定、后面每个 project 都能回来检查。现在的 working definition 是 relevant considerations enter reasoning while the decision is being formed。</p></div>
-<div class="open-card"><strong>3 · The three concrete failures</strong><p>Criteria overlooked / alternatives difficult to compare / relevant knowledge elsewhere。要确保它们不是为了装三个 projects 现造的，而是真正从 larger agenda 推出来。</p></div>
-<div class="open-card"><strong>4 · When the matrix appears</strong><p>当前建议是三个 projects 之后才出现。它承担 synthesis 和 generativity，不承担 opening motivation。</p></div>
-<div class="open-card"><strong>5 · The closing future</strong><p>最好只选两类：open cells + movement across the space。不要把 future work 讲成 21 个 empty cells。</p></div>
-<div class="open-card"><strong>6 · Audience participation</strong><p>需要找一个像 Thijs VR-headset task 一样，30–60 秒内就能让 committee 亲自感受到 reasoning gap 的 CAD example。</p></div>
+<p class="kicker">06 · What still needs work</p>
+<h2>接下来重点磨这些，不急着增加更多 slides</h2>
+<div class="open-grid">
+<div class="open-card"><strong>Opening artifact</strong><p>最好选一个能同时支持“understanding develops”“CAD mediates decisions”“same geometry different concern”的例子。crawling trainer 很可能最合适。</p></div>
+<div class="open-card"><strong>Definition of informed</strong><p>需要保持 agenda 的含义，但在 talk 中压成一句 committee 可以一直记住的 working definition。</p></div>
+<div class="open-card"><strong>Dimension 1 boundary</strong><p>Goals / Requirements 和 Criteria / Constraints 的边界还要准备 Q&amp;A backup，不一定在主 deck 展开。</p></div>
+<div class="open-card"><strong>Future story</strong><p>不要把 future 变成空格清单。更有力的是选若干 high-value intersections，再补一个跨 cell 的问题：reasoning 如何随 design development 移动。</p></div>
 </div>
 </section>
 
 <section class="section">
-<p class="kicker">05 · Source links</p>
-<h2>这页依据什么</h2>
-<p><a href="https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e099f4d3-2100-4992-a324-ad08011e05e3" target="_blank" rel="noopener">HCII Seminar Series: Thijs Roumen — Portable Laser Cutting · Panopto ↗</a></p>
-<p><a href="https://hcii.cmu.edu/news/event/2021/04/special-seminar-portable-laser-cutting-thijs-roumen" target="_blank" rel="noopener">CMU HCII seminar page ↗</a></p>
-<p><a href="research-notes-68ddfcf2e6251c2519a02b29.html">Current research agenda: Supporting Informed Design Reasoning in CAD →</a></p>
+<p class="kicker">07 · Reference</p>
+<h2>Presentation reference</h2>
+<p><a href="https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e099f4d3-2100-4992-a324-ad08011e05e3" target="_blank" rel="noopener">Thijs Roumen — Portable Laser Cutting · Panopto ↗</a></p>
+<p>使用方式：参考 concrete-first、progressive narrowing、checkpoint、return-to-opening 等讲法。Research structure 仍以 <a href="research-notes-68ddfcf2e6251c2519a02b29.html">当前 Research Agenda</a> 为准。</p>
 </section>
+
 </main>
 <footer class="aexam-footer"><div class="wrap"><span>Private planning page · noindex</span><span><a href="research-notes-68ddfcf2e6251c2519a02b29.html">Research Agenda</a> · <a href="index.html">Home</a></span></div></footer>
-</body>
-</html>
+</body></html>
