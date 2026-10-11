@@ -49,7 +49,18 @@
 .agenda-cross .legend-marker.core{background:#141414}
 .agenda-cross .legend-marker.related{background:#fff;border:1.5px solid #363636}
 .agenda-cross .legend-note{flex-basis:100%;text-align:center;color:#737373;font-size:.72rem}
-@media(max-width:540px){.agenda-cross-plot{overflow-x:auto;overscroll-behavior-inline:contain;scrollbar-width:thin}.agenda-cross svg{min-width:590px}.agenda-cross figcaption{column-gap:16px}.agenda-cross .legend-note{line-height:1.5}}
+.agenda-cross .agenda-cross-mobile{display:none}
+@media(max-width:600px){
+ .agenda-cross{margin:17px 0 5px;max-width:100%}
+ .agenda-cross-plot{overflow:visible}
+ .agenda-cross .agenda-cross-desktop{display:none}
+ .agenda-cross .agenda-cross-mobile{display:block;width:100%;min-width:0;max-width:100%;height:auto}
+ .agenda-cross .agenda-cross-mobile .axis-label{font-size:15px}
+ .agenda-cross .agenda-cross-mobile .project-label{font-size:18px}
+ .agenda-cross .agenda-cross-mobile .related-label{font-size:13.5px}
+ .agenda-cross figcaption{column-gap:16px;row-gap:6px;margin-top:3px}
+ .agenda-cross .legend-note{line-height:1.5}
+}
 </style>
 </head>
 <body>
@@ -61,8 +72,8 @@
 <section class="intro" id="about"><p class="eyebrow">Research vision · Human–computer interaction</p><h1>Beyond Design Outcomes</h1><p class="vision-subtitle">Interactive Tools for Design Reasoning</p><p class="lead">Interactive design tools have become increasingly capable of helping designers create and realize their ideas. Building on these advances, I investigate how interactive tools can also support designers as they reason through the decisions that shape their designs, from CAD modeling to fabrication.</p><p class="agenda-intro">As design goals, constraints, and possible solutions evolve, designers may encounter overlooked requirements, explore alternatives, or leave decisions open while new knowledge becomes available.</p><p class="research-question"><strong>Research question</strong> · How can interactive tools support informed design decisions across design and fabrication?</p>
 <p class="agenda-intro">I organize this research agenda around problem and solution reasoning, and the divergent and convergent activities that can occur within each. These directions overlap as designs develop.</p>
 <figure class="agenda-cross" aria-label="Qualitative positioning of research projects across problem and solution reasoning, and divergent and convergent activity">
-<div class="agenda-cross-plot" tabindex="0" role="group" aria-label="Research project map. On narrow screens, scroll horizontally to explore the whole map.">
-<svg viewBox="0 0 700 530" role="img" aria-labelledby="agenda-cross-title agenda-cross-desc" xmlns="http://www.w3.org/2000/svg">
+<div class="agenda-cross-plot">
+<svg class="agenda-cross-desktop" viewBox="0 0 700 530" role="img" aria-labelledby="agenda-cross-title agenda-cross-desc" xmlns="http://www.w3.org/2000/svg">
 <title id="agenda-cross-title">Research directions across problem and solution reasoning</title>
 <desc id="agenda-cross-desc">Black and white cross-axis research map. The horizontal axis spans problem reasoning on the left to solution reasoning on the right. The vertical axis spans divergent activity above to convergent activity below. The relative distances are interpretive, not measured scores. Solid markers show core projects: aCADemy, CAMeleon, FuzzyCAD. Open markers show related projects: Design with Myself, TOM Search, Y-AR.</desc>
 <line class="axis" x1="350" y1="60" x2="350" y2="457"/>
@@ -91,6 +102,34 @@
 <g><title>Y-AR: developing fabrication-ready wire structures through mixed reality</title>
 <circle class="related-dot" cx="564" cy="421" r="4.25"/>
 <text class="related-label" x="564" y="398" text-anchor="middle">Y-AR</text></g>
+</svg>
+<svg class="agenda-cross-mobile" viewBox="0 0 390 480" role="img" aria-labelledby="agenda-mobile-title agenda-mobile-desc" xmlns="http://www.w3.org/2000/svg">
+<title id="agenda-mobile-title">Research agenda project map, mobile layout</title>
+<desc id="agenda-mobile-desc">A complete black-and-white cross-axis map sized for phone screens. Problem is left, Solution is right, Divergent is up, and Convergent is down. Core projects are aCADemy at top left, CAMeleon at top right, and FuzzyCAD at bottom right. Related projects are Design with Myself at middle left, TOM Search near the middle right, and Y-AR at bottom right.</desc>
+<line class="axis" x1="195" y1="52" x2="195" y2="422"/>
+<line class="axis" x1="80" y1="254" x2="310" y2="254"/>
+<text class="axis-label" x="195" y="27" text-anchor="middle">Divergent</text>
+<text class="axis-label" x="195" y="454" text-anchor="middle">Convergent</text>
+<text class="axis-label" x="34" y="259" text-anchor="middle">Problem</text>
+<text class="axis-label" x="355" y="259" text-anchor="middle">Solution</text>
+<g><title>aCADemy: reflection on overlooked design considerations</title>
+<circle class="project-dot" cx="130" cy="134" r="3.4"/>
+<text class="project-label" x="130" y="116" text-anchor="middle">aCADemy</text></g>
+<g><title>CAMeleon: exploring fabrication alternatives</title>
+<circle class="project-dot" cx="290" cy="148" r="3.4"/>
+<text class="project-label" x="290" y="130" text-anchor="middle">CAMeleon</text></g>
+<g><title>FuzzyCAD: developing unresolved decisions</title>
+<circle class="project-dot" cx="259" cy="351" r="3.4"/>
+<text class="project-label" x="259" y="333" text-anchor="middle">FuzzyCAD</text></g>
+<g><title>Design with Myself: metacognitive monitoring during design</title>
+<circle class="related-dot" cx="98" cy="219" r="3.6"/>
+<text class="related-label" x="98" y="201" text-anchor="middle">Design with Myself</text></g>
+<g><title>TOM Search: finding assistive technology options</title>
+<circle class="related-dot" cx="263" cy="215" r="3.6"/>
+<text class="related-label" x="263" y="197" text-anchor="middle">TOM Search</text></g>
+<g><title>Y-AR: fabrication-ready wire structures</title>
+<circle class="related-dot" cx="319" cy="404" r="3.6"/>
+<text class="related-label" x="319" y="386" text-anchor="middle">Y-AR</text></g>
 </svg>
 </div>
 <figcaption>
