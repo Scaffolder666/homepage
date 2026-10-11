@@ -51,15 +51,16 @@
 .agenda-cross .legend-note{flex-basis:100%;text-align:center;color:#737373;font-size:.72rem}
 .agenda-cross .agenda-cross-mobile{display:none}
 @media(max-width:600px){
- .agenda-cross{margin:17px 0 5px;max-width:100%}
+ .agenda-cross{margin:10px 0 5px;max-width:100%}
  .agenda-cross-plot{overflow:visible}
  .agenda-cross .agenda-cross-desktop{display:none}
  .agenda-cross .agenda-cross-mobile{display:block;width:100%;min-width:0;max-width:100%;height:auto}
- .agenda-cross .agenda-cross-mobile .axis-label{font-size:15px}
- .agenda-cross .agenda-cross-mobile .project-label{font-size:18px}
- .agenda-cross .agenda-cross-mobile .related-label{font-size:13.5px}
- .agenda-cross figcaption{column-gap:16px;row-gap:6px;margin-top:3px}
- .agenda-cross .legend-note{line-height:1.5}
+ .agenda-cross .agenda-cross-mobile .axis{stroke-width:1.35}
+ .agenda-cross .agenda-cross-mobile .axis-label{font-size:14px}
+ .agenda-cross .agenda-cross-mobile .project-label{font-size:16.5px}
+ .agenda-cross .agenda-cross-mobile .related-label{font-size:12.5px}
+ .agenda-cross figcaption{column-gap:16px;row-gap:4px;margin-top:2px;font-size:.72rem}
+ .agenda-cross .legend-note{display:none}
 }
 </style>
 </head>
@@ -103,33 +104,33 @@
 <circle class="related-dot" cx="564" cy="421" r="4.25"/>
 <text class="related-label" x="564" y="398" text-anchor="middle">Y-AR</text></g>
 </svg>
-<svg class="agenda-cross-mobile" viewBox="0 0 390 480" role="img" aria-labelledby="agenda-mobile-title agenda-mobile-desc" xmlns="http://www.w3.org/2000/svg">
+<svg class="agenda-cross-mobile" viewBox="0 0 390 344" role="img" aria-labelledby="agenda-mobile-title agenda-mobile-desc" xmlns="http://www.w3.org/2000/svg">
 <title id="agenda-mobile-title">Research agenda project map, mobile layout</title>
-<desc id="agenda-mobile-desc">A complete black-and-white cross-axis map sized for phone screens. Problem is left, Solution is right, Divergent is up, and Convergent is down. Core projects are aCADemy at top left, CAMeleon at top right, and FuzzyCAD at bottom right. Related projects are Design with Myself at middle left, TOM Search near the middle right, and Y-AR at bottom right.</desc>
-<line class="axis" x1="195" y1="52" x2="195" y2="422"/>
-<line class="axis" x1="80" y1="254" x2="310" y2="254"/>
-<text class="axis-label" x="195" y="27" text-anchor="middle">Divergent</text>
-<text class="axis-label" x="195" y="454" text-anchor="middle">Convergent</text>
-<text class="axis-label" x="34" y="259" text-anchor="middle">Problem</text>
-<text class="axis-label" x="355" y="259" text-anchor="middle">Solution</text>
+<desc id="agenda-mobile-desc">A compact black-and-white map of six research projects on two axes. Problem reasoning is left, solution reasoning is right, divergent activity is above, and convergent below. Solid dots show aCADemy, CAMeleon, and FuzzyCAD. Open dots show Design with Myself, TOM Search, and Y-AR. Positions represent qualitative research emphasis.</desc>
+<line class="axis" x1="195" y1="40" x2="195" y2="309"/>
+<line class="axis" x1="72" y1="183" x2="318" y2="183"/>
+<text class="axis-label" x="195" y="20" text-anchor="middle">Divergent</text>
+<text class="axis-label" x="195" y="335" text-anchor="middle">Convergent</text>
+<text class="axis-label" x="32" y="188" text-anchor="middle">Problem</text>
+<text class="axis-label" x="356" y="188" text-anchor="middle">Solution</text>
 <g><title>aCADemy: reflection on overlooked design considerations</title>
-<circle class="project-dot" cx="130" cy="134" r="3.4"/>
-<text class="project-label" x="130" y="116" text-anchor="middle">aCADemy</text></g>
+<circle class="project-dot" cx="132" cy="87" r="3.1"/>
+<text class="project-label" x="132" y="72" text-anchor="middle">aCADemy</text></g>
 <g><title>CAMeleon: exploring fabrication alternatives</title>
-<circle class="project-dot" cx="290" cy="148" r="3.4"/>
-<text class="project-label" x="290" y="130" text-anchor="middle">CAMeleon</text></g>
+<circle class="project-dot" cx="282" cy="90" r="3.1"/>
+<text class="project-label" x="282" y="75" text-anchor="middle">CAMeleon</text></g>
 <g><title>FuzzyCAD: developing unresolved decisions</title>
-<circle class="project-dot" cx="259" cy="351" r="3.4"/>
-<text class="project-label" x="259" y="333" text-anchor="middle">FuzzyCAD</text></g>
+<circle class="project-dot" cx="244" cy="258" r="3.1"/>
+<text class="project-label" x="244" y="243" text-anchor="middle">FuzzyCAD</text></g>
 <g><title>Design with Myself: metacognitive monitoring during design</title>
-<circle class="related-dot" cx="98" cy="219" r="3.6"/>
-<text class="related-label" x="98" y="201" text-anchor="middle">Design with Myself</text></g>
+<circle class="related-dot" cx="111" cy="148" r="3.3"/>
+<text class="related-label" x="111" y="134" text-anchor="middle">Design with Myself</text></g>
 <g><title>TOM Search: finding assistive technology options</title>
-<circle class="related-dot" cx="263" cy="215" r="3.6"/>
-<text class="related-label" x="263" y="197" text-anchor="middle">TOM Search</text></g>
+<circle class="related-dot" cx="248" cy="148" r="3.3"/>
+<text class="related-label" x="248" y="134" text-anchor="middle">TOM Search</text></g>
 <g><title>Y-AR: fabrication-ready wire structures</title>
-<circle class="related-dot" cx="319" cy="404" r="3.6"/>
-<text class="related-label" x="319" y="386" text-anchor="middle">Y-AR</text></g>
+<circle class="related-dot" cx="294" cy="298" r="3.3"/>
+<text class="related-label" x="294" y="284" text-anchor="middle">Y-AR</text></g>
 </svg>
 </div>
 <figcaption>
