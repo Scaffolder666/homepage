@@ -33,22 +33,13 @@
 .agenda-intro{margin:16px 0 0;color:var(--muted);font-size:.94rem;line-height:1.6}
 .research-question{margin:14px 0 0;font-size:.94rem;line-height:1.6}
 .research-question strong{font-weight:700}
-/* Research-vision Double Diamond: two spaces, each with divergence and convergence. */
-.double-diamond{margin:20px 0 0}
-.double-diamond-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
-.diamond-panel{min-width:0}
-.diamond-panel h3{font-size:.93rem;line-height:1.4;text-align:center;margin:0 0 3px;color:var(--ink);font-weight:700}
-.diamond-panel .diamond-svg{display:block;width:100%;height:auto;overflow:visible}
-.diamond-svg .phase{font:700 17px/1 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#52616b;letter-spacing:.65px}
-.diamond-svg .project{font:750 24px/1 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#1d3040}
-.diamond-notes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:-2px 0 0}
-.diamond-notes div{min-width:0;border-top:2px solid #d5e0e5;padding:10px 2px 0}
-.diamond-notes div:nth-child(2){border-color:#becdd5}
-.diamond-notes strong{display:block;font-size:.82rem;font-weight:650;line-height:1.4}
-.diamond-notes span{display:block;color:var(--muted);font-size:.76rem;line-height:1.48;margin-top:5px}
-.double-diamond figcaption{margin:14px 0 0;font-size:.76rem;color:var(--muted);line-height:1.5}
-@media(max-width:690px){.double-diamond-grid{grid-template-columns:1fr;gap:24px}.diamond-panel{max-width:520px;width:100%;margin:0 auto}}
-
+/* Minimal monochrome research agenda map */
+.agenda-cross{margin:21px 0 4px;max-width:740px}
+.agenda-cross svg{display:block;width:100%;height:auto;background:#fff}
+.agenda-cross .axis{stroke:#111;stroke-width:1.8}
+.agenda-cross .axis-label{font:600 18px system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#111}
+.agenda-cross .project-label{font:650 23px system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#111}
+.agenda-cross .project-dot{fill:#111}
 </style>
 </head>
 <body>
@@ -59,48 +50,25 @@
 <main class="main" id="main">
 <section class="intro" id="about"><p class="eyebrow">Research vision · Human–computer interaction</p><h1>Beyond Design Outcomes</h1><p class="vision-subtitle">Interactive Tools for Design Reasoning</p><p class="lead">Interactive design tools have become increasingly capable of helping designers create and realize their ideas. Building on these advances, I investigate how interactive tools can also support designers as they reason through the decisions that shape their designs, from CAD modeling to fabrication.</p><p class="agenda-intro">As design goals, constraints, and possible solutions evolve, designers may encounter overlooked requirements, explore alternatives, or leave decisions open while new knowledge becomes available.</p><p class="research-question"><strong>Research question</strong> · How can interactive tools support informed design decisions across design and fabrication?</p>
 <p class="agenda-intro">I organize this research agenda around problem and solution reasoning, and the divergent and convergent activities that can occur within each. These directions overlap as designs develop.</p>
-<figure class="double-diamond" aria-label="Double Diamond map of four design reasoning research directions">
-<div class="double-diamond-grid">
-<div class="diamond-panel">
-<h3>01 &nbsp; Problem reasoning</h3>
-<svg class="diamond-svg" viewBox="0 0 480 260" role="img" aria-labelledby="problem-dd-title problem-dd-desc" xmlns="http://www.w3.org/2000/svg">
-<title id="problem-dd-title">Problem reasoning diamond</title>
-<desc id="problem-dd-desc">Divergent problem reasoning: aCADemy recognizes overlooked considerations. Convergent problem reasoning: future research will investigate clarifying uncertain goals and requirements.</desc>
-<path d="M14 130L240 12V248Z" fill="#e1edf1"/>
-<path d="M240 12L466 130L240 248Z" fill="#ecf1f3"/>
-<path d="M14 130L240 12L466 130L240 248Z" fill="none" stroke="#bcced7" stroke-width="2"/>
-<path d="M240 12V248" fill="none" stroke="#ffffff" stroke-width="2"/>
-<text class="phase" text-anchor="middle" x="151" y="119">DIVERGE</text>
-<text class="project" text-anchor="middle" x="151" y="153">aCADemy</text>
-<text class="phase" text-anchor="middle" x="330" y="119">CONVERGE</text>
-<text class="project" text-anchor="middle" x="330" y="153">Future work</text>
+<figure class="agenda-cross" aria-label="Research agenda as a black-and-white cross-axis diagram">
+<svg viewBox="0 0 700 470" role="img" aria-labelledby="agenda-cross-title agenda-cross-desc" xmlns="http://www.w3.org/2000/svg">
+<title id="agenda-cross-title">Research agenda: problem and solution reasoning by divergent and convergent activity</title>
+<desc id="agenda-cross-desc">A simple black and white cross. Problem reasoning is on the left and solution reasoning is on the right. Divergent activity is at the top and convergent at the bottom. aCADemy is at top left, future work bottom left, CAMeleon top right, and FuzzyCAD bottom right.</desc>
+<line class="axis" x1="350" y1="62" x2="350" y2="412"/>
+<line class="axis" x1="85" y1="235" x2="615" y2="235"/>
+<text class="axis-label" x="350" y="37" text-anchor="middle">Divergent</text>
+<text class="axis-label" x="350" y="449" text-anchor="middle">Convergent</text>
+<text class="axis-label" x="46" y="241" text-anchor="middle">Problem</text>
+<text class="axis-label" x="655" y="241" text-anchor="middle">Solution</text>
+<circle class="project-dot" cx="217" cy="138" r="3"/>
+<text class="project-label" x="217" y="120" text-anchor="middle">aCADemy</text>
+<circle class="project-dot" cx="483" cy="138" r="3"/>
+<text class="project-label" x="483" y="120" text-anchor="middle">CAMeleon</text>
+<circle class="project-dot" cx="217" cy="335" r="3"/>
+<text class="project-label" x="217" y="317" text-anchor="middle">Future work</text>
+<circle class="project-dot" cx="483" cy="335" r="3"/>
+<text class="project-label" x="483" y="317" text-anchor="middle">FuzzyCAD</text>
 </svg>
-<div class="diamond-notes">
-<div><strong>Recognizing overlooked considerations</strong><span>aCADemy · Reflective questions during CAD modeling</span></div>
-<div><strong>Clarifying uncertain goals and requirements</strong><span>Open direction for future investigation</span></div>
-</div>
-</div>
-<div class="diamond-panel">
-<h3>02 &nbsp; Solution reasoning</h3>
-<svg class="diamond-svg" viewBox="0 0 480 260" role="img" aria-labelledby="solution-dd-title solution-dd-desc" xmlns="http://www.w3.org/2000/svg">
-<title id="solution-dd-title">Solution reasoning diamond</title>
-<desc id="solution-dd-desc">Divergent solution reasoning: CAMeleon explores fabrication alternatives. Convergent solution reasoning: FuzzyCAD develops unresolved design decisions.</desc>
-<path d="M14 130L240 12V248Z" fill="#e8e9f0"/>
-<path d="M240 12L466 130L240 248Z" fill="#e5ede8"/>
-<path d="M14 130L240 12L466 130L240 248Z" fill="none" stroke="#c5cbd2" stroke-width="2"/>
-<path d="M240 12V248" fill="none" stroke="#ffffff" stroke-width="2"/>
-<text class="phase" text-anchor="middle" x="151" y="119">DIVERGE</text>
-<text class="project" text-anchor="middle" x="151" y="153">CAMeleon</text>
-<text class="phase" text-anchor="middle" x="330" y="119">CONVERGE</text>
-<text class="project" text-anchor="middle" x="330" y="153">FuzzyCAD</text>
-</svg>
-<div class="diamond-notes">
-<div><strong>Exploring alternative ways to fabricate</strong><span>CAMeleon · Guided workflow comparison</span></div>
-<div><strong>Developing unresolved design decisions</strong><span>FuzzyCAD · Contributions across expertise</span></div>
-</div>
-</div>
-</div>
-<figcaption>Research directions organized by problem and solution reasoning, with divergent and convergent activities in each. This is a conceptual map, not a fixed sequence.</figcaption>
 </figure></section>
 <section class="section" id="news"><div class="section-header"><h2>News</h2><p>Updates &amp; milestones</p></div><ul class="news"><li class="featured-news"><time datetime="2026-09-22">Sep 2026</time><div class="news-entry"><p>Presented the <a href="tom.html">TOM assistive technology search engine</a> with Maayan Keren and the TOM Global team at Cornell Tech's <a href="https://catai.ai.cornell.edu/summit.html">AI and Accessibility Summit 2026 ↗</a>.</p><a class="news-photo" href="tom.html" aria-label="TOM assistive technology search project"><img src="images/tom-summit-showcase.webp" width="160" height="214" loading="lazy" decoding="async" alt="Assistive technology showcase table at the AI and Accessibility Summit 2026"></a></div></li><li><time datetime="2026-06">Summer 2026</time><p>Siegel PiTech PhD Impact Fellow with <a href="https://www.tomglobal.org/">TOM Global</a>. Built a multi-source assistive technology search tool. <a href="tom.html">Project details ↗</a></p></li><li class="with-news-photo"><time datetime="2026-04">Apr 2026</time><div class="news-entry"><p>CAMeleon was accepted to <a href="https://dl.acm.org/doi/10.1145/3772318.3790516">ACM CHI 2026</a>; I attended and presented the work in Barcelona, April 13–17.</p><a class="news-photo landscape" href="cameleon.html" aria-label="CAMeleon project"><img src="images/cameleon-cover.png" loading="lazy" decoding="async" alt="CAMeleon fabrication workflow comparison interface"></a></div></li><li class="with-news-photo"><time datetime="2025-12-10">Dec 2025</time><div class="news-entry"><p>OriStitch was featured in <a href="https://news.cornell.edu/stories/2025/12/seamless-tech-oristitch-threads-computation-and-3d-textiles">Cornell News ↗</a>.</p><a class="news-photo landscape" href="https://news.cornell.edu/stories/2025/12/seamless-tech-oristitch-threads-computation-and-3d-textiles" aria-label="OriStitch Cornell News feature"><img src="images/news-oristitch-cornell.jpg" loading="lazy" decoding="async" alt="A hat fabricated with the OriStitch system"></a></div></li><li><time datetime="2025-11">Nov 2025</time><p>Y-AR and OriStitch were published at the ACM Symposium on Computational Fabrication.</p></li></ul><details class="older-news"><summary>Earlier news ↓</summary><ul class="news"><li class="with-news-photo"><time datetime="2025-11">Nov 2025</time><div class="news-entry"><p>2025 PiTech fellowship work featured in a <a href="https://www.pi.tech.cornell.edu/spotlight/making-environmental-data-more-accessible-through-a-digital-tool-for-nyc-flood-preparedness">Cornell spotlight ↗</a>.</p><a class="news-photo landscape" href="https://www.pi.tech.cornell.edu/spotlight/making-environmental-data-more-accessible-through-a-digital-tool-for-nyc-flood-preparedness" aria-label="Cornell PiTech flood preparedness spotlight"><img src="images/news-flood-spotlight.png" loading="lazy" decoding="async" alt="FloodMap NYC dashboard showing flood sensor, forecast, and street-level information"></a></div></li><li><time datetime="2025-06">Jun–Sep 2025</time><p>PiTech PhD Impact Fellow with NYC Mayor's Office of Climate &amp; Environmental Justice. <a href="https://environmental-dashboard-chi.vercel.app/">Flood dashboard ↗</a></p></li><li><time datetime="2024-11-05">Nov 2024</time><p>Released preprints for <a href="https://arxiv.org/abs/2410.18299">CAMeleon</a> and <a href="https://arxiv.org/abs/2410.23540">Y-AR</a>.</p></li><li><time datetime="2024-10-29">Oct 2024</time><p>Invited talk at Cornell Tech's XR Collaboratory.</p></li><li><time datetime="2024-03-20">Mar 2024</time><p>Invited talk at Carnegie Mellon University's Generative Systems for Design class.</p></li><li class="with-news-photo"><time datetime="2024">2024</time><div class="news-entry"><p>Received an <a href="https://tech.cornell.edu/news/xr-collaboratory-announces-inaugural-grant-winners/">XR Collaboratory Prototyping Grant ↗</a>.</p><a class="news-photo landscape" href="https://tech.cornell.edu/news/xr-collaboratory-announces-inaugural-grant-winners/" aria-label="XR Collaboratory Prototyping Grant announcement"><img src="images/news-xr-grant-hero.jpg" loading="lazy" decoding="async" alt="Shuo Feng with collaborators at Cornell Tech"></a></div></li></ul></details><p><a href="news.html">News archive ↗</a></p></section>
 <section class="section" id="research"><div class="section-header"><h2>Research</h2><p>Publications, ongoing research &amp; applied projects</p></div>
