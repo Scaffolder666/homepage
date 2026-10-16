@@ -46,6 +46,11 @@
 .agenda-cross .project-dot{fill:#101010}
 .agenda-cross .project-halo{fill:#dedede}
 .agenda-cross .fuzzy-inner-halo{fill:#bdbdbd}
+.agenda-cross .related-ring{fill:none;stroke:#797979;stroke-width:1.8;stroke-dasharray:3.5 3;stroke-linecap:round}
+.agenda-cross .related-label{font:500 13px system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#686868}
+.agenda-cross figcaption{margin:8px 0 0;color:#777;font-size:.77rem;line-height:1.5}
+.agenda-cross .legend-core{display:inline-block;width:9px;height:9px;border-radius:50%;background:#101010;vertical-align:middle;margin:0 5px 0 0}
+.agenda-cross .legend-related{display:inline-block;width:9px;height:9px;border-radius:50%;border:1.6px dashed #797979;vertical-align:middle;margin:0 5px 0 13px}
 .agenda-cross .agenda-cross-mobile{display:none}
 @media(min-width:981px){.intro{display:block}}
 @media(max-width:600px){
@@ -58,6 +63,9 @@
  .agenda-cross .agenda-cross-mobile .space-label{font-size:12px}
  .agenda-cross .agenda-cross-mobile .space-caption{font-size:9.5px}
  .agenda-cross .agenda-cross-mobile .project-label{font-size:12.5px}
+ .agenda-cross .agenda-cross-mobile .related-ring{stroke-width:1.35;stroke-dasharray:2.5 2.5}
+ .agenda-cross .agenda-cross-mobile .related-label{font-size:10.8px}
+ .agenda-cross figcaption{font-size:.68rem}
 }
 
 </style>
@@ -66,7 +74,7 @@
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header"><div class="wrap topbar"><a class="brand" href="#top">Shuo Feng.</a><nav class="topnav" aria-label="Main navigation"><a href="#about">About</a><a href="#news">News</a><a href="#research">Research</a><a class="cv-nav" href="cv.html">CV ↗</a><a href="#contact">Contact</a></nav></div></header>
 <div class="wrap layout" id="top">
-<aside class="profile" aria-label="Researcher profile"><img class="portrait" src="images/shuo-feng.jpg" alt="Portrait of Shuo Feng" width="170" height="170"><h2>Shuo Feng <span class="name-zh" lang="zh-Hans">丰硕</span></h2><p class="role">Ph.D. Student · Information Science</p><p class="affiliation">Cornell Tech, New York<br>Advisor: <a href="https://thijsroumen.eu/">Thijs Roumen</a></p><p class="interests">HCI · Interactive design tools · CAD · Digital fabrication · Human–AI interaction</p><div class="profile-links"><a href="mailto:sf522@cornell.edu">Email</a><a href="https://scholar.google.com/citations?user=c817UZgAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a><a href="https://github.com/shuofeng666">GitHub</a><a href="https://matteroftechlab.org/">Matter of Tech Lab</a><a href="cv.html">Curriculum vitae</a><a href="https://fengshuo2019.wixsite.com/sf2022/%E5%89%AF%E6%9C%AC-home-2" target="_blank" rel="noopener noreferrer">Architecture portfolio ↗</a></div></aside>
+<aside class="profile" aria-label="Researcher profile"><img class="portrait" src="images/shuo-feng.jpg" alt="Portrait of Shuo Feng" width="170" height="170"><h2>Shuo Feng <span class="name-zh" lang="zh-Hans">丰硕</span></h2><p class="role">Ph.D. Student · Information Science</p><p class="affiliation">Cornell Tech, New York<br>Advisor: <a href="https://thijsroumen.eu/">Thijs Roumen</a></p><p class="interests">HCI · Interactive design tools · CAD · Digital fabrication · Human–AI interaction</p><div class="profile-links"><a href="mailto:sf522@cornell.edu">Email</a><a href="https://scholar.google.com/citations?user=c817UZgAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a><a href="https://matteroftechlab.org/">Matter of Tech Lab</a><a href="cv.html">Curriculum vitae</a><a href="https://fengshuo2019.wixsite.com/sf2022/%E5%89%AF%E6%9C%AC-home-2" target="_blank" rel="noopener noreferrer">Architecture portfolio ↗</a></div></aside>
 <main class="main" id="main">
 <section class="intro" id="about">
 <p class="eyebrow">Research vision · Human–computer interaction</p>
@@ -80,7 +88,7 @@
 <div class="agenda-cross-plot">
 <svg class="agenda-cross-desktop" viewBox="0 0 740 410" role="img" aria-labelledby="framework-desktop-title framework-desktop-desc" xmlns="http://www.w3.org/2000/svg">
 <title id="framework-desktop-title">Research framework: problem and solution reasoning by participation</title>
-<desc id="framework-desktop-desc">Two-by-three framework with Problem Space above Solution Space, and Individual, Group, and Society columns. aCADemy is in the Individual Problem Space, CAMeleon in the Individual Solution Space, and FuzzyCAD in the Group column spanning both spaces. The Society column is open for future research.</desc>
+<desc id="framework-desktop-desc">Two-by-three framework with Problem Space above Solution Space, and Individual, Group, and Society columns. aCADemy is in the Individual Problem Space, CAMeleon in the Individual Solution Space, and FuzzyCAD in the Group column spanning both spaces. The smaller dashed markers show related research: Design with Myself in the Individual Problem Space, TOM Search near the Problem and Solution boundary, and Y-AR in the Individual Solution Space. Dashed markers show related work: Design with Myself, TOM Search, and Y-AR. Society remains an open research area.</desc>
 <text class="column-label" x="288" y="72" text-anchor="middle">Individual</text>
 <text class="column-label" x="460" y="72" text-anchor="middle">Group</text>
 <text class="column-label" x="632" y="72" text-anchor="middle">Society</text>
@@ -102,35 +110,35 @@
 <ellipse class="fuzzy-inner-halo" cx="460" cy="234" rx="20" ry="41"/>
 <circle class="project-dot" cx="460" cy="234" r="10"/>
 <text class="project-label" x="460" y="137" text-anchor="middle">FuzzyCAD</text>
+<!-- Smaller dashed rings represent related research, not new core projects. -->
+<g><title>Design with Myself: awareness of the designer's responses during design</title><circle class="related-ring" cx="345" cy="126" r="10.5"/><text class="related-label" x="295" y="111" text-anchor="middle">Design with Myself</text></g>
+<g><title>TOM Search: connect assistive needs to potential existing solutions</title><circle class="related-ring" cx="348" cy="236" r="10.5"/><text class="related-label" x="347" y="215" text-anchor="middle">TOM Search</text></g>
+<g><title>Y-AR: wire geometry design and fabrication in physical environments</title><circle class="related-ring" cx="345" cy="342" r="10.5"/><text class="related-label" x="345" y="367" text-anchor="middle">Y-AR</text></g>
 </svg>
-<svg class="agenda-cross-mobile" viewBox="0 0 390 308" role="img" aria-labelledby="framework-mobile-title framework-mobile-desc" xmlns="http://www.w3.org/2000/svg">
+<svg class="agenda-cross-mobile" viewBox="0 0 390 378" role="img" aria-labelledby="framework-mobile-title framework-mobile-desc" xmlns="http://www.w3.org/2000/svg">
 <title id="framework-mobile-title">Research framework, mobile layout</title>
-<desc id="framework-mobile-desc">Two-by-three diagram. Individual Problem Space: aCADemy; Individual Solution Space: CAMeleon; Group across both spaces: FuzzyCAD; Society remains an open research area.</desc>
+<desc id="framework-mobile-desc">Two-by-three framework. Core projects: aCADemy in Individual Problem, CAMeleon in Individual Solution, and FuzzyCAD in Group across both. Smaller dashed markers show Design with Myself, TOM Search, and Y-AR. Society is open research space.</desc>
 <text class="column-label" x="156" y="54" text-anchor="middle">Individual</text>
 <text class="column-label" x="244" y="54" text-anchor="middle">Group</text>
 <text class="column-label" x="332" y="54" text-anchor="middle">Society</text>
-<text class="space-label" x="2" y="128">Problem</text>
-<text class="space-label" x="2" y="143">Space</text>
-<text class="space-caption" x="2" y="158">What to achieve</text>
-<text class="space-label" x="2" y="208">Solution</text>
-<text class="space-label" x="2" y="223">Space</text>
-<text class="space-caption" x="2" y="238">How to achieve it</text>
-<rect class="matrix-outline" x="112" y="80" width="264" height="180"/>
-<line class="matrix-line" x1="200" y1="80" x2="200" y2="260"/>
-<line class="matrix-line" x1="288" y1="80" x2="288" y2="260"/>
-<line class="matrix-line" x1="112" y1="170" x2="376" y2="170"/>
-<circle class="project-halo" cx="156" cy="138" r="18"/>
-<circle class="project-dot" cx="156" cy="138" r="7"/>
-<text class="project-label" x="156" y="111" text-anchor="middle">aCADemy</text>
-<circle class="project-halo" cx="156" cy="227" r="18"/>
-<circle class="project-dot" cx="156" cy="227" r="7"/>
-<text class="project-label" x="156" y="199" text-anchor="middle">CAMeleon</text>
-<ellipse class="project-halo" cx="244" cy="170" rx="20" ry="51"/>
-<ellipse class="fuzzy-inner-halo" cx="244" cy="170" rx="13" ry="30"/>
-<circle class="project-dot" cx="244" cy="170" r="7"/>
-<text class="project-label" x="244" y="108" text-anchor="middle">FuzzyCAD</text>
+<text class="space-label" x="2" y="156">Problem</text><text class="space-label" x="2" y="171">Space</text><text class="space-caption" x="2" y="186">What to achieve</text>
+<text class="space-label" x="2" y="276">Solution</text><text class="space-label" x="2" y="291">Space</text><text class="space-caption" x="2" y="306">How to achieve it</text>
+<rect class="matrix-outline" x="112" y="88" width="264" height="250"/>
+<line class="matrix-line" x1="200" y1="88" x2="200" y2="338"/><line class="matrix-line" x1="288" y1="88" x2="288" y2="338"/>
+<line class="matrix-line" x1="112" y1="213" x2="376" y2="213"/>
+<circle class="project-halo" cx="150" cy="169" r="17"/><circle class="project-dot" cx="150" cy="169" r="7"/>
+<text class="project-label" x="150" y="199" text-anchor="middle">aCADemy</text>
+<circle class="project-halo" cx="149" cy="293" r="17"/><circle class="project-dot" cx="149" cy="293" r="7"/>
+<text class="project-label" x="149" y="325" text-anchor="middle">CAMeleon</text>
+<ellipse class="project-halo" cx="244" cy="213" rx="20" ry="77"/><ellipse class="fuzzy-inner-halo" cx="244" cy="213" rx="13" ry="35"/>
+<circle class="project-dot" cx="244" cy="213" r="7"/>
+<text class="project-label" x="244" y="123" text-anchor="middle">FuzzyCAD</text>
+<g><title>Design with Myself: reflecting on the designer's own responses</title><circle class="related-ring" cx="182" cy="118" r="8"/><text class="related-label" x="155" y="105" text-anchor="middle">Design with Myself</text></g>
+<g><title>TOM Search: connecting needs and candidate solutions</title><circle class="related-ring" cx="185" cy="213" r="8"/><text class="related-label" x="158" y="238" text-anchor="middle">TOM Search</text></g>
+<g><title>Y-AR: fabricable wire-form modeling</title><circle class="related-ring" cx="185" cy="279" r="8"/><text class="related-label" x="185" y="354" text-anchor="middle">Y-AR</text></g>
 </svg>
 </div>
+<figcaption><span class="legend-core" aria-hidden="true"></span>Core research <span class="legend-related" aria-hidden="true"></span>Related work</figcaption>
 </figure>
 </section>
 <section class="section" id="news"><div class="section-header"><h2>News</h2><p>Updates &amp; milestones</p></div><ul class="news"><li class="featured-news"><time datetime="2026-09-22">Sep 2026</time><div class="news-entry"><p>Presented the <a href="tom.html">TOM assistive technology search engine</a> with Maayan Keren and the TOM Global team at Cornell Tech's <a href="https://catai.ai.cornell.edu/summit.html">AI and Accessibility Summit 2026 ↗</a>.</p><a class="news-photo" href="tom.html" aria-label="TOM assistive technology search project"><img src="images/tom-summit-showcase.webp" width="160" height="214" loading="lazy" decoding="async" alt="Assistive technology showcase table at the AI and Accessibility Summit 2026"></a></div></li><li><time datetime="2026-06">Summer 2026</time><p>Siegel PiTech PhD Impact Fellow with <a href="https://www.tomglobal.org/">TOM Global</a>. Built a multi-source assistive technology search tool. <a href="tom.html">Project details ↗</a></p></li><li class="with-news-photo"><time datetime="2026-04">Apr 2026</time><div class="news-entry"><p>CAMeleon was accepted to <a href="https://dl.acm.org/doi/10.1145/3772318.3790516">ACM CHI 2026</a>; I attended and presented the work in Barcelona, April 13–17.</p><a class="news-photo landscape" href="cameleon.html" aria-label="CAMeleon project"><img src="images/cameleon-cover.png" loading="lazy" decoding="async" alt="CAMeleon fabrication workflow comparison interface"></a></div></li><li class="with-news-photo"><time datetime="2025-12-10">Dec 2025</time><div class="news-entry"><p>OriStitch was featured in <a href="https://news.cornell.edu/stories/2025/12/seamless-tech-oristitch-threads-computation-and-3d-textiles">Cornell News ↗</a>.</p><a class="news-photo landscape" href="https://news.cornell.edu/stories/2025/12/seamless-tech-oristitch-threads-computation-and-3d-textiles" aria-label="OriStitch Cornell News feature"><img src="images/news-oristitch-cornell.jpg" loading="lazy" decoding="async" alt="A hat fabricated with the OriStitch system"></a></div></li><li><time datetime="2025-11">Nov 2025</time><p>Y-AR and OriStitch were published at the ACM Symposium on Computational Fabrication.</p></li></ul><details class="older-news"><summary>Earlier news ↓</summary><ul class="news"><li class="with-news-photo"><time datetime="2025-11">Nov 2025</time><div class="news-entry"><p>2025 PiTech fellowship work featured in a <a href="https://www.pi.tech.cornell.edu/spotlight/making-environmental-data-more-accessible-through-a-digital-tool-for-nyc-flood-preparedness">Cornell spotlight ↗</a>.</p><a class="news-photo landscape" href="https://www.pi.tech.cornell.edu/spotlight/making-environmental-data-more-accessible-through-a-digital-tool-for-nyc-flood-preparedness" aria-label="Cornell PiTech flood preparedness spotlight"><img src="images/news-flood-spotlight.png" loading="lazy" decoding="async" alt="FloodMap NYC dashboard showing flood sensor, forecast, and street-level information"></a></div></li><li><time datetime="2025-06">Jun–Sep 2025</time><p>PiTech PhD Impact Fellow with NYC Mayor's Office of Climate &amp; Environmental Justice. <a href="https://environmental-dashboard-chi.vercel.app/">Flood dashboard ↗</a></p></li><li><time datetime="2024-11-05">Nov 2024</time><p>Released preprints for <a href="https://arxiv.org/abs/2410.18299">CAMeleon</a> and <a href="https://arxiv.org/abs/2410.23540">Y-AR</a>.</p></li><li><time datetime="2024-10-29">Oct 2024</time><p>Invited talk at Cornell Tech's XR Collaboratory.</p></li><li><time datetime="2024-03-20">Mar 2024</time><p>Invited talk at Carnegie Mellon University's Generative Systems for Design class.</p></li><li class="with-news-photo"><time datetime="2024">2024</time><div class="news-entry"><p>Received an <a href="https://tech.cornell.edu/news/xr-collaboratory-announces-inaugural-grant-winners/">XR Collaboratory Prototyping Grant ↗</a>.</p><a class="news-photo landscape" href="https://tech.cornell.edu/news/xr-collaboratory-announces-inaugural-grant-winners/" aria-label="XR Collaboratory Prototyping Grant announcement"><img src="images/news-xr-grant-hero.jpg" loading="lazy" decoding="async" alt="Shuo Feng with collaborators at Cornell Tech"></a></div></li></ul></details><p><a href="news.html">News archive ↗</a></p></section>
@@ -147,7 +155,7 @@
 <article class="work" data-topics="ai immersive"><a class="media" href="https://dail.human.cornell.edu/multimind" aria-label="Multi-Self project"><img loading="lazy" decoding="async" src="images/multi-self.jpg" alt="EEG headset and VR setup for the Multi-Self project"></a><div class="work-info"><p class="meta"><span class="tag">Published</span> International Journal of Human–Computer Studies · 2024</p><h3><a href="https://www.sciencedirect.com/science/article/pii/S1071581924000132?via%3Dihub">Design with Myself: A Brain–Computer Interface Design Tool That Predicts Live Emotion to Enhance Metacognitive Monitoring of Designers</a></h3><p class="authors">Qi Yang, <strong>Shuo Feng</strong>, Tianlin Zhao, Saleh Kalantari</p><p class="desc">Multi-Self is a BCI–VR design tool that provides real-time visual feedback about designers' emotional responses to support metacognitive monitoring. A pilot study with 24 participants reported increased design exploration and self-awareness, while responses to the accuracy of the emotional feedback were mixed.</p><div class="keywords" aria-label="Project keywords"><span class="keyword">Brain–computer interface</span><span class="keyword">Virtual reality</span><span class="keyword">Metacognition</span></div><div class="project-links"><a href="https://dail.human.cornell.edu/multimind" title="DAIL Multi-Self project page">Project</a><a href="https://www.sciencedirect.com/science/article/pii/S1071581924000132?via%3Dihub" title="Published journal article">Paper</a><a href="https://dail.human.cornell.edu/multimind?pgid=lfes1859-fe532265-0016-467a-b5c9-0e2d7c4bbbdb" title="Multi-Self image gallery">Gallery</a></div></div></article>
 <article class="work" data-topics="immersive"><a class="media photo" href="https://dail.human.cornell.edu/projectsdail/releev%3A-modular-biofeedback-shape-changing-environment-for-stress-management" aria-label="Releev and Emotive Room project"><img loading="lazy" decoding="async" src="images/emotive-room.jpg" alt="Emotive Room modular responsive installation illuminated in blue and purple"></a><div class="work-info"><p class="meta"><span class="tag">Published</span> ACADIA · 2023</p><h3><a href="https://papers.cumincad.org/cgi-bin/works/paper/acadia23_v2_494">Emotive Room: A BCI Interactive Architectural Interface</a></h3><p class="authors"><strong>Shuo Feng</strong>, Saleh Kalantari, Jenny Sabin</p><p class="desc">Emotive Room explores how an interactive architectural environment can respond to people's emotional states through real-time brain–computer interaction. By changing spatial color and form in response to stress-related feedback, the project investigates responsive environments that may support calmness and well-being.</p><div class="keywords" aria-label="Project keywords"><span class="keyword">Brain–computer interface</span><span class="keyword">Responsive architecture</span><span class="keyword">Biofeedback</span></div><div class="project-links"><a href="https://dail.human.cornell.edu/projectsdail/releev%3A-modular-biofeedback-shape-changing-environment-for-stress-management" title="Releev project page at DAIL">Project</a><a href="https://papers.cumincad.org/cgi-bin/works/paper/acadia23_v2_494" title="Emotive Room paper at CumInCAD">Paper</a></div></div></article>
 </div></section>
-<section class="section" id="contact"><div class="section-header"><h2>Contact</h2></div><div class="contact-card"><p><strong>Shuo Feng</strong> · Ph.D. Student, Information Science · Cornell Tech</p><p><a href="mailto:sf522@cornell.edu">sf522@cornell.edu</a> · <a href="https://scholar.google.com/citations?user=c817UZgAAAAJ&amp;hl=en">Google Scholar</a> · <a href="https://github.com/shuofeng666">GitHub</a> · <a href="cv.html">CV</a></p></div></section>
+<section class="section" id="contact"><div class="section-header"><h2>Contact</h2></div><div class="contact-card"><p><strong>Shuo Feng</strong> · Ph.D. Student, Information Science · Cornell Tech</p><p><a href="mailto:sf522@cornell.edu">sf522@cornell.edu</a> · <a href="https://scholar.google.com/citations?user=c817UZgAAAAJ&amp;hl=en">Google Scholar</a> ·  · <a href="cv.html">CV</a></p></div></section>
 </main></div><footer class="footer"><div class="wrap"><span>© 2026 Shuo Feng</span><span><a href="#top">Back to top ↑</a></span></div></footer>
 <script>
 (function(){
