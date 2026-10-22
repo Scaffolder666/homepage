@@ -609,9 +609,9 @@
 }
 .home-page .profile-identity { grid-area:identity;min-width:0; }
 .home-page .profile .portrait {
-  grid-area:portrait;
   grid-column:auto;
   grid-row:auto;
+  grid-area:portrait;
 }
 .home-page .profile-identity h2,
 .home-page .profile-identity .role,
@@ -620,15 +620,15 @@
   grid-row:auto;
 }
 .home-page .profile .interests {
-  grid-area:interests;
   grid-column:auto;
   grid-row:auto;
+  grid-area:interests;
   margin-top:13px;
 }
 .home-page .profile .profile-links {
-  grid-area:links;
   grid-column:auto;
   grid-row:auto;
+  grid-area:links;
   margin-top:13px;
 }
 @media(min-width:761px) and (max-width:1000px) {
