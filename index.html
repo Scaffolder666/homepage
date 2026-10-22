@@ -77,9 +77,24 @@
 </head>
 <body class="home-page">
 <a class="skip" href="#main">Skip to content</a>
-<header class="site-header"><div class="wrap topbar"><a class="brand" href="#top">Shuo Feng.</a><nav class="topnav" aria-label="Main navigation"><a href="#about">About</a><a href="#news">News</a><a href="#research">Research</a><a href="#outside-lab">Life</a><a class="cv-nav" href="cv.html">CV ↗</a><a href="#contact">Contact</a></nav></div></header>
+<header class="site-header"><div class="wrap topbar"><a class="brand" href="#top">Shuo Feng.</a><button class="mobile-menu-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false"><span>Menu</span><span class="menu-lines" aria-hidden="true"><i></i><i></i></span></button><nav class="topnav" id="primary-navigation" aria-label="Main navigation"><a href="#about">About</a><a href="#news">News</a><a href="#research">Research</a><a href="#outside-lab">Life</a><a class="cv-nav" href="cv.html">CV ↗</a><a href="#contact">Contact</a></nav></div></header>
 <div class="wrap layout" id="top">
-<aside class="profile" aria-label="Researcher profile"><img class="portrait" src="images/shuo-feng.jpg" alt="Portrait of Shuo Feng" width="170" height="170"><h2>Shuo Feng <span class="name-zh" lang="zh-Hans">丰硕</span></h2><p class="role">Ph.D. Candidate · Information Science</p><p class="affiliation">Cornell Tech, New York<br>Advisor: <a href="https://thijsroumen.eu/">Thijs Roumen</a></p><p class="interests">HCI · Interactive design tools · CAD · Digital fabrication · Human–AI interaction</p><div class="profile-links"><a href="mailto:sf522@cornell.edu">Email</a><a href="https://scholar.google.com/citations?user=c817UZgAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a><a href="https://matteroftechlab.org/">Matter of Tech Lab</a><a href="cv.html">Curriculum vitae</a><a href="https://fengshuo2019.wixsite.com/sf2022/%E5%89%AF%E6%9C%AC-home-2" target="_blank" rel="noopener noreferrer">Architecture portfolio ↗</a></div></aside>
+<aside class="profile" aria-label="Researcher profile">
+<img class="portrait" src="images/shuo-feng.jpg" alt="Portrait of Shuo Feng" width="184" height="184">
+<div class="profile-identity">
+<h2>Shuo Feng <span class="name-zh" lang="zh-Hans">丰硕</span></h2>
+<p class="role">Ph.D. Candidate · Information Science</p>
+<p class="affiliation">Cornell Tech, New York<br>Advisor: <a href="https://thijsroumen.eu/">Thijs Roumen</a></p>
+</div>
+<p class="interests">HCI · Interactive design tools · CAD · Digital fabrication · Human–AI interaction</p>
+<div class="profile-links">
+<a href="mailto:sf522@cornell.edu">Email</a>
+<a href="https://scholar.google.com/citations?user=c817UZgAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+<a href="cv.html">Curriculum vitae</a>
+<a href="https://matteroftechlab.org/">Matter of Tech Lab</a>
+<a href="https://fengshuo2019.wixsite.com/sf2022/%E5%89%AF%E6%9C%AC-home-2" target="_blank" rel="noopener noreferrer">Architecture portfolio ↗</a>
+</div>
+</aside>
 <main class="main" id="main">
 <section class="intro" id="about">
 <div class="vision-hero">
@@ -203,6 +218,25 @@
     }
     select.addEventListener('change',function(){applyFilter(select.value);});
     applyFilter(select.value);
+  }
+  const menuButton=document.querySelector('.mobile-menu-toggle');
+  const siteHeader=document.querySelector('.site-header');
+  if(menuButton&&siteHeader){
+    function closeMenu(){
+      menuButton.setAttribute('aria-expanded','false');
+      siteHeader.classList.remove('menu-open');
+    }
+    menuButton.addEventListener('click',function(){
+      const open=menuButton.getAttribute('aria-expanded')!=='true';
+      menuButton.setAttribute('aria-expanded',String(open));
+      siteHeader.classList.toggle('menu-open',open);
+    });
+    siteHeader.querySelectorAll('.topnav a').forEach(function(link){
+      link.addEventListener('click',closeMenu);
+    });
+    document.addEventListener('keydown',function(event){if(event.key==='Escape')closeMenu();});
+    document.addEventListener('click',function(event){if(!siteHeader.contains(event.target))closeMenu();});
+    window.addEventListener('resize',function(){if(window.innerWidth>760)closeMenu();});
   }
   const nav=Array.from(document.querySelectorAll('.topnav a[href^="#"]')).map(function(link){return {link:link,section:document.getElementById(link.getAttribute('href').slice(1))};}).filter(function(item){return item.section;});
   if(nav.length){
