@@ -151,7 +151,7 @@
   margin:0;
   padding:10px 0;
   min-height:0;
-  border:0;
+  border:0 !important;
   border-bottom:1px solid #ededed !important;
   border-radius:0;
   background:transparent;
