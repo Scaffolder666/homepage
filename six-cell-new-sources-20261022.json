@@ -772,5 +772,77 @@
     "activity": "创新动机、版本与共同生产",
     "description": "分析 3D 打印社区成员参与创新和分享设计的集体动机",
     "status": "已核对论文来源与发表信息"
+  },
+  {
+    "title": "OSINT Clinic: Co-designing AI-Augmented Collaborative OSINT Investigations for Vulnerability Assessment",
+    "url": "https://doi.org/10.1145/3706598.3713283",
+    "cell": "p-g",
+    "domain": "群体调查／人-AI 设计",
+    "activity": "跨角色领域知识与问题理解",
+    "description": "共同设计工作坊整合不同调查参与者的目标、能力与 AI 应用情境",
+    "status": "已核对来源与论文主题"
+  },
+  {
+    "title": "Participatory Design through the Lenses of Women Architects and Designers",
+    "url": "https://doi.org/10.1145/3796624.3796660",
+    "cell": "p-g",
+    "domain": "建筑／参与式设计",
+    "activity": "设计师与使用者共同定义需求",
+    "description": "从女建筑师与设计从业者视角审视实际参与式设计实践",
+    "status": "已核对来源与论文主题"
+  },
+  {
+    "title": "Escape or D13: Understanding Youth Perspectives of AI through Educational Game Co-design",
+    "url": "https://doi.org/10.1145/3706598.3714037",
+    "cell": "p-g",
+    "domain": "教育／游戏设计",
+    "activity": "共同确定目标与学习内容",
+    "description": "通过学生共同设计教育游戏理解青年对 AI 的观点和学习需求",
+    "status": "已核对来源与论文主题"
+  },
+  {
+    "title": "Co-Creating Educational Futures: How Speculative Prompting Shapes AI-Generated Design Fiction",
+    "url": "https://doi.org/10.1145/3800645.3812953",
+    "cell": "p-g",
+    "domain": "设计教育／未来构想",
+    "activity": "群体形成未来学习情境",
+    "description": "利用推测式提示和设计虚构探索 AI 支持的未来教育情境",
+    "status": "已核对来源与论文主题"
+  },
+  {
+    "title": "AI Across Cultures: Co-Designing Equitable and Culturally Grounded Futures",
+    "url": "https://doi.org/10.1145/3772363.3778692",
+    "cell": "p-c",
+    "domain": "社区／文化设计",
+    "activity": "社区价值与未来目标",
+    "description": "CHI 2026 工作坊论文，讨论低资源语言和多样文化社区的共同设计议程",
+    "status": "CHI 工作坊论文"
+  },
+  {
+    "title": "Finding the Unicorn within a Million Patches: A Material-Driven Journey into the Hidden Layers of a Diffusion Model",
+    "url": "https://doi.org/10.1145/3803784.3809289",
+    "cell": "s-g",
+    "domain": "材料／跨学科交互设计",
+    "activity": "模型内部特征作为设计材料",
+    "description": "设计师和可解释性研究者共同探索扩散模型内部表示的交互材料",
+    "status": "已核对来源与论文主题"
+  },
+  {
+    "title": "Unlocking Innovation: The Dynamics of User Engagement in an Open-source 3D Printer Community",
+    "url": "https://doi.org/10.1371/journal.pone.0321963",
+    "cell": "s-c",
+    "domain": "开源硬件／社区制造",
+    "activity": "社区持续参与与设计复用",
+    "description": "研究开源 3D 打印机社区的参与和创新机制",
+    "status": "已核对来源与论文主题"
+  },
+  {
+    "title": "Open Design: Contributions, Solutions, Processes and Projects",
+    "url": "https://doi.org/10.2752/175630614X14056185480069",
+    "cell": "s-c",
+    "domain": "开放设计／社区",
+    "activity": "跨贡献者方案与设计过程共享",
+    "description": "分析开放设计实践中的贡献方式、解决方案、过程和项目结构",
+    "status": "已核对来源与论文主题"
   }
 ]
