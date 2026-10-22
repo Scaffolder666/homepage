@@ -1,0 +1,325 @@
+/* Compact academic homepage, informed by Matter of Tech Lab's lightweight
+   Bootstrap site: simple text hierarchy, flat items, Cornell-red links.
+   Homepage-only overrides keep the publication and CV pages untouched. */
+.home-page {
+  --blue:#b31b1b;
+  --blue-light:#fdf7f7;
+  --bg:#fff;
+  --body:#4b535b;
+  --line:#e8e8e8;
+  background:#fff;
+}
+.home-page .site-header {
+  background:#fff; /* Solid background so scrolled text cannot show through */
+  box-shadow:0 2px 4px rgb(179 27 27 / .05);
+  border-bottom:1px solid #efefef;
+}
+.home-page .topbar { min-height:59px; }
+.home-page .topnav a { font-size:.88rem; }
+.home-page .wrap { width:min(1080px,calc(100% - 64px)); }
+.home-page .layout { max-width:1080px;padding-top:32px;padding-bottom:56px; }
+.home-page .profile {
+  grid-template-columns:minmax(0,1fr) 154px;
+  column-gap:30px;
+  padding-bottom:25px;
+  margin-bottom:31px;
+}
+.home-page .portrait,
+.home-page .profile .portrait {
+  width:154px;
+  height:154px;
+  border-radius:4px;
+  box-shadow:none;
+}
+.home-page .profile h2 {font-size:2.35rem;line-height:1.15;margin-bottom:6px}
+.home-page .role {font-size:1rem}
+.home-page .affiliation {font-size:.9rem;line-height:1.53;margin-top:4px}
+.home-page .profile .interests {font-size:.875rem;line-height:1.53;margin-top:9px}
+.home-page .profile .profile-links {margin-top:9px;gap:1px 18px}
+.home-page .profile-links a {
+  font-size:.855rem;
+  min-height:29px;
+  padding:3px 0;
+  border:0;
+  background:none;
+  border-radius:0;
+  text-decoration:none;
+  color:var(--blue);
+}
+.home-page .profile-links a:hover {text-decoration:underline;text-underline-offset:3px}
+.home-page .vision-hero {padding-bottom:20px}
+.home-page .vision-hero .eyebrow {
+  font-size:.7rem;
+  color:#9c2730;
+  letter-spacing:.055em;
+  margin-bottom:8px;
+}
+.home-page .vision-hero h1 {
+  font-size:clamp(2.05rem,3.2vw,2.65rem);
+  line-height:1.14;
+  letter-spacing:-.035em;
+  margin-bottom:4px;
+}
+.home-page .vision-hero .vision-subtitle {
+  font-size:1.08rem;
+  margin:0 0 13px;
+  font-weight:550;
+}
+.home-page .vision-hero .lead {
+  max-width:83ch;
+  font-size:1.015rem;
+  line-height:1.64;
+}
+.home-page .vision-context {
+  gap:32px;
+  margin:8px 0 18px;
+  padding-top:17px;
+}
+.home-page .context-label,
+.home-page .framework-kicker {
+  font-size:.72rem;
+  letter-spacing:.04em;
+  margin-bottom:7px;
+}
+.home-page .context-block .agenda-intro {
+  font-size:.91rem;
+  line-height:1.67;
+}
+.home-page .question-panel {
+  background:transparent;
+  border-left:2px solid var(--blue);
+  border-radius:0;
+  padding:9px 18px;
+  margin:18px 0 25px;
+}
+.home-page .question-panel .research-question {
+  font-size:.96rem;
+  line-height:1.56;
+}
+.home-page .question-panel .research-question strong {
+  margin-bottom:2px;
+  font-size:.71rem;
+}
+.home-page .framework-head {
+  display:block;
+  grid-template-columns:none;
+  margin:0 0 7px;
+  max-width:100%;
+}
+.home-page .framework-head .framework-kicker {
+  display:block;
+  margin:0 0 8px;
+}
+.home-page .intro .framework-head .agenda-intro,
+.home-page .framework-head .agenda-intro {
+  display:block;
+  grid-column:auto;
+  width:auto;
+  max-width:88ch;
+  margin:0;
+  font-size:.925rem;
+  line-height:1.66;
+}
+.home-page .agenda-cross {
+  max-width:755px;
+  margin:14px auto 0;
+  padding:9px 8px 4px;
+  border:0;
+  border-radius:0;
+  background:transparent;
+  box-shadow:none;
+}
+.home-page .agenda-cross figcaption {font-size:.72rem;margin-top:2px}
+.home-page .section,
+.home-page #research {margin-top:49px}
+.home-page .section-header {
+  margin-bottom:12px;
+  padding-bottom:9px;
+  border-bottom:1px solid #e5e5e5;
+}
+.home-page .section-header h2 {font-size:1.8rem;line-height:1.2;letter-spacing:-.02em}
+.home-page .section-header p {font-size:.79rem}
+/* News. Every item has the same flat date + content + optional thumbnail
+   structure; no featured card or extra-large A-exam announcement. */
+.home-page #news .news {list-style:none;margin:0;padding:0}
+.home-page #news .news li,
+.home-page #news .news .aexam-news {
+  display:grid;
+  grid-template-columns:112px minmax(0,1fr);
+  align-items:start;
+  gap:15px;
+  margin:0;
+  padding:10px 0;
+  min-height:0;
+  border:0;
+  border-bottom:1px solid #ededed !important;
+  border-radius:0;
+  background:transparent;
+  box-shadow:none;
+}
+.home-page #news .news li:last-child {border-bottom:0!important}
+.home-page #news .news time {
+  padding-top:2px;
+  font-size:.81rem;
+  line-height:1.5;
+  color:#71777b;
+  font-weight:600;
+}
+.home-page #news .news p,
+.home-page #news .aexam-news p {
+  margin:0!important;
+  max-width:none;
+  font-size:.91rem;
+  line-height:1.57;
+  color:#424a50;
+}
+.home-page #news .news-entry,
+.home-page #news .featured-news .news-entry,
+.home-page #news .with-news-photo .news-entry,
+.home-page #news .aexam-news-entry {
+  display:flex;
+  flex-direction:row;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:16px;
+  min-width:0;
+}
+.home-page #news .news-entry>p,
+.home-page #news .aexam-news-entry>p {flex:1 1 0;min-width:0}
+.home-page #news .news-photo {
+  display:block;
+  flex:0 0 98px;
+  width:98px;
+  border:0;
+  border-radius:3px;
+  overflow:hidden;
+  background:#f6f6f6;
+}
+.home-page #news .news-photo img,
+.home-page #news .news-photo.landscape img {
+  width:98px;
+  height:70px;
+  aspect-ratio:auto;
+  object-fit:cover;
+}
+.home-page #news .aexam-news-gallery {
+  flex:0 0 98px;
+  display:flex;
+  flex-direction:column;
+  flex-wrap:nowrap;
+  align-items:stretch;
+  justify-content:flex-start;
+  gap:5px;
+  width:98px;
+  margin:0;
+}
+.home-page #news .aexam-news-gallery a {
+  display:block;
+  width:98px;
+  max-width:98px;
+  border:0;
+  border-radius:3px;
+  background:#f6f6f6;
+  overflow:hidden;
+}
+.home-page #news .aexam-news-gallery img {
+  display:block;
+  width:98px;
+  height:65px;
+  max-width:none;
+  object-fit:cover;
+  border-radius:0;
+}
+.home-page #news .older-news {margin:0}
+.home-page #news .older-news summary {min-height:34px;margin:2px 0 0;padding:4px 0;font-size:.86rem}
+.home-page #news>p:last-child {margin:5px 0 0;font-size:.85rem}
+.home-page #research .filter-panel {
+  padding:8px 12px;
+  margin:0 0 8px;
+  border-radius:3px;
+  background:#fafafa;
+}
+.home-page #research .work {
+  grid-template-columns:220px minmax(0,1fr);
+  gap:23px;
+  padding:19px 0;
+}
+.home-page #research .work .media {height:149px;border-radius:3px}
+.home-page .work h3 {font-size:1.14rem;line-height:1.38;margin-bottom:6px}
+.home-page .work .meta {font-size:.755rem;margin-bottom:5px}
+.home-page .work .authors {font-size:.79rem;line-height:1.54;margin-bottom:6px}
+.home-page .work .desc {font-size:.895rem;line-height:1.58}
+.home-page .work .keywords {margin-top:10px}
+.home-page .work .project-links {margin-top:8px}
+@media(max-width:1000px) and (min-width:761px){
+  .home-page .work {grid-template-columns:195px minmax(0,1fr)}
+  .home-page .profile {grid-template-columns:minmax(0,1fr) 145px}
+  .home-page .portrait,.home-page .profile .portrait {width:145px;height:145px}
+  .home-page .framework-head {display:block}
+}
+@media(max-width:760px){
+  .home-page .wrap {width:calc(100% - 32px)}
+  .home-page .topbar {min-height:53px}
+  .home-page .layout {padding-top:19px;padding-bottom:42px}
+  .home-page .profile {
+    grid-template-columns:70px minmax(0,1fr);
+    gap:0 12px;
+    padding-bottom:18px;
+    margin-bottom:23px;
+  }
+  .home-page .profile .portrait,.home-page .portrait {width:70px;height:70px}
+  .home-page .profile-identity h2 {font-size:clamp(1.35rem,5.5vw,1.72rem)}
+  .home-page .profile .interests {font-size:.79rem;margin-top:10px}
+  .home-page .profile .profile-links {margin-top:10px}
+  .home-page .profile-links a {border:1px solid #ededed;border-radius:4px;padding:5px 2px;min-height:33px;font-size:.72rem}
+  .home-page .vision-hero {padding-bottom:13px}
+  .home-page .vision-hero h1 {font-size:clamp(1.93rem,8vw,2.32rem)}
+  .home-page .vision-hero .vision-subtitle {font-size:.98rem;margin-bottom:10px}
+  .home-page .vision-hero .lead {font-size:.935rem;line-height:1.6}
+  .home-page .vision-context {display:block;padding-top:13px;margin:7px 0 11px}
+  .home-page .context-block+.context-block {margin-top:16px}
+  .home-page .context-block .agenda-intro {font-size:.9rem;line-height:1.64}
+  .home-page .question-panel {margin:16px 0 22px;padding:8px 13px}
+  .home-page .framework-head {display:block;margin:0 0 8px}
+  .home-page .intro .framework-head .agenda-intro,
+  .home-page .framework-head .agenda-intro {width:100%;font-size:.91rem;line-height:1.62}
+  .home-page .agenda-cross {width:100%;margin:13px 0 0;padding:0}
+  .home-page .agenda-cross figcaption {font-size:.71rem}
+  .home-page .section,.home-page #research {margin-top:38px}
+  .home-page .section-header {margin-bottom:8px}
+  .home-page .section-header h2 {font-size:1.58rem}
+  .home-page #news .news li,
+  .home-page #news .news .aexam-news {
+    display:block;
+    padding:11px 0;
+  }
+  .home-page #news .news time {margin-bottom:4px;font-size:.74rem}
+  .home-page #news .news p,.home-page #news .aexam-news p {font-size:.88rem;line-height:1.55}
+  .home-page #news .news-entry,
+  .home-page #news .featured-news .news-entry,
+  .home-page #news .with-news-photo .news-entry,
+  .home-page #news .aexam-news-entry {
+    display:block;
+  }
+  .home-page #news .news-photo {width:106px;margin-top:7px}
+  .home-page #news .news-photo img,
+  .home-page #news .news-photo.landscape img {width:106px;height:68px}
+  .home-page #news .aexam-news-gallery {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    gap:7px;
+    width:auto;
+    margin-top:8px;
+  }
+  .home-page #news .aexam-news-gallery a {width:96px;max-width:96px}
+  .home-page #news .aexam-news-gallery img {width:96px;height:68px}
+  .home-page #research .work {display:flex;flex-direction:column;gap:0;padding:17px 0}
+  .home-page #research .work .media {height:auto;max-height:150px;aspect-ratio:2/1}
+  .home-page .work h3 {font-size:1.08rem}
+  .home-page .work .desc {font-size:.895rem;line-height:1.62}
+}
+@media(max-width:400px){
+  .home-page .profile {grid-template-columns:64px minmax(0,1fr);column-gap:10px}
+  .home-page .profile .portrait {width:64px;height:64px}
+}
