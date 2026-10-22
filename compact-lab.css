@@ -373,3 +373,46 @@
     display:block;
   }
 }
+
+/* Integrated research narrative: the introductory columns and framework
+   should read as one continuous editorial flow on desktop. */
+@media (min-width: 961px) {
+  .home-page .vision-hero {
+    padding-bottom: 11px;
+  }
+  .home-page .vision-context {
+    border-top: 0;
+    padding-top: 4px;
+    margin: 0;
+    column-gap: 32px;
+    row-gap: 0;
+  }
+  .home-page .framework-layout {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.13fr);
+    gap: 24px;
+    margin: 7px 0 0;
+    align-items: start;
+  }
+  .home-page .framework-layout .framework-head {
+    align-self: start;
+    padding-top: 19px;
+  }
+  .home-page .framework-layout .framework-kicker {
+    margin: 0 0 9px;
+  }
+  .home-page .framework-layout .framework-head .agenda-intro {
+    max-width: 51ch;
+    font-size: .94rem;
+    line-height: 1.66;
+  }
+  .home-page .framework-layout .agenda-cross {
+    justify-self: end;
+    width: 100%;
+    max-width: 526px;
+    margin: 0;
+  }
+  .home-page .framework-layout .agenda-cross figcaption {
+    margin: 0;
+    font-size: .68rem;
+  }
+}
