@@ -323,3 +323,53 @@
   .home-page .profile {grid-template-columns:64px minmax(0,1fr);column-gap:10px}
   .home-page .profile .portrait {width:64px;height:64px}
 }
+
+
+/* Research framework: explanatory copy and the original vector matrix
+   share a balanced row on wide screens; small screens retain a full-width
+   reading flow and the existing purpose-built mobile SVG. */
+@media (min-width: 961px) {
+  .home-page .framework-layout {
+    display:grid;
+    grid-template-columns:minmax(0, 0.95fr) minmax(0, 1.65fr);
+    align-items:center;
+    gap:clamp(22px, 3vw, 36px);
+    margin:23px 0 2px;
+  }
+  .home-page .framework-layout .framework-head {
+    display:block;
+    align-self:center;
+    min-width:0;
+    margin:0;
+  }
+  .home-page .framework-layout .framework-kicker {
+    margin:0 0 13px;
+  }
+  .home-page .framework-layout .framework-head .agenda-intro {
+    max-width:none;
+    margin:0;
+    font-size:.955rem;
+    line-height:1.7;
+  }
+  .home-page .framework-layout .agenda-cross {
+    min-width:0;
+    width:100%;
+    max-width:none;
+    margin:0;
+    padding:0;
+  }
+  .home-page .framework-layout .agenda-cross svg {
+    width:100%;
+    height:auto;
+  }
+  .home-page .framework-layout .agenda-cross figcaption {
+    font-size:.70rem;
+    line-height:1.5;
+    margin:3px 0 0;
+  }
+}
+@media (max-width: 960px) {
+  .home-page .framework-layout {
+    display:block;
+  }
+}
