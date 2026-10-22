@@ -1,0 +1,857 @@
+[
+  {
+    "title": "From Fake Perfects to Conversational Imperfects: Exploring Image-Generative AI as a Boundary Object for Participatory Design of Public Spaces",
+    "url": "https://doi.org/10.1145/3710912",
+    "cell": "p-c",
+    "domain": "公共空间／图像生成",
+    "activity": "多方需求表达、标准协商",
+    "description": "在洛杉矶公园设计中使用图像生成促进公众对话，而不把图像当作唯一最终结果",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Collectively Reimagining Artificial Intelligence With Marginalized Communities",
+    "url": "https://doi.org/10.1145/3772318.3791421",
+    "cell": "p-c",
+    "domain": "参与式设计／AI",
+    "activity": "社区目标、文化与需求表达",
+    "description": "与边缘化社区共同构想符合本地语言文化与经济需求的 AI 设计",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Creating a University-based Accessible Makerspace for Use by Local Community Members through Participatory Design Workshops",
+    "url": "https://doi.org/10.1145/3796624.3796634",
+    "cell": "p-c",
+    "domain": "社区／makerspace",
+    "activity": "社区可及性、需求协商",
+    "description": "通过参与式工作坊共同识别共享 makerspace 的技术、空间与支持需求",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Wildfire Games: A Community Approach to Designing Serious Games as Interventions for Wildfire Preparedness",
+    "url": "https://doi.org/10.1145/3748601",
+    "cell": "p-c",
+    "domain": "社区游戏设计",
+    "activity": "社区知识、干预目标",
+    "description": "结合社区成员和专家共同确定野火准备游戏的目标和内容",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Co-Creating a Regional Sustainability Hub: Conversational AI, Community Engagement, and Local Data for Computing in Place",
+    "url": "https://doi.org/10.1145/3715335.3736321",
+    "cell": "p-c",
+    "domain": "社区／可持续设计",
+    "activity": "地方知识、社区愿景",
+    "description": "围绕地方数据和社区参与设计区域可持续发展信息系统",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Understanding Antenatal Care Needs through Co-Creation with Roma Women to Inform the Design of mHealth Technologies",
+    "url": "https://doi.org/10.1145/3613904.3642584",
+    "cell": "p-c",
+    "domain": "社区／医疗设计",
+    "activity": "需求表达、情境知识",
+    "description": "与罗姆女性共同理解孕产照护需求，为后续移动健康技术提出设计依据",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Noondawind: Co-Designed Dashboard for Indigenous Data Access and Environmental Policy Implementation",
+    "url": "https://doi.org/10.1145/3772318.3791870",
+    "cell": "p-c",
+    "domain": "社区／可视化设计",
+    "activity": "社区数据主权、共同确定目标",
+    "description": "与原住民社区共同设计环境数据访问和政策决策工具",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Building A Civic Tool for Community-Police Engagement to Adapt Neighborhood Policing",
+    "url": "https://doi.org/10.1145/3800645.3812928",
+    "cell": "p-c",
+    "domain": "社区／城市服务",
+    "activity": "共同理解社会问题",
+    "description": "面向社区与警务机构的证据和交流需求开展公民工具设计",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "From Margins to the Table: Charting the Potential for Public Participatory Governance of Algorithmic Decision Making",
+    "url": "https://doi.org/10.1145/3715275.3732173",
+    "cell": "p-c",
+    "domain": "公众参与／算法设计",
+    "activity": "价值、目标与参与权",
+    "description": "研究社区参与公共算法决策与治理的可行性与障碍",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "A Systematic Review and Thematic Analysis of Community-Collaborative Approaches to Computing Research",
+    "url": "https://doi.org/10.1145/3491102.3517716",
+    "cell": "p-c",
+    "domain": "社区设计理论",
+    "activity": "参与式方法、价值和目标",
+    "description": "系统回顾 47 篇社区协作计算研究的实践与挑战；综述，不是单个工具",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Creating a Library Environment for Teenagers in Denmark: Exploration in Participatory Design Methods",
+    "url": "https://doi.org/10.1145/3789492.3796385",
+    "cell": "p-c",
+    "domain": "公共空间／参与式设计",
+    "activity": "社区需求和设计方法",
+    "description": "与青少年共同探索公共图书馆环境的需求和参与式设计方法",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "From Participation to Solidarity: A Case Study on Access of Maker Spaces from Deaf and Hearing Perspectives",
+    "url": "https://doi.org/10.1145/3706598.3713202",
+    "cell": "p-c",
+    "domain": "社区／makerspace",
+    "activity": "可及性价值、参与权",
+    "description": "从聋人与听人的不同经验审视 makerspace 可及性与共同体参与",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Setting the Killjoy Table: Youth Co-Design as Affective Practice",
+    "url": "https://doi.org/10.1145/3789493.3797311",
+    "cell": "p-c",
+    "domain": "青年／参与式设计",
+    "activity": "情感和文化情境",
+    "description": "将青少年共同设计理解为情感与社会互动实践；会议扩展摘要",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "From Voting to Veto: GenAI Placemaking under Accountability",
+    "url": "https://doi.org/10.1145/3802974.3809479",
+    "cell": "p-c",
+    "domain": "社区／公共空间／生成AI",
+    "activity": "参与权、决定权、问责",
+    "description": "在公众场所共创中讨论生成 AI、表决与否决权；进行中研究",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "A Multistakeholder Approach to Value-Driven Co-Design of Recommender Systems Evaluation Metrics in Digital Archives",
+    "url": "https://doi.org/10.1145/3705328.3748026",
+    "cell": "p-c",
+    "domain": "社区／文化档案",
+    "activity": "多方评价标准",
+    "description": "与多方利益相关者共同建立数字档案推荐系统的评价标准",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Research-Education Partnerships: A Co-Design Classroom for College Students with IDD",
+    "url": "https://doi.org/10.1145/3687050",
+    "cell": "p-c",
+    "domain": "教育／参与式设计",
+    "activity": "参与权、学习者需求",
+    "description": "让智力及发育障碍学生参与技术设计和设计知识共享",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Co-Designing Heritage Futures: Teenagers and Traditional Crafts in Madeira Island",
+    "url": "https://doi.org/10.3390/heritage8110459",
+    "cell": "p-c",
+    "domain": "社区／文化与工艺",
+    "activity": "文化传承、共同设想未来",
+    "description": "与青少年共同探索传统工艺的未来及数字传播方向",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "A Lot of Moving Parts: A Case Study of Open-Source Hardware Design Collaboration in the Thingiverse Community",
+    "url": "https://doi.org/10.1145/3687008",
+    "cell": "s-c",
+    "domain": "开源硬件／社区 CAD",
+    "activity": "设计复用、社区协作",
+    "description": "追踪 Thingiverse 中开源硬件跨时间的模型变化、讨论与社区合作",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Are We Doing Enough? Sharing Design and Manufacturing Expertise Across Open Source Hardware Communities",
+    "url": "https://researchprofiles.ku.dk/en/publications/are-we-doing-enough-sharing-design-and-manufacturing-expertise-ac/",
+    "cell": "s-c",
+    "domain": "开源硬件／社区制造",
+    "activity": "设计知识转移与再制造",
+    "description": "分析开源硬件社区共享生产与设计知识时的障碍",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Introducing Readiness Scales for Effective Reuse of Open Source Hardware",
+    "url": "https://doi.org/10.1016/j.procir.2022.05.306",
+    "cell": "s-c",
+    "domain": "开源硬件／设计复用",
+    "activity": "文档完整性、可复用性判断",
+    "description": "提出开源硬件复用成熟度指标并以呼吸机项目检验",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Open-design: A State of the Art Review",
+    "url": "https://www.cambridge.org/core/journals/design-science/article/opendesign-a-state-of-the-art-review/95F20761B4BB6466358E007AE51DE1ED",
+    "cell": "s-c",
+    "domain": "开放设计／综述",
+    "activity": "社区复用、开放设计生态",
+    "description": "梳理 DIY、协作开发与开放设计的不同实践及条件",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "From Remembering to Shaping: Narrating Shared Experiences by Co-Designing Cultural Heritage Artifacts in Collaborative VR",
+    "url": "https://doi.org/10.1145/3800645.3812950",
+    "cell": "s-c",
+    "domain": "社区／VR／文化设计",
+    "activity": "共同编辑、模型重用、共享记忆",
+    "description": "多人在 VR 中使用生成模型、提示和空间操作，共同表达文化记忆",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Being Eroded, Piece by Piece: Enhancing Engagement and Storytelling in Cultural Heritage Dissemination by Exhibiting GenAI Co-Creation Artifacts",
+    "url": "https://doi.org/10.1145/3643834.3660711",
+    "cell": "s-c",
+    "domain": "社区／文化艺术",
+    "activity": "作品表达、文化共享",
+    "description": "通过生成式 AI 共同创作产物推动文化遗产故事表达与公众参与",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Weaving by Touch: A Case Analysis of Accessible Making",
+    "url": "https://doi.org/10.1145/3313831.3376477",
+    "cell": "s-c",
+    "domain": "社区／材料制作",
+    "activity": "共同制作、具身知识",
+    "description": "分析视障社区织造工作坊中的材料互动、协作和制作知识",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Collectives and Their Artifact Ecologies",
+    "url": "https://doi.org/10.1145/3555533",
+    "cell": "s-c",
+    "domain": "社区／理论",
+    "activity": "跨工具、跨参与者的共享对象",
+    "description": "研究多种集体情境中的工具与物件生态及其演化",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Supporting Campus Activism through Creating DIY-AT in a Social Justice Aligned Makerspace",
+    "url": "https://doi.org/10.1145/3715965",
+    "cell": "s-c",
+    "domain": "社区／辅助技术",
+    "activity": "分散知识、制作与协作",
+    "description": "社区成员与学生通过 DIY-AT 制作应对无障碍需求并促进政策讨论",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Inclusion by Design or by Default? Examining How HCI Studies Engage Underrepresented Youth in Makerspaces",
+    "url": "https://doi.org/10.1145/3715070.3749247",
+    "cell": "s-c",
+    "domain": "社区／制作教育",
+    "activity": "参与方式、实践资源",
+    "description": "梳理多种 maker 参与方式与真实社区制作资源的差异",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Participation through Designing Relations with People, Materials, and Place",
+    "url": "https://doi.org/10.1145/3789492.3796426",
+    "cell": "s-c",
+    "domain": "材料／社区设计",
+    "activity": "材料经验与跨文化制作",
+    "description": "考察材料、地方与参与者关系如何在联合创作中形成",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "RetrofittAR: Supporting Hardware-Centered Expertise Sharing in Manufacturing Settings through Augmented Reality",
+    "url": "https://link.springer.com/article/10.1007/s10606-022-09430-x",
+    "cell": "s-g",
+    "domain": "工程／制造协作",
+    "activity": "实物关联知识、交接",
+    "description": "研究增强现实中与真实制造设备相关的知识传递",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Not Seeing the Whole Picture: Challenges and Opportunities in Using AI for Co-Making Physical, DIY-AT for People with Visual Impairments",
+    "url": "https://doi.org/10.1145/3772318.3791815",
+    "cell": "s-g",
+    "domain": "辅助技术／协作制作",
+    "activity": "知识补充、可及性、共做",
+    "description": "研究视觉障碍参与者使用 AI 参与实物辅助技术共做时的困难",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Co-designing Haptics for Deaf and Hard-of-Hearing Music Education with a Reconfigurable Prototyping System",
+    "url": "https://doi.org/10.1145/3800645.3813055",
+    "cell": "s-g",
+    "domain": "触觉／协作原型",
+    "activity": "可重构原型、身体体验",
+    "description": "通过可重构触觉原型与听障人士协作设计音乐教育交互",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Co-Designing Multimodal Systems for Accessible Asynchronous Dance Instruction",
+    "url": "https://doi.org/10.1145/3772318.3791376",
+    "cell": "s-g",
+    "domain": "动画／身体学习",
+    "activity": "多模态设计与使用者反馈",
+    "description": "与视障者共同设计适应异步舞蹈学习的多模态支持系统",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "From Temporal to Spatial: Designing Spatialized Interactions with Segmented Audios in Immersive Environments for Active Engagement with Performing Arts Intangible Cultural Heritage",
+    "url": "https://doi.org/10.1145/3715336.3735787",
+    "cell": "s-g",
+    "domain": "沉浸式媒体／协作",
+    "activity": "原型反馈、跨角色知识",
+    "description": "工作坊将表演艺术的音频内容从时间安排重构为空间交互",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Exploring Collaborative Movement Improvisation Towards the Design of LuminAI—a Co-Creative AI Dance Partner",
+    "url": "https://doi.org/10.1145/3613904.3642677",
+    "cell": "s-g",
+    "domain": "舞蹈／人-AI 共创",
+    "activity": "具身协同与反馈",
+    "description": "研究舞者与 AI 在即兴运动中的协作设计实践",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Using Co-Design with Streamers and Viewers to Identify Values and Resolve Tensions in the Design of Interpersonal Wearable Telepresence Systems",
+    "url": "https://doi.org/10.1145/3637425",
+    "cell": "p-g",
+    "domain": "可穿戴设备／协作设计",
+    "activity": "双角色价值冲突与标准协商",
+    "description": "成对组织直播者和观看者进行共创，发现与调和不同参与者的价值要求",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "WorkAI: A Toolkit for the Design of AI-driven Future of Work",
+    "url": "https://doi.org/10.1145/3757525",
+    "cell": "p-g",
+    "domain": "团队工具／未来工作",
+    "activity": "准则、后果和冲突讨论",
+    "description": "用卡片与画布组织人们讨论 AI 工作流程、风险、信任与意义",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Augmenting Collaborative Problem-Solving: Exploring the Design and Use of GenAI for Groupwork",
+    "url": "https://doi.org/10.1145/3715070.3748297",
+    "cell": "p-g",
+    "domain": "群体协作／生成 AI",
+    "activity": "群体问题理解与角色",
+    "description": "探讨生成 AI 如何支持团队协作与问题解决；属于会议扩展摘要",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Challenges When Co-Designing With Children in the Classroom",
+    "url": "https://doi.org/10.1145/3706599.3706673",
+    "cell": "p-g",
+    "domain": "儿童／教育共创",
+    "activity": "参与与权力关系",
+    "description": "研究课堂中儿童参与共同设计的挑战；会议扩展摘要",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Exploring the Impact of Artificial Intelligence-Generated Content (AIGC) Tools on Social Dynamics in UX Collaboration",
+    "url": "https://dis.acm.org/2024/accepted-papers/",
+    "cell": "p-g",
+    "domain": "UX 团队／生成 AI",
+    "activity": "协作中的权力、角色与知识",
+    "description": "通过小组访谈研究 UX 团队引入生成内容工具对协作互动的影响；来源为会议录用论文列表",
+    "status": "会议目录已核对，需进一步 DOI"
+  },
+  {
+    "title": "Co-Designing Cultural Heritage: Case Studies of Chinese-Indonesian Identity",
+    "url": "https://doi.org/10.37715/vcd.v10i2.5784",
+    "cell": "p-c",
+    "domain": "社区／文化设计",
+    "activity": "文化价值与公共叙事",
+    "description": "多案例文化保护研究，通过共同设计探索文化身份表达与社区对话",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Contemporary Participatory Design: Research Agendas for Societal Crisis",
+    "url": "https://doi.org/10.1145/3744169.3744183",
+    "cell": "p-c",
+    "domain": "参与式设计理论",
+    "activity": "协作价值、参与方法",
+    "description": "讨论参与式设计如何回应社会危机及其方法论问题；理论论文",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Community-Centered AI Integration with Students as Co-Designers and Co-Builders",
+    "url": "https://doi.org/10.1145/3803400.3809399",
+    "cell": "p-c",
+    "domain": "社区／教育",
+    "activity": "教育系统未来设计",
+    "description": "关于学生与教师共同形成生成 AI 教育应用愿景的立场论文",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "From Tacit Knowledge to Shared Practice: A Participatory Documentation Methodology for Urban Manufacturing",
+    "url": "https://doi.org/10.1145/3789492.3796458",
+    "cell": "s-c",
+    "domain": "社区／制造知识",
+    "activity": "文档与隐性知识转移",
+    "description": "将共同参与的动态文档作为城市制造社群设计与学习的持续组成部分",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Key Enablers towards Mature Company-community Collaboration in Open Source Hardware",
+    "url": "https://doi.org/10.3917/e.jie.pr1.0135",
+    "cell": "s-c",
+    "domain": "开源硬件／跨组织协作",
+    "activity": "组织间知识与设计复用",
+    "description": "研究企业如何与开源硬件社区建立长期协作以及所需能力",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "School Legacy: Reconstructing Memory Through AI-augmented Social XR",
+    "url": "https://doi.org/10.1145/3757374.3771522",
+    "cell": "s-c",
+    "domain": "社区／沉浸式创作",
+    "activity": "共享作品、集体记忆",
+    "description": "AI 生成的个人记忆对象被带入多人 VR 环境继续构成共享故事",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "I Recall the Past: Exploring How People Collaborate with Generative AI to Create Cultural Heritage Narratives",
+    "url": "https://doi.org/10.1145/3711006",
+    "cell": "s-c",
+    "domain": "文化遗产／共同创作",
+    "activity": "文化素材重用、故事重构",
+    "description": "通过共同视觉创作与社区文化材料支持非官方文化叙事",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Smart Museums, Smarter Experiences: Exploring the Impact of GenAI Usability on Digital Heritage Enjoyment",
+    "url": "https://doi.org/10.1145/3759275.3759292",
+    "cell": "s-c",
+    "domain": "文化遗产／内容体验",
+    "activity": "共同创作与体验测量",
+    "description": "分析生成 AI 数字文化项目中控制感与沉浸等体验因素；对社区推理映射较弱",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Chaotic, Exciting, Impactful: Stories of Material-led Designers in Interdisciplinary Collaboration",
+    "url": "https://doi.org/10.1145/3715336.3735830",
+    "cell": "s-g",
+    "domain": "材料／跨专业合作",
+    "activity": "材料知识、原型、学科沟通",
+    "description": "通过十个材料驱动设计故事讨论设计师、工程师与科学家的协作",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Using LLMs in Generating Design Rationale for Software Architecture Decisions",
+    "url": "https://doi.org/10.1145/3785010",
+    "cell": "s-g",
+    "domain": "软件架构／协作",
+    "activity": "理由重建、文档外化",
+    "description": "研究通过 LLM 生成和恢复架构决策依据；区别生成的理由与人的真实依据",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "RetroChat: Designing for the Preservation of Past Chinese Online Social Experiences",
+    "url": "https://doi.org/10.1145/3698061.3726920",
+    "cell": "s-c",
+    "domain": "社区／文化记忆",
+    "activity": "历史重构、记忆表达",
+    "description": "探索如何通过设计工具保留和再次访问早期社交体验",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Generative Theories of Interaction",
+    "url": "https://doi.org/10.1145/3468505",
+    "cell": "p-c",
+    "domain": "社区／设计理论",
+    "activity": "共同对象、社区需求与关系",
+    "description": "研究共同使用的对象如何帮助不同群体协商边界与集体实践",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "CreAItive Collaboration? Users' Misjudgment of AI-Creativity Affects Their Collaborative Performance",
+    "url": "https://doi.org/10.1145/3706598.3713886",
+    "cell": "p-g",
+    "domain": "群体创意设计／学习",
+    "activity": "协作中的创意贡献与后续能力",
+    "description": "通过成对实验比较有人机生成工具时共同创意任务与随后的无辅助表现",
+    "status": "已核对正式论文或会议来源"
+  },
+  {
+    "title": "Maintaining Balanced Conflict: Proactive Intervention Strategies of AI Voice Agents in Online Collaboration of Temporary Design Teams",
+    "url": "https://doi.org/10.1145/3706598.3713457",
+    "cell": "p-g",
+    "domain": "团队／冲突协调",
+    "activity": "讨论冲突与问题理解",
+    "description": "研究语音 AI 在临时设计团队中主动介入冲突的方式",
+    "status": "已核对正式论文或会议来源"
+  },
+  {
+    "title": "Supporting Speculative Design Thinking through User Journey Mapping Tools",
+    "url": "https://doi.org/10.1145/3802974.3809478",
+    "cell": "p-g",
+    "domain": "UX／协作规划",
+    "activity": "共同表达未来体验标准",
+    "description": "利用旅程地图工具支持推测性设计；进行中研究",
+    "status": "已核对正式论文或会议来源"
+  },
+  {
+    "title": "Beyond Automation: How Designers Perceive AI as a Creative Partner in the Divergent Thinking Stages of UI/UX Design",
+    "url": "https://doi.org/10.1145/3706598.3713500",
+    "cell": "p-i",
+    "domain": "UX／创意构思",
+    "activity": "问题理解、发散探索",
+    "description": "通过专业设计师访谈理解 AI 在设计研究与构思阶段的实际作用",
+    "status": "已核对正式论文或会议来源"
+  },
+  {
+    "title": "The Impact of Sketch-guided vs. Prompt-guided 3D Generative AIs on the Design Exploration Process",
+    "url": "https://doi.org/10.1145/3613904.3642218",
+    "cell": "p-i",
+    "domain": "三维生成／设计意图",
+    "activity": "草绘与提示的表达差异",
+    "description": "比较早期三维设计中草绘式与提示式 AI 引导对探索过程的影响",
+    "status": "已核对正式论文或会议来源"
+  },
+  {
+    "title": "Script&Shift: A Layered Interface Paradigm for Integrating Content Development and Rhetorical Strategy with LLM Writing Assistants",
+    "url": "https://doi.org/10.1145/3706598.3714119",
+    "cell": "p-i",
+    "domain": "创意写作／界面",
+    "activity": "表达高层目标与局部内容",
+    "description": "分层 UI 将内容修改和修辞策略一起呈现与调整",
+    "status": "已核对正式论文或会议来源"
+  },
+  {
+    "title": "From Throw-Away to Takeaway: How GenAI and Vibe Coding Accelerate Prototyping Across Technical Skill Levels",
+    "url": "https://doi.org/10.1145/3772318.3790757",
+    "cell": "s-i",
+    "domain": "软件原型／创作",
+    "activity": "原型探索、知识与能力",
+    "description": "研究不同技术经验者如何使用 AI 原型化与 vibe coding",
+    "status": "已核对正式论文或会议来源"
+  },
+  {
+    "title": "filtered.ink: Creating Dynamic Illustrations with SVG Filters",
+    "url": "https://doi.org/10.1145/3544548.3581051",
+    "cell": "s-i",
+    "domain": "插画／参数设计",
+    "activity": "尝试、比较与组合技术效果",
+    "description": "交互式 SVG 滤镜支持通过尝试效果并 remix 构造新的视觉方案",
+    "status": "已核对正式论文或会议来源"
+  },
+  {
+    "title": "DanXeReflect: Interacting with the Spatio-Temporal Past Movements for Embodied, Reflective Choreographic Collaboration",
+    "url": "https://doi.org/10.1145/3772318.3790808",
+    "cell": "s-g",
+    "domain": "舞蹈／异步协作",
+    "activity": "动作回放、身体推理、跨人交接",
+    "description": "用过去的动作轨迹支持异步舞蹈编排协作与反思",
+    "status": "已核对正式论文或会议来源"
+  },
+  {
+    "title": "Vibe Coding in Product Teams: Reconfiguring AI-Assisted Workflows, Prototyping, and Collaboration",
+    "url": "https://doi.org/10.1145/3808045.3808062",
+    "cell": "s-g",
+    "domain": "团队产品设计／软件",
+    "activity": "跨角色原型和语义交接",
+    "description": "研究产品团队如何用语言驱动原型与代码，并改变协作流程",
+    "status": "已核对正式论文或会议来源"
+  },
+  {
+    "title": "A Systematic Literature Review to Characterize Asymmetric Interaction in Collaborative Systems",
+    "url": "https://doi.org/10.1145/3706598.3713129",
+    "cell": "s-g",
+    "domain": "协作交互／综述",
+    "activity": "非对称参与、角色权限",
+    "description": "梳理协作系统中参与者能力与交互的不对称形式，提供跨团队工具设计依据",
+    "status": "已核对正式论文或会议来源"
+  },
+  {
+    "title": "When Designers Sweat: Behavioral Traces of GenAI Co-Creation",
+    "url": "https://doi.org/10.1145/3772318.3791776",
+    "cell": "s-i",
+    "domain": "创作过程／痕迹",
+    "activity": "行为数据、设计探索",
+    "description": "研究生成式 AI 创作行为的轨迹与模式，不把轨迹自动等同内在意图",
+    "status": "已核对正式论文或会议来源"
+  },
+  {
+    "title": "“I'll Just Do It”: Designing for the Hidden Work of Collaborative Family Caregiving",
+    "url": "https://doi.org/10.1145/3772318.3791609",
+    "cell": "p-g",
+    "domain": "家庭／分工与协作",
+    "activity": "隐性工作、角色和任务理解",
+    "description": "研究共享照护中不可见的职责与协作信息需求",
+    "status": "已核对正式论文或会议来源"
+  },
+  {
+    "title": "The Way We Notice, That’s What Really Matters: Instantiating UI Components with Distinguishing Variations",
+    "url": "https://doi.org/10.1145/3772318.3790621",
+    "cell": "s-i",
+    "domain": "UI／组件探索",
+    "activity": "重复检查",
+    "description": "已收录同名论文，不重复",
+    "status": "已核对正式论文或会议来源"
+  },
+  {
+    "title": "With, not For: Co-Designing a Patient-Facing AI Companion Concept for the Emergency Department Waiting Area",
+    "url": "https://doi.org/10.1145/3772318.3790638",
+    "cell": "p-g",
+    "domain": "医疗／共同设计",
+    "activity": "患者与医护目标表达",
+    "description": "让患者作为共同设计者参与 AI 候诊助手的概念形成",
+    "status": "官方来源核实"
+  },
+  {
+    "title": "It Talks Like a Patient, But Feels Different: Co-Designing AI Standardized Patients with Medical Learners",
+    "url": "https://doi.org/10.1145/3772363.3798336",
+    "cell": "p-g",
+    "domain": "医疗教育／共同设计",
+    "activity": "角色目标与学习体验",
+    "description": "与医学学习者一起确定 AI 标准化病人系统的需求；扩展摘要",
+    "status": "官方来源核实"
+  },
+  {
+    "title": "Design Considerations for Human Oversight of AI: Insights from Co-Design Workshops and Work Design Theory",
+    "url": "https://doi.org/10.1145/3742413.3789100",
+    "cell": "p-g",
+    "domain": "工作设计／AI",
+    "activity": "监督、风险与协作职责",
+    "description": "结合共同设计工作坊和工作设计理论讨论 AI 系统中人的监督",
+    "status": "官方来源核实"
+  },
+  {
+    "title": "Disentangling the Power Dynamics in Participatory Data Physicalisation",
+    "url": "https://doi.org/10.1145/3706598.3713703",
+    "cell": "p-g",
+    "domain": "数据实物化／参与式设计",
+    "activity": "权力关系、数据解释",
+    "description": "分析共同制作数据实物化作品中权力如何影响设计判断",
+    "status": "官方来源核实"
+  },
+  {
+    "title": "Computer Says No: Disabled Welfare Experiences and Envisioned Futures Under AI Governance",
+    "url": "https://doi.org/10.1145/3772318.3791025",
+    "cell": "p-c",
+    "domain": "社区／制度服务",
+    "activity": "未来设计需求与权利",
+    "description": "42 名共同设计参与者通过多场工作坊讨论残障福利系统的设计未来",
+    "status": "官方来源核实"
+  },
+  {
+    "title": "Accessibility-Driven Information Transformations in Mixed-Visual Ability Work Teams",
+    "url": "https://doi.org/10.1145/3772318.3790872",
+    "cell": "s-g",
+    "domain": "无障碍／团队协作",
+    "activity": "跨能力信息转换",
+    "description": "调查视觉能力混合团队如何转换不可访问的信息以维持协作",
+    "status": "官方来源核实"
+  },
+  {
+    "title": "The Magnetic Primitive Library: A Platform for Designing Shape-Changing Interactions",
+    "url": "https://doi.org/10.1145/3715668.3735605",
+    "cell": "s-i",
+    "domain": "材料／可变形交互",
+    "activity": "实物探索、材料知识",
+    "description": "通过磁性构件和制造指南，让设计者借助原型学习材料行为",
+    "status": "官方来源核实"
+  },
+  {
+    "title": "CoNode: Visualizing Workflows for Knowledge Reuse and Recombination in Team–AI Collaborative Design",
+    "url": "https://programs.sigchi.org/chi/2026/program/content/222324",
+    "cell": "s-g",
+    "domain": "团队设计／AI",
+    "activity": "工作流可视化、跨阶段知识重用",
+    "description": "研究团队如何追踪和重新组合设计探索中的语义、草绘与过程知识",
+    "status": "CHI 官方会议摘要已核对"
+  },
+  {
+    "title": "In the Age of Collaboration, the Computer-Aided Design Ecosystem is Behind: An Interview Study of Distributed CAD Practice",
+    "url": "https://doi.org/10.1145/3579613",
+    "cell": "s-g",
+    "domain": "CAD／跨组织协作",
+    "activity": "设计文件、权限、交流与交接",
+    "description": "对 20 名 CAD 专业人员访谈，梳理分布式 CAD 协作的 14 类问题",
+    "status": "已核对论文来源与发表信息"
+  },
+  {
+    "title": "Analysis of Collaborative CAD User Actions in Design Sprint: Insights from an Educational Setting",
+    "url": "https://www.cambridge.org/core/journals/proceedings-of-the-design-society/article/analysis-of-collaborative-cad-user-actions-in-design-sprint-insights-from-an-educational-setting/B293C263D9B5C644163BCE49D4D818A6",
+    "cell": "s-g",
+    "domain": "CAD／设计教育",
+    "activity": "设计动作记录、团队协作",
+    "description": "通过设计冲刺中的 CAD 操作序列分析团队建模行为",
+    "status": "已核对论文来源与发表信息"
+  },
+  {
+    "title": "Comparing Collaborative CAD Modelling Patterns of High-Performing and Low-Performing Teams",
+    "url": "https://doi.org/10.1017/pds.2023.101",
+    "cell": "s-g",
+    "domain": "CAD／设计团队",
+    "activity": "建模模式、协作表现",
+    "description": "比较不同表现团队的协作建模模式",
+    "status": "已核对论文来源与发表信息"
+  },
+  {
+    "title": "The Multi-user Computer-Aided Design Collaborative Learning Framework",
+    "url": "https://doi.org/10.1016/j.aei.2021.101446",
+    "cell": "s-g",
+    "domain": "CAD／学习研究",
+    "activity": "多人建模、知识获得",
+    "description": "提出和研究多人 CAD 协作学习框架",
+    "status": "已核对论文来源与发表信息"
+  },
+  {
+    "title": "SUMMIT: Scaffolding Open Source Software Issue Discussion Through Summarization",
+    "url": "https://doi.org/10.1145/3610088",
+    "cell": "s-c",
+    "domain": "开源软件／社区协作",
+    "activity": "社区讨论、问题历史与交接",
+    "description": "利用摘要支持开源社区针对具体 issue 的集体讨论；研究媒介是软件开发",
+    "status": "已核对论文来源与发表信息"
+  },
+  {
+    "title": "Collective Design in 3D Printing: A Large Scale Empirical Study of Designs, Designers and Evolution",
+    "url": "https://doi.org/10.1016/j.destud.2017.04.004",
+    "cell": "s-c",
+    "domain": "3D打印／社区设计",
+    "activity": "版本谱系、设计演化",
+    "description": "基于大规模 Thingiverse 设计关系研究社区方案如何演化和变异",
+    "status": "已核对论文来源与发表信息"
+  },
+  {
+    "title": "Copy, Transform, Combine: Exploring the Remix as a Form of Innovation",
+    "url": "https://doi.org/10.1057/s41265-017-0043-9",
+    "cell": "s-c",
+    "domain": "3D设计／再创作",
+    "activity": "remix 网络、知识组合",
+    "description": "研究 Thingiverse 中的分叉、汇聚与多种复用路径",
+    "status": "已核对论文来源与发表信息"
+  },
+  {
+    "title": "Issues and Challenges of Knowledge Management in Online Open Source Hardware Communities",
+    "url": "https://www.cambridge.org/core/journals/design-science/article/issues-and-challenges-of-knowledge-management-in-online-open-source-hardware-communities/9D6F92B29D1C6BDCDBA92AEB044C7FAA",
+    "cell": "s-c",
+    "domain": "开源硬件／社区设计",
+    "activity": "文档、隐性知识、共同开发",
+    "description": "研究开源硬件平台知识管理与复杂实物设计文档的困难",
+    "status": "已核对论文来源与发表信息"
+  },
+  {
+    "title": "Not Every Remix is an Innovation: A Network Perspective on the 3D-Printing Community",
+    "url": "https://doi.org/10.1145/3201064.3201070",
+    "cell": "s-c",
+    "domain": "3D 打印／社区复用",
+    "activity": "改造模式与设计来源",
+    "description": "从 Thingiverse 关系网络辨别不同 remix 的性质和限制",
+    "status": "已核对论文来源与发表信息"
+  },
+  {
+    "title": "Product versus Process: Representing and Appropriating DIY Projects Online",
+    "url": "https://doi.org/10.1145/2598510.2598540",
+    "cell": "s-c",
+    "domain": "DIY／社区设计",
+    "activity": "过程记录、可复制性",
+    "description": "讨论在线 DIY 项目是如何表达成果及制作过程以供他人复用",
+    "status": "已核对论文来源与发表信息"
+  },
+  {
+    "title": "The Value of Activity Traces in Peer Evaluations: An Experimental Study",
+    "url": "https://doi.org/10.1145/3579627",
+    "cell": "s-g",
+    "domain": "团队协作／过程记录",
+    "activity": "操作轨迹、同伴判断",
+    "description": "研究活动记录如何进入共同评价与对他人的理解",
+    "status": "已核对论文来源与发表信息"
+  },
+  {
+    "title": "Increasing Participation in Peer Production Communities with the Newcomer Homepage",
+    "url": "https://doi.org/10.1145/3610071",
+    "cell": "p-c",
+    "domain": "在线协作／社区",
+    "activity": "社区参与、成员进入",
+    "description": "检验社区面向新参与者的内容如何影响其参与机会；并非设计工具本身",
+    "status": "已核对论文来源与发表信息"
+  },
+  {
+    "title": "Disentangling the Collective Motivations for User Innovation in a 3D Printing Community",
+    "url": "https://doi.org/10.1016/j.technovation.2021.102387",
+    "cell": "s-c",
+    "domain": "3D打印／社区",
+    "activity": "创新动机、版本与共同生产",
+    "description": "分析 3D 打印社区成员参与创新和分享设计的集体动机",
+    "status": "已核对论文来源与发表信息"
+  },
+  {
+    "title": "OSINT Clinic: Co-designing AI-Augmented Collaborative OSINT Investigations for Vulnerability Assessment",
+    "url": "https://doi.org/10.1145/3706598.3713283",
+    "cell": "p-g",
+    "domain": "群体调查／人-AI 设计",
+    "activity": "跨角色领域知识与问题理解",
+    "description": "共同设计工作坊整合不同调查参与者的目标、能力与 AI 应用情境",
+    "status": "已核对来源与论文主题"
+  },
+  {
+    "title": "Participatory Design through the Lenses of Women Architects and Designers",
+    "url": "https://doi.org/10.1145/3796624.3796660",
+    "cell": "p-g",
+    "domain": "建筑／参与式设计",
+    "activity": "设计师与使用者共同定义需求",
+    "description": "从女建筑师与设计从业者视角审视实际参与式设计实践",
+    "status": "已核对来源与论文主题"
+  },
+  {
+    "title": "Escape or D13: Understanding Youth Perspectives of AI through Educational Game Co-design",
+    "url": "https://doi.org/10.1145/3706598.3714037",
+    "cell": "p-g",
+    "domain": "教育／游戏设计",
+    "activity": "共同确定目标与学习内容",
+    "description": "通过学生共同设计教育游戏理解青年对 AI 的观点和学习需求",
+    "status": "已核对来源与论文主题"
+  },
+  {
+    "title": "Co-Creating Educational Futures: How Speculative Prompting Shapes AI-Generated Design Fiction",
+    "url": "https://doi.org/10.1145/3800645.3812953",
+    "cell": "p-g",
+    "domain": "设计教育／未来构想",
+    "activity": "群体形成未来学习情境",
+    "description": "利用推测式提示和设计虚构探索 AI 支持的未来教育情境",
+    "status": "已核对来源与论文主题"
+  },
+  {
+    "title": "AI Across Cultures: Co-Designing Equitable and Culturally Grounded Futures",
+    "url": "https://doi.org/10.1145/3772363.3778692",
+    "cell": "p-c",
+    "domain": "社区／文化设计",
+    "activity": "社区价值与未来目标",
+    "description": "CHI 2026 工作坊论文，讨论低资源语言和多样文化社区的共同设计议程",
+    "status": "CHI 工作坊论文"
+  },
+  {
+    "title": "Finding the Unicorn within a Million Patches: A Material-Driven Journey into the Hidden Layers of a Diffusion Model",
+    "url": "https://doi.org/10.1145/3803784.3809289",
+    "cell": "s-g",
+    "domain": "材料／跨学科交互设计",
+    "activity": "模型内部特征作为设计材料",
+    "description": "设计师和可解释性研究者共同探索扩散模型内部表示的交互材料",
+    "status": "已核对来源与论文主题"
+  },
+  {
+    "title": "Unlocking Innovation: The Dynamics of User Engagement in an Open-source 3D Printer Community",
+    "url": "https://doi.org/10.1371/journal.pone.0321963",
+    "cell": "s-c",
+    "domain": "开源硬件／社区制造",
+    "activity": "社区持续参与与设计复用",
+    "description": "研究开源 3D 打印机社区的参与和创新机制",
+    "status": "已核对来源与论文主题"
+  },
+  {
+    "title": "Open Design: Contributions, Solutions, Processes and Projects",
+    "url": "https://doi.org/10.2752/175630614X14056185480069",
+    "cell": "s-c",
+    "domain": "开放设计／社区",
+    "activity": "跨贡献者方案与设计过程共享",
+    "description": "分析开放设计实践中的贡献方式、解决方案、过程和项目结构",
+    "status": "已核对来源与论文主题"
+  },
+  {
+    "title": "Between Two Worlds: Analysing the Effects of Immersive and Non-Immersive Prototyping for Participatory Design",
+    "url": "https://doi.org/10.1145/3643834.3660715",
+    "cell": "p-g",
+    "domain": "参与式设计／XR",
+    "activity": "多人协商、原型媒介选择",
+    "description": "通过16场XR参与式原型工作坊对比沉浸式与非沉浸式方式如何影响共同设计过程",
+    "status": "DIS 2024 论文，已核对 DOI 与发表信息"
+  }
+]
