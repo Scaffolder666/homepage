@@ -646,5 +646,131 @@
     "activity": "实物探索、材料知识",
     "description": "通过磁性构件和制造指南，让设计者借助原型学习材料行为",
     "status": "官方来源核实"
+  },
+  {
+    "title": "CoNode: Visualizing Workflows for Knowledge Reuse and Recombination in Team–AI Collaborative Design",
+    "url": "https://programs.sigchi.org/chi/2026/program/content/222324",
+    "cell": "s-g",
+    "domain": "团队设计／AI",
+    "activity": "工作流可视化、跨阶段知识重用",
+    "description": "研究团队如何追踪和重新组合设计探索中的语义、草绘与过程知识",
+    "status": "CHI 官方会议摘要已核对"
+  },
+  {
+    "title": "In the Age of Collaboration, the Computer-Aided Design Ecosystem is Behind: An Interview Study of Distributed CAD Practice",
+    "url": "https://doi.org/10.1145/3579613",
+    "cell": "s-g",
+    "domain": "CAD／跨组织协作",
+    "activity": "设计文件、权限、交流与交接",
+    "description": "对 20 名 CAD 专业人员访谈，梳理分布式 CAD 协作的 14 类问题",
+    "status": "已核对论文来源与发表信息"
+  },
+  {
+    "title": "Analysis of Collaborative CAD User Actions in Design Sprint: Insights from an Educational Setting",
+    "url": "https://www.cambridge.org/core/journals/proceedings-of-the-design-society/article/analysis-of-collaborative-cad-user-actions-in-design-sprint-insights-from-an-educational-setting/B293C263D9B5C644163BCE49D4D818A6",
+    "cell": "s-g",
+    "domain": "CAD／设计教育",
+    "activity": "设计动作记录、团队协作",
+    "description": "通过设计冲刺中的 CAD 操作序列分析团队建模行为",
+    "status": "已核对论文来源与发表信息"
+  },
+  {
+    "title": "Comparing Collaborative CAD Modelling Patterns of High-Performing and Low-Performing Teams",
+    "url": "https://doi.org/10.1017/pds.2023.101",
+    "cell": "s-g",
+    "domain": "CAD／设计团队",
+    "activity": "建模模式、协作表现",
+    "description": "比较不同表现团队的协作建模模式",
+    "status": "已核对论文来源与发表信息"
+  },
+  {
+    "title": "The Multi-user Computer-Aided Design Collaborative Learning Framework",
+    "url": "https://doi.org/10.1016/j.aei.2021.101446",
+    "cell": "s-g",
+    "domain": "CAD／学习研究",
+    "activity": "多人建模、知识获得",
+    "description": "提出和研究多人 CAD 协作学习框架",
+    "status": "已核对论文来源与发表信息"
+  },
+  {
+    "title": "SUMMIT: Scaffolding Open Source Software Issue Discussion Through Summarization",
+    "url": "https://doi.org/10.1145/3610088",
+    "cell": "s-c",
+    "domain": "开源软件／社区协作",
+    "activity": "社区讨论、问题历史与交接",
+    "description": "利用摘要支持开源社区针对具体 issue 的集体讨论；研究媒介是软件开发",
+    "status": "已核对论文来源与发表信息"
+  },
+  {
+    "title": "Collective Design in 3D Printing: A Large Scale Empirical Study of Designs, Designers and Evolution",
+    "url": "https://doi.org/10.1016/j.destud.2017.04.004",
+    "cell": "s-c",
+    "domain": "3D打印／社区设计",
+    "activity": "版本谱系、设计演化",
+    "description": "基于大规模 Thingiverse 设计关系研究社区方案如何演化和变异",
+    "status": "已核对论文来源与发表信息"
+  },
+  {
+    "title": "Copy, Transform, Combine: Exploring the Remix as a Form of Innovation",
+    "url": "https://doi.org/10.1057/s41265-017-0043-9",
+    "cell": "s-c",
+    "domain": "3D设计／再创作",
+    "activity": "remix 网络、知识组合",
+    "description": "研究 Thingiverse 中的分叉、汇聚与多种复用路径",
+    "status": "已核对论文来源与发表信息"
+  },
+  {
+    "title": "Issues and Challenges of Knowledge Management in Online Open Source Hardware Communities",
+    "url": "https://www.cambridge.org/core/journals/design-science/article/issues-and-challenges-of-knowledge-management-in-online-open-source-hardware-communities/9D6F92B29D1C6BDCDBA92AEB044C7FAA",
+    "cell": "s-c",
+    "domain": "开源硬件／社区设计",
+    "activity": "文档、隐性知识、共同开发",
+    "description": "研究开源硬件平台知识管理与复杂实物设计文档的困难",
+    "status": "已核对论文来源与发表信息"
+  },
+  {
+    "title": "Not Every Remix is an Innovation: A Network Perspective on the 3D-Printing Community",
+    "url": "https://doi.org/10.1145/3201064.3201070",
+    "cell": "s-c",
+    "domain": "3D 打印／社区复用",
+    "activity": "改造模式与设计来源",
+    "description": "从 Thingiverse 关系网络辨别不同 remix 的性质和限制",
+    "status": "已核对论文来源与发表信息"
+  },
+  {
+    "title": "Product versus Process: Representing and Appropriating DIY Projects Online",
+    "url": "https://doi.org/10.1145/2598510.2598540",
+    "cell": "s-c",
+    "domain": "DIY／社区设计",
+    "activity": "过程记录、可复制性",
+    "description": "讨论在线 DIY 项目是如何表达成果及制作过程以供他人复用",
+    "status": "已核对论文来源与发表信息"
+  },
+  {
+    "title": "The Value of Activity Traces in Peer Evaluations: An Experimental Study",
+    "url": "https://doi.org/10.1145/3579627",
+    "cell": "s-g",
+    "domain": "团队协作／过程记录",
+    "activity": "操作轨迹、同伴判断",
+    "description": "研究活动记录如何进入共同评价与对他人的理解",
+    "status": "已核对论文来源与发表信息"
+  },
+  {
+    "title": "Increasing Participation in Peer Production Communities with the Newcomer Homepage",
+    "url": "https://doi.org/10.1145/3610071",
+    "cell": "p-c",
+    "domain": "在线协作／社区",
+    "activity": "社区参与、成员进入",
+    "description": "检验社区面向新参与者的内容如何影响其参与机会；并非设计工具本身",
+    "status": "已核对论文来源与发表信息"
+  },
+  {
+    "title": "Disentangling the Collective Motivations for User Innovation in a 3D Printing Community",
+    "url": "https://doi.org/10.1016/j.technovation.2021.102387",
+    "cell": "s-c",
+    "domain": "3D打印／社区",
+    "activity": "创新动机、版本与共同生产",
+    "description": "分析 3D 打印社区成员参与创新和分享设计的集体动机",
+    "status": "已核对论文来源与发表信息"
   }
 ]
