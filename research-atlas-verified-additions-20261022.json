@@ -1,0 +1,282 @@
+[
+  [
+    "SpecifyUI: Supporting Iterative UI Design Intent Expression through Structured Specifications and Generative AI",
+    "https://arxiv.org/abs/2509.07334",
+    "界面设计",
+    "意图表达／中间表征",
+    "如何让 UI 设计意图可以被描述、局部修改和持续控制",
+    "将参考界面转换成结构化 SPEC，通过不同层级的操作控制生成",
+    "意图由一次性提示变成可编辑的设计对象",
+    "预印本；报告 16 名专业设计师的用户研究"
+  ],
+  [
+    "Generative and Malleable User Interfaces with Generative and Evolving Task-Driven Data Model",
+    "https://doi.org/10.1145/3706598.3713285",
+    "界面设计",
+    "任务表征／直接操控",
+    "界面如何随着用户目标演化而变化",
+    "以任务驱动数据模型生成可修改的 UI，交互修改底层模型",
+    "支持目标、信息结构与界面之间的往返",
+    "CHI 2025；系统与用户研究"
+  ],
+  [
+    "SimUser: Generating Usability Feedback by Simulating Various Users Interacting with Mobile Applications",
+    "https://doi.org/10.1145/3613904.3642481",
+    "界面设计",
+    "模拟／评价",
+    "如何从不同使用者和情境推测可用性问题",
+    "利用 LLM 模拟不同用户操作并产生界面反馈",
+    "提醒设计者重新考虑目标用户及使用限制",
+    "CHI 2024；模拟生成的反馈不等于真实用户证据"
+  ],
+  [
+    "The Way We Notice, That’s What Really Matters: Instantiating UI Components with Distinguishing Variations",
+    "https://doi.org/10.1145/3772318.3790621",
+    "界面设计",
+    "变体／比较",
+    "UI 组件的变化与差异如何支持设计探索",
+    "探索带有可辨识差异的组件实例化与变体",
+    "通过具体差异刺激比较，而不只生成更多同质方案",
+    "CHI 2026；已核对论文题名和研究方向，完整实验细节待精读"
+  ],
+  [
+    "Sketching vs. AI Prompt Based Design Intent Evolution in Undergraduate Students: an Exploratory Study",
+    "https://doi.org/10.1145/3772318.3791350",
+    "设计教育",
+    "意图演化／测量",
+    "草绘与 AI prompt 两种设计方式如何影响学生的意图演化",
+    "对比学生在不同设计媒介中的工作过程",
+    "为测量设计意图如何发展提供实证研究线索",
+    "CHI 2026；已核对题名及主题，测量方法需阅读全文确认"
+  ],
+  [
+    "We Are Visual Thinkers, Not Verbal Thinkers!",
+    "https://doi.org/10.1145/3679318.3685370",
+    "图像／视觉设计",
+    "视觉表达／迭代",
+    "专业设计师用图像生成工具时为何难以仅靠语言表达意图",
+    "访谈 16 名汽车行业专业设计师，分析多模态输入和迭代控制问题",
+    "视觉媒介能够承载未充分语言化的设计意图",
+    "NordiCHI 2024 质性研究"
+  ],
+  [
+    "AIDED: Augmenting Interior Design with Human Experience Data for Designer–AI Co-Design",
+    "https://doi.org/10.1145/3772318.3791378",
+    "室内／空间设计",
+    "体验证据／协作",
+    "室内设计如何结合客户的体验信息与设计师专业判断",
+    "整合问卷与视觉体验数据供设计师与 AI 协作",
+    "不同形式的外部证据可能改变对设计需求的理解",
+    "CHI 2026；研究数据形式与成效应以原文为准"
+  ],
+  [
+    "Reconfiguring the Home: Co-Designing the Future of Adaptive Domestic Environments",
+    "https://doi.org/10.1145/3772318.3793557",
+    "室内／空间设计",
+    "实物原型／参与式设计",
+    "真实尺度的空间变形如何帮助人发现需求与价值冲突",
+    "通过可操作的房间原型，结合 bodystorming 与共同设计",
+    "身体体验与原型反馈能够反向改变设计问题",
+    "CHI 2026；12 场活动，30 位参与者"
+  ],
+  [
+    "Dramatic Things: Investigating Value Conflicts in Smart Home through Enactment and Co-speculation",
+    "https://doi.org/10.1145/3706598.3713138",
+    "室内／空间设计",
+    "情境模拟／冲突",
+    "家庭环境中的舒适、安全、隐私与可持续等价值如何发生冲突",
+    "通过表演、情境模拟和共同推想检查价值张力",
+    "帮助人明确竞争性标准，促进问题重构",
+    "CHI 2025；定性设计研究"
+  ],
+  [
+    "ChunkyEdit: Text-first Video Interview Editing via Chunking",
+    "https://doi.org/10.1145/3613904.3642667",
+    "视频编辑",
+    "分块／结构化",
+    "编辑者怎样组织大量访谈素材而保持对叙事的控制",
+    "按主题划分片段并传递到主流视频编辑工具",
+    "中间结构为进一步评价、调整叙事提供支点",
+    "CHI 2024；研究包括 8 名专业剪辑师"
+  ],
+  [
+    "VideoHandles: Editing 3D Object Compositions in Videos Using Video Generative Priors",
+    "https://research.adobe.com/publication/videohandles-editing-3d-object-compositions-in-videos-using-video-generative-priors-2/",
+    "视频编辑",
+    "几何约束／生成",
+    "编辑视频中物体的位置时如何保持多帧空间一致",
+    "在三维重建特征层编辑，投回各帧保持连贯",
+    "结构保持约束可以成为可操作的设计目标",
+    "CVPR 2025；生成技术研究，不是 reasoning 用户实验"
+  ],
+  [
+    "SmartEdit: Editing-driven Engagement Prediction and Enhancement of Short-Videos",
+    "https://research.adobe.com/publication/smartedit-editing-driven-engagement-prediction-and-enhancement-of-short-videos/",
+    "视频编辑",
+    "可解释反馈／评价",
+    "编辑前如何针对可能的观众反馈得到具体修改建议",
+    "分解视频编辑信号并提供参与度预测与建议",
+    "可以研究外部评价信号怎样进入创作者的判断",
+    "ICME 2025；预测性能与创作者实际推理需分开评价"
+  ],
+  [
+    "Magic Fixup: Streamlining Photo Editing by Watching Dynamic Videos",
+    "https://research.adobe.com/publication/magic-fixup-streamlining-photo-editing-by-watching-dynamic-videos/",
+    "图像／视觉设计",
+    "粗略直接操控／生成",
+    "用户粗略移动或改造图片对象时如何保留原有细节",
+    "粗编辑图像输入指导生成模型，并调整光照与情境",
+    "局部编辑与全局一致性之间的张力可能促进设计判断",
+    "2024 图像生成方法研究；不能直接宣称支持用户推理"
+  ],
+  [
+    "TimeTunnel: Integrating Spatial and Temporal Motion Editing for Character Animation in Virtual Reality",
+    "https://doi.org/10.1145/3613904.3641927",
+    "动画／动作设计",
+    "空间／时间操控",
+    "如何在 VR 中结合空间与时间理解和编辑动作",
+    "在沉浸式环境中操控关键姿势与运动轨迹",
+    "跨表征操控使动作意图更易表达与迭代",
+    "CHI 2024；动画交互系统"
+  ],
+  [
+    "Iterative Motion Editing with Natural Language",
+    "https://www.siggraph.org/wp-content/uploads/2024/09/Conference-Papers.html",
+    "动画／动作设计",
+    "局部编辑／约束",
+    "如何让语言指导动画局部变化而保留原动作特征",
+    "将语言改动解释为运动编辑运算及关键帧约束",
+    "局部修改与已有约束共存，有助于延迟全面定案",
+    "SIGGRAPH 2024；详见官方会议论文目录"
+  ],
+  [
+    "GroupSketch: Multi-Object Sketch Animation with Grouping and Motion Trajectory Priors",
+    "https://arxiv.org/abs/2508.15535",
+    "动画／动作设计",
+    "分组／动作约束",
+    "多对象手绘动画如何表达分组与运动关系",
+    "语义分组、关键帧与文本视频先验结合",
+    "分组和轨迹可以是可修改的意图表征",
+    "2025 预印本，计算机视觉方法"
+  ],
+  [
+    "DreamSketch: Early Stage 3D Design Explorations with Sketching and Generative Design",
+    "https://www.research.autodesk.com/publications/dreamsketch-early-stage-3d-design-explorations-with-sketching-and-generative-design/",
+    "CAD／数字制造",
+    "草绘／备选探索",
+    "如何把早期模糊设计情境连接到生成式方案探索",
+    "用草绘定义问题情境，生成多个三维方案并原位操控",
+    "直接体现问题表示与方案比较相互作用",
+    "UIST 2017；设计师与工程师参与研究"
+  ],
+  [
+    "Dream Lens: Exploration and Visualization of Large-Scale Generative Design Datasets",
+    "https://www.research.autodesk.com/publications/dream-lens-exploration-and-visualization-of-large-scale-generative-design-datasets/",
+    "CAD／数字制造",
+    "多方案分析／比较",
+    "如何从大量合规设计变体中判断符合哪些目标",
+    "交互分析与可视化大型生成设计数据集",
+    "多目标比较有助于形成或调整设计评价标准",
+    "CHI 2018；两项研究及大规模示例数据集"
+  ],
+  [
+    "IntraNote: Prototyping a Design Rationale System with AI-driven Reflective Reasoning",
+    "https://doi.org/10.1145/3698061.3734416",
+    "建筑／协作设计",
+    "语音／几何／理由记录",
+    "如何保留多人设计讨论与三维修改之间的语义联系",
+    "同步记录对话和 Rhino 交互，并生成时间线与语义注释",
+    "操作轨迹与显式讨论结合，可能支持设计依据重建",
+    "C&C 2025 系统演示；推断因果理由需额外验证"
+  ],
+  [
+    "Productive vs. Reflective: How Different Ways of Integrating AI into Design Workflows Affect Cognition and Motivation",
+    "https://doi.org/10.1145/3706598.3713649",
+    "设计教育",
+    "反思／实验测量",
+    "AI 在不同工作流中呈现的时机如何改变设计者认知活动",
+    "在白板设计任务中比较不同 AI 信息引入方式",
+    "适合比较反思、认知资源分配与主观信心的测量",
+    "CHI 2025；N=47 实验"
+  ],
+  [
+    "Metacognitive Scaffolding in GenUI-Assisted UX Prototyping: Effects on Novice Designers Reflective Thinking and Creative Self-Efficacy",
+    "https://doi.org/10.1080/10447318.2026.2712079",
+    "设计教育",
+    "反思／学习测量",
+    "生成 UI 工具中的元认知支持是否影响反思与自我效能",
+    "三周随机试验，对比常规工具、GenUI 和反思支架",
+    "可以参考跨时段测量反思变化，不能只评价成品质量",
+    "2026 IJHCI；作者报告随机试验与反思相关结果"
+  ],
+  [
+    "Neither Tool nor Collaborator: Rethinking Human–AI Co-Creativity in Artistic Practice with Material Engagement Theory",
+    "https://doi.org/10.1145/3772318.3791752",
+    "材料／Craft",
+    "材料参与／理论",
+    "AI 与艺术实践中的材料及过程关系如何被理解",
+    "基于 Material Engagement Theory 讨论创作中的人—材料—AI 关系",
+    "提醒不要把材料反馈或 AI 简化为纯粹工具输出",
+    "CHI 2026；理论／艺术实践研究"
+  ],
+  [
+    "FamiData Hub: A Speculative Design Exploration with Families on Smart Home Datafication",
+    "https://doi.org/10.1145/3706598.3713494",
+    "参与式／社区设计",
+    "共创／价值冲突",
+    "家庭如何参与理解数据化带来的约束及权力分配",
+    "推测性原型和家庭共同设计活动",
+    "社区与家庭参与能够改变问题定义与评价标准",
+    "CHI 2025；17 场活动，家长和儿童参与"
+  ],
+  [
+    "A Design Space for Visual Interfaces for Generative Image Models",
+    "https://arxiv.org/abs/2609.18065",
+    "图像／视觉设计",
+    "综述／交互设计空间",
+    "生成图像工具不同交互方式如何系统比较",
+    "归纳 UI、可控对象与底层生成操作的映射",
+    "可用来反向扩展跨媒介方法与机制",
+    "已收录于跨媒介第一批；重复条目应去重"
+  ],
+  [
+    "The ICAP Framework: Linking Cognitive Engagement to Active Learning Outcomes",
+    "https://doi.org/10.1080/00461520.2014.965823",
+    "学习理论／测量",
+    "参与分类／理论",
+    "哪些可观察活动反映学习参与方式",
+    "区分 Passive、Active、Constructive、Interactive 等模式",
+    "用于形成过程编码假设；行为分类本身不等于学习结果",
+    "2014 教育心理学理论与实证综合"
+  ],
+  [
+    "Learning Analytics for Self-Regulated Learning (Winne)",
+    "https://www.solaresearch.org/publications/hla-22/hla22-chapter8/",
+    "学习理论／测量",
+    "时间戳行为轨迹／分析",
+    "如何利用学习操作轨迹研究元认知监控与调整",
+    "结合理论选择 trace 数据、分析动作序列及情境",
+    "学习轨迹有助于过程推断，但需要独立效度支持",
+    "2022 Handbook of Learning Analytics 章节"
+  ],
+  [
+    "Construct and Consequential Validity for Learning Analytics Based on Trace Data",
+    "https://www.sciencedirect.com/science/article/pii/S0747563220302090",
+    "学习理论／测量",
+    "测量效度",
+    "从行为轨迹得出的学习推断何时成立",
+    "强调理论构念、过程记录可靠性与推断有效性",
+    "避免把点击数或停留时间直接作为知识增长",
+    "学习分析方法论论文"
+  ],
+  [
+    "Experience API (xAPI) Specification — Statements",
+    "https://github.com/adlnet/xAPI-Spec/blob/master/xAPI-Data.md",
+    "学习理论／测量",
+    "行为事件记录标准",
+    "如何可追溯地记录学习情境中的事件",
+    "Actor-Verb-Object 事件结构，附加 Result、Context、Timestamp",
+    "可借鉴为 CAD / prototyping 的有情境事件日志结构",
+    "技术标准；记录事件不是测量学习增益"
+  ]
+]
