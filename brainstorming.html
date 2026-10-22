@@ -38,7 +38,7 @@
 <h3>现有产品交互</h3>
 <p>在 Photoshop 中，用户可以添加并编辑图层蒙版，选择显示或隐藏图层的局部区域。调整图层上的蒙版可以将修改限定在图像的指定部分，其余区域不受影响，而且蒙版可以继续编辑。</p>
 <h3>CAD 交互设想（尚待验证）</h3>
-<ol><li>在完整的爬行训练辅助装置模型中选中头部支撑区域。</li><li>说明探索过程中哪些部分可以改变，周边哪些几何需要保持不变。</li><li>可以参考后文的 a replacement head support while keeping the rest of the assembly visible, inspect connections and clearance, and revise the scope if necessary.</li><li>将修改应用于共享设计之前，先审阅其影响。</li></ol>
+<ol><li>在完整的爬行训练辅助装置模型中选中头部支撑区域。</li><li>说明探索过程中哪些部分可以改变，周边哪些几何需要保持不变。</li><li>在其他部件仍然可见的情况下，探索新的头部支撑方案，检查连接与间隙，并在必要时调整允许修改的范围。</li><li>将修改应用于共享设计之前，先审阅其影响。</li></ol>
 <p><strong>值得探索的是：</strong> 使用者可以通过类似蒙版的交互定义探索边界和允许修改的区域。但在三维装配中，局部修改可能同时影响区域之外的连接和相邻部件。</p>
 <p><strong>开放问题：</strong> 这个范围究竟应当限制几何编辑、标记需要保留的设计决策，还是限定系统建议的应用范围？三者并不相同，需要分别研究。</p>
 <p class="brainstorm-source"><a href="https://helpx.adobe.com/photoshop/desktop/create-masks/layer-masks/add-layer-masks.html" target="_blank" rel="noopener noreferrer">Adobe：添加与编辑图层蒙版 ↗</a> · <a href="https://helpx.adobe.com/photoshop/desktop/create-manage-layers/color-adjustment-fill-layers/use-layer-masks-to-target-adjustment-or-fill-layers.html" target="_blank" rel="noopener noreferrer">Adobe：限定调整区域 ↗</a></p>
@@ -46,7 +46,7 @@
 <section class="brainstorm-item" id="dev-mode" aria-labelledby="dev-mode-title">
 <p class="brainstorm-meta">历史设想 14 · Figma · 审阅情境</p>
 <h2 id="dev-mode-title">Dev Mode（开发者模式）：从不同工作情境审阅同一设计</h2>
-<p class="brainstorm-note"><strong>2026 版框架映射 · 群体 × 问题优先或方案优先（候选方向）：</strong> 切换工作情境可能让协作者发现缺失的评价标准或他人掌握的相关知识，也可能帮助已意识到知识缺口的用户寻求专业意见。候选机制是 <strong>视角切换与情境化呈现</strong>.</p>
+<p class="brainstorm-note"><strong>2026 版框架映射 · 群体 × 问题优先或方案优先（候选方向）：</strong> 切换工作情境可能让协作者发现缺失的评价标准或他人掌握的相关知识，也可能帮助已意识到知识缺口的用户寻求专业意见。候选机制是 <strong>视角切换与情境化呈现</strong>。</p>
 <figure class="brainstorm-figure"><img src="images/brainstorm-context-view.svg" width="960" height="460" alt="Illustration of one shared CAD assembly alongside user-selectable design, engineering, physical therapy, and fabrication views, with engineering-specific inspection information visible." loading="lazy" decoding="async"><figcaption>插图展示 CAD 中可能的情境视图。下方 Figma 帮助页面介绍原始 Dev Mode 界面。</figcaption></figure>
 <h3>现有产品交互</h3>
 <p>Figma 提供面向开发者的检查和交接环境。Dev Mode 包含设计检查、具体设计信息与聚焦视图。迁移到 CAD 时，应区分用户所属角色和当前实际需要的推理支持。</p>
