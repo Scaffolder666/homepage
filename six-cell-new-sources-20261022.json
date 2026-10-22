@@ -583,5 +583,68 @@
     "activity": "重复检查",
     "description": "已收录同名论文，不重复",
     "status": "已核对正式论文或会议来源"
+  },
+  {
+    "title": "With, not For: Co-Designing a Patient-Facing AI Companion Concept for the Emergency Department Waiting Area",
+    "url": "https://doi.org/10.1145/3772318.3790638",
+    "cell": "p-g",
+    "domain": "医疗／共同设计",
+    "activity": "患者与医护目标表达",
+    "description": "让患者作为共同设计者参与 AI 候诊助手的概念形成",
+    "status": "官方来源核实"
+  },
+  {
+    "title": "It Talks Like a Patient, But Feels Different: Co-Designing AI Standardized Patients with Medical Learners",
+    "url": "https://doi.org/10.1145/3772363.3798336",
+    "cell": "p-g",
+    "domain": "医疗教育／共同设计",
+    "activity": "角色目标与学习体验",
+    "description": "与医学学习者一起确定 AI 标准化病人系统的需求；扩展摘要",
+    "status": "官方来源核实"
+  },
+  {
+    "title": "Design Considerations for Human Oversight of AI: Insights from Co-Design Workshops and Work Design Theory",
+    "url": "https://doi.org/10.1145/3742413.3789100",
+    "cell": "p-g",
+    "domain": "工作设计／AI",
+    "activity": "监督、风险与协作职责",
+    "description": "结合共同设计工作坊和工作设计理论讨论 AI 系统中人的监督",
+    "status": "官方来源核实"
+  },
+  {
+    "title": "Disentangling the Power Dynamics in Participatory Data Physicalisation",
+    "url": "https://doi.org/10.1145/3706598.3713703",
+    "cell": "p-g",
+    "domain": "数据实物化／参与式设计",
+    "activity": "权力关系、数据解释",
+    "description": "分析共同制作数据实物化作品中权力如何影响设计判断",
+    "status": "官方来源核实"
+  },
+  {
+    "title": "Computer Says No: Disabled Welfare Experiences and Envisioned Futures Under AI Governance",
+    "url": "https://doi.org/10.1145/3772318.3791025",
+    "cell": "p-c",
+    "domain": "社区／制度服务",
+    "activity": "未来设计需求与权利",
+    "description": "42 名共同设计参与者通过多场工作坊讨论残障福利系统的设计未来",
+    "status": "官方来源核实"
+  },
+  {
+    "title": "Accessibility-Driven Information Transformations in Mixed-Visual Ability Work Teams",
+    "url": "https://doi.org/10.1145/3772318.3790872",
+    "cell": "s-g",
+    "domain": "无障碍／团队协作",
+    "activity": "跨能力信息转换",
+    "description": "调查视觉能力混合团队如何转换不可访问的信息以维持协作",
+    "status": "官方来源核实"
+  },
+  {
+    "title": "The Magnetic Primitive Library: A Platform for Designing Shape-Changing Interactions",
+    "url": "https://doi.org/10.1145/3715668.3735605",
+    "cell": "s-i",
+    "domain": "材料／可变形交互",
+    "activity": "实物探索、材料知识",
+    "description": "通过磁性构件和制造指南，让设计者借助原型学习材料行为",
+    "status": "官方来源核实"
   }
 ]
