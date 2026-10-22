@@ -376,5 +376,86 @@
     "activity": "教育系统未来设计",
     "description": "关于学生与教师共同形成生成 AI 教育应用愿景的立场论文",
     "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "From Tacit Knowledge to Shared Practice: A Participatory Documentation Methodology for Urban Manufacturing",
+    "url": "https://doi.org/10.1145/3789492.3796458",
+    "cell": "s-c",
+    "domain": "社区／制造知识",
+    "activity": "文档与隐性知识转移",
+    "description": "将共同参与的动态文档作为城市制造社群设计与学习的持续组成部分",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Key Enablers towards Mature Company-community Collaboration in Open Source Hardware",
+    "url": "https://doi.org/10.3917/e.jie.pr1.0135",
+    "cell": "s-c",
+    "domain": "开源硬件／跨组织协作",
+    "activity": "组织间知识与设计复用",
+    "description": "研究企业如何与开源硬件社区建立长期协作以及所需能力",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "School Legacy: Reconstructing Memory Through AI-augmented Social XR",
+    "url": "https://doi.org/10.1145/3757374.3771522",
+    "cell": "s-c",
+    "domain": "社区／沉浸式创作",
+    "activity": "共享作品、集体记忆",
+    "description": "AI 生成的个人记忆对象被带入多人 VR 环境继续构成共享故事",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "I Recall the Past: Exploring How People Collaborate with Generative AI to Create Cultural Heritage Narratives",
+    "url": "https://doi.org/10.1145/3711006",
+    "cell": "s-c",
+    "domain": "文化遗产／共同创作",
+    "activity": "文化素材重用、故事重构",
+    "description": "通过共同视觉创作与社区文化材料支持非官方文化叙事",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Smart Museums, Smarter Experiences: Exploring the Impact of GenAI Usability on Digital Heritage Enjoyment",
+    "url": "https://doi.org/10.1145/3759275.3759292",
+    "cell": "s-c",
+    "domain": "文化遗产／内容体验",
+    "activity": "共同创作与体验测量",
+    "description": "分析生成 AI 数字文化项目中控制感与沉浸等体验因素；对社区推理映射较弱",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Chaotic, Exciting, Impactful: Stories of Material-led Designers in Interdisciplinary Collaboration",
+    "url": "https://doi.org/10.1145/3715336.3735830",
+    "cell": "s-g",
+    "domain": "材料／跨专业合作",
+    "activity": "材料知识、原型、学科沟通",
+    "description": "通过十个材料驱动设计故事讨论设计师、工程师与科学家的协作",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Using LLMs in Generating Design Rationale for Software Architecture Decisions",
+    "url": "https://doi.org/10.1145/3785010",
+    "cell": "s-g",
+    "domain": "软件架构／协作",
+    "activity": "理由重建、文档外化",
+    "description": "研究通过 LLM 生成和恢复架构决策依据；区别生成的理由与人的真实依据",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "RetroChat: Designing for the Preservation of Past Chinese Online Social Experiences",
+    "url": "https://doi.org/10.1145/3698061.3726920",
+    "cell": "s-c",
+    "domain": "社区／文化记忆",
+    "activity": "历史重构、记忆表达",
+    "description": "探索如何通过设计工具保留和再次访问早期社交体验",
+    "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "Generative Theories of Interaction",
+    "url": "https://doi.org/10.1145/3468505",
+    "cell": "p-c",
+    "domain": "社区／设计理论",
+    "activity": "共同对象、社区需求与关系",
+    "description": "研究共同使用的对象如何帮助不同群体协商边界与集体实践",
+    "status": "已核对论文或正式发表来源"
   }
 ]
