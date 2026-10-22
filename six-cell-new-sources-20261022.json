@@ -844,5 +844,14 @@
     "activity": "跨贡献者方案与设计过程共享",
     "description": "分析开放设计实践中的贡献方式、解决方案、过程和项目结构",
     "status": "已核对来源与论文主题"
+  },
+  {
+    "title": "Between Two Worlds: Analysing the Effects of Immersive and Non-Immersive Prototyping for Participatory Design",
+    "url": "https://doi.org/10.1145/3643834.3660715",
+    "cell": "p-g",
+    "domain": "参与式设计／XR",
+    "activity": "多人协商、原型媒介选择",
+    "description": "通过16场XR参与式原型工作坊对比沉浸式与非沉浸式方式如何影响共同设计过程",
+    "status": "DIS 2024 论文，已核对 DOI 与发表信息"
   }
 ]
