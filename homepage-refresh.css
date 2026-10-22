@@ -202,20 +202,7 @@
   font-size: .75rem;
   color: #798086;
 }
-.home-page .vision-outlook {
-  display: grid;
-  grid-template-columns: 210px minmax(0,1fr);
-  gap: 26px;
-  padding: 23px 0 0;
-  border-top: 1px solid var(--line);
-}
 .home-page .outlook-kicker { margin-top: 5px; }
-.home-page .vision-outlook .agenda-intro {
-  margin: 0;
-  max-width: 80ch;
-  font-size: .965rem;
-  line-height: 1.78;
-}
 
 /* Sections: strong title anchors with consistent vertical rhythm. */
 .home-page .section { margin-top: 81px; scroll-margin-top: 95px; }
@@ -434,7 +421,7 @@
   .home-page .portrait { width: 172px; height: 172px; }
   .home-page .work { grid-template-columns: 230px minmax(0,1fr); gap: 24px; }
   .home-page .work .media { height: 160px; }
-  .home-page .framework-head, .home-page .vision-outlook { grid-template-columns: 165px minmax(0,1fr); }
+  .home-page .framework-head { grid-template-columns: 165px minmax(0,1fr); }
 }
 @media (max-width: 760px) {
   .home-page .wrap { width: calc(100% - 36px); }
@@ -476,14 +463,14 @@
   .home-page .vision-hero .vision-subtitle { font-size: 1.08rem; margin: 4px 0 19px; }
   .home-page .vision-hero .lead { font-size: 1.015rem; line-height: 1.68; }
   .home-page .vision-context { grid-template-columns: 1fr; gap: 23px; padding-top: 23px; margin: 0 0 26px; }
-  .home-page .context-label, .home-page .framework-kicker, .home-page .outlook-kicker { font-size: .69rem; margin-bottom: 8px; }
+  .home-page .context-label, .home-page .framework-kicker { font-size: .69rem; margin-bottom: 8px; }
   .home-page .context-block .agenda-intro { font-size: .91rem; line-height: 1.73; }
   .home-page .question-panel { margin: 0 0 37px; padding: 18px 20px; }
   .home-page .question-panel .research-question { font-size: .96rem; line-height: 1.69; }
   .home-page .question-panel .research-question strong { font-size: .7rem; }
-  .home-page .framework-head, .home-page .vision-outlook { grid-template-columns: 1fr; gap: 5px; }
+  .home-page .framework-head { grid-template-columns: 1fr; gap: 5px; }
   .home-page .framework-head { margin-bottom: 18px; }
-  .home-page .framework-head .agenda-intro, .home-page .vision-outlook .agenda-intro { font-size: .91rem; line-height: 1.72; }
+  .home-page .framework-head .agenda-intro { font-size: .91rem; line-height: 1.72; }
   .home-page .agenda-cross { padding: 13px 10px 13px; border-radius: 8px; margin-bottom: 24px; }
   .home-page .agenda-cross figcaption { font-size: .69rem; line-height: 1.5; }
   .home-page .vision-outlook { padding-top: 21px; }
@@ -525,4 +512,85 @@
 }
 @media (prefers-reduced-motion: reduce) {
   .home-page .work a.media img { transition: none; }
+}
+
+
+/* Phone-first editorial refinements: no squeezed text or hidden navigation. */
+.home-page .framework-scroll-hint { display:none; }
+@media(min-width:761px) and (max-width:880px){
+  .home-page .vision-context {grid-template-columns:1fr;gap:22px}
+  .home-page .context-block .agenda-intro {max-width:76ch}
+  .home-page .work {grid-template-columns:205px minmax(0,1fr);gap:23px}
+  .home-page .work .media {height:148px}
+}
+@media(max-width:760px){
+  /* All six section links remain visible. */
+  .home-page .site-header {position:relative}
+  .home-page .topbar {display:block;padding:0;min-height:0}
+  .home-page .brand {display:none}
+  .home-page .topnav {display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:0;overflow:visible;padding:0}
+  .home-page .topnav a {display:flex;justify-content:center;align-items:center;min-width:0;min-height:49px;padding:0 2px;font-size:.77rem;font-weight:610;text-align:center;white-space:nowrap}
+  .home-page .topnav a[aria-current="location"] {text-underline-offset:6px;text-decoration-thickness:2px}
+  .home-page .layout {padding-top:25px}
+  .home-page .profile {margin-bottom:35px;padding-bottom:25px}
+  .home-page .vision-hero {padding-bottom:23px}
+  .home-page .vision-context {margin-bottom:24px;gap:21px}
+  .home-page .context-block .agenda-intro,.home-page .framework-head .agenda-intro {font-size:.94rem;line-height:1.72;color:#4a535b}
+  .home-page .question-panel {margin-bottom:32px}
+  .home-page .framework-head {gap:5px;margin-bottom:17px}
+  .home-page .agenda-cross {padding:14px 11px 12px;margin:0 0 8px;max-width:100%;overflow:hidden}
+  .home-page .agenda-cross-plot {width:100%;max-width:100%;min-width:0}
+  .home-page .agenda-cross figcaption {margin:12px 1px 0;font-size:.74rem;line-height:1.55}
+  .home-page .section,.home-page #research {margin-top:51px;scroll-margin-top:20px}
+
+  /* News becomes a vertical reading list: never stack date + narrow text + image columns. */
+  .home-page #news .news li {display:block;padding:17px 0 19px;border-bottom:1px solid #e9eae8}
+  .home-page #news .news time {display:block;padding:0;margin:0 0 8px;color:#747b81;font-size:.74rem;line-height:1.3;font-weight:700;letter-spacing:.025em}
+  .home-page #news .news p {max-width:none;font-size:.92rem;line-height:1.68}
+  .home-page #news .aexam-news {margin:0 0 10px;padding:19px 18px 18px}
+  .home-page #news .aexam-news p {font-size:.94rem;line-height:1.72}
+  .home-page #news .featured-news .news-entry,.home-page #news .with-news-photo .news-entry {display:flex;flex-direction:column;align-items:flex-start;gap:10px}
+  .home-page #news .news-photo {width:142px;max-width:100%;border-radius:7px}
+  .home-page #news .news-photo img {width:100%;max-height:102px;aspect-ratio:16/10;object-fit:cover}
+  .home-page .aexam-news-gallery {flex-wrap:wrap;align-items:center;gap:10px;margin-top:16px}
+  .home-page .aexam-news-gallery a {max-width:calc(50% - 5px)}
+  .home-page .aexam-news-gallery img {width:145px;height:109px;max-width:100%;object-fit:contain;background:#f7f7f6}
+  .home-page #news .older-news summary {min-height:46px}
+
+  /* Titles lead every publication; image is secondary and never fills an entire screen. */
+  .home-page .work {display:flex;flex-direction:column;align-items:stretch;gap:0;padding:25px 0 29px}
+  .home-page .work-info {display:contents}
+  .home-page .work .meta {order:1;margin:0 0 8px;font-size:.76rem}
+  .home-page .work h3 {order:2;margin:0 0 15px;max-width:none;font-size:1.16rem;line-height:1.38;letter-spacing:-.025em;overflow-wrap:break-word}
+  .home-page .work .media {order:3;width:100%;height:auto;max-height:172px;aspect-ratio:2/1;margin:0 0 15px;border-radius:8px}
+  .home-page .work .media img {width:100%;height:100%;object-fit:contain}
+  .home-page .work .media.empty {min-height:62px;max-height:62px;aspect-ratio:auto;margin-bottom:14px;font-size:.82rem;border-style:dashed;background:#f6f6f4}
+  .home-page .work .authors {order:4;margin:0 0 10px;color:#6f787f;font-size:.81rem;line-height:1.59}
+  .home-page .work .desc {order:5;margin:0;max-width:none;font-size:.94rem;line-height:1.71;color:#434d55}
+  .home-page .work .keywords {order:6;gap:5px;margin-top:13px}
+  .home-page .work .keyword {padding:3px 7px;font-size:.69rem;border-radius:4px}
+  .home-page .work .project-links {order:7;margin-top:14px;gap:4px 20px}
+  .home-page .work .project-links a {min-height:40px;font-size:.9rem;text-underline-offset:5px}
+  .home-page .fishing-story {gap:14px;align-items:start}
+  .home-page .fishing-story img {flex:0 0 min(35%,155px);width:min(35%,155px);height:auto;aspect-ratio:3/4;object-fit:cover}
+  .home-page .fishing-story figcaption>p:last-child {font-size:.89rem;line-height:1.57}
+}
+@media(max-width:480px){
+  /* Two predictable rows at 320–480px; no horizontally clipped Contact link. */
+  .home-page .topnav {grid-template-columns:repeat(3,minmax(0,1fr));border-bottom:1px solid #eeefed}
+  .home-page .topnav a {min-height:39px;font-size:.78rem}
+  .home-page .topnav a:nth-child(-n+3) {border-bottom:1px solid #f0f0ef}
+  .home-page .topnav a[aria-current="location"] {text-decoration:none;color:#962632;background:#faf3f3}
+  .home-page .profile {grid-template-columns:79px minmax(0,1fr);column-gap:14px}
+  .home-page .portrait {width:79px;height:79px}
+  .home-page .profile h2 {font-size:clamp(1.55rem,6vw,1.84rem)}
+  .home-page .role {font-size:.81rem}
+  .home-page .affiliation {font-size:.75rem;line-height:1.5}
+  .home-page .vision-hero h1 {font-size:clamp(2.05rem,9vw,2.47rem)}
+  .home-page .question-panel {padding:18px 18px 19px}
+  /* Preserve actual diagram label size. Drag to see its full 390px canvas. */
+  .home-page .agenda-cross-plot {overflow-x:auto;overflow-y:hidden;scrollbar-width:thin;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain}
+  .home-page .agenda-cross .agenda-cross-mobile {width:390px;min-width:390px;max-width:none;height:auto}
+  .home-page .framework-scroll-hint {display:block;margin:8px 0 0;text-align:right;color:#7c858b;font-size:.73rem;line-height:1.3}
+  .home-page .aexam-news-gallery img {width:130px;height:104px}
 }
