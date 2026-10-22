@@ -457,5 +457,131 @@
     "activity": "共同对象、社区需求与关系",
     "description": "研究共同使用的对象如何帮助不同群体协商边界与集体实践",
     "status": "已核对论文或正式发表来源"
+  },
+  {
+    "title": "CreAItive Collaboration? Users' Misjudgment of AI-Creativity Affects Their Collaborative Performance",
+    "url": "https://doi.org/10.1145/3706598.3713886",
+    "cell": "p-g",
+    "domain": "群体创意设计／学习",
+    "activity": "协作中的创意贡献与后续能力",
+    "description": "通过成对实验比较有人机生成工具时共同创意任务与随后的无辅助表现",
+    "status": "已核对正式论文或会议来源"
+  },
+  {
+    "title": "Maintaining Balanced Conflict: Proactive Intervention Strategies of AI Voice Agents in Online Collaboration of Temporary Design Teams",
+    "url": "https://doi.org/10.1145/3706598.3713457",
+    "cell": "p-g",
+    "domain": "团队／冲突协调",
+    "activity": "讨论冲突与问题理解",
+    "description": "研究语音 AI 在临时设计团队中主动介入冲突的方式",
+    "status": "已核对正式论文或会议来源"
+  },
+  {
+    "title": "Supporting Speculative Design Thinking through User Journey Mapping Tools",
+    "url": "https://doi.org/10.1145/3802974.3809478",
+    "cell": "p-g",
+    "domain": "UX／协作规划",
+    "activity": "共同表达未来体验标准",
+    "description": "利用旅程地图工具支持推测性设计；进行中研究",
+    "status": "已核对正式论文或会议来源"
+  },
+  {
+    "title": "Beyond Automation: How Designers Perceive AI as a Creative Partner in the Divergent Thinking Stages of UI/UX Design",
+    "url": "https://doi.org/10.1145/3706598.3713500",
+    "cell": "p-i",
+    "domain": "UX／创意构思",
+    "activity": "问题理解、发散探索",
+    "description": "通过专业设计师访谈理解 AI 在设计研究与构思阶段的实际作用",
+    "status": "已核对正式论文或会议来源"
+  },
+  {
+    "title": "The Impact of Sketch-guided vs. Prompt-guided 3D Generative AIs on the Design Exploration Process",
+    "url": "https://doi.org/10.1145/3613904.3642218",
+    "cell": "p-i",
+    "domain": "三维生成／设计意图",
+    "activity": "草绘与提示的表达差异",
+    "description": "比较早期三维设计中草绘式与提示式 AI 引导对探索过程的影响",
+    "status": "已核对正式论文或会议来源"
+  },
+  {
+    "title": "Script&Shift: A Layered Interface Paradigm for Integrating Content Development and Rhetorical Strategy with LLM Writing Assistants",
+    "url": "https://doi.org/10.1145/3706598.3714119",
+    "cell": "p-i",
+    "domain": "创意写作／界面",
+    "activity": "表达高层目标与局部内容",
+    "description": "分层 UI 将内容修改和修辞策略一起呈现与调整",
+    "status": "已核对正式论文或会议来源"
+  },
+  {
+    "title": "From Throw-Away to Takeaway: How GenAI and Vibe Coding Accelerate Prototyping Across Technical Skill Levels",
+    "url": "https://doi.org/10.1145/3772318.3790757",
+    "cell": "s-i",
+    "domain": "软件原型／创作",
+    "activity": "原型探索、知识与能力",
+    "description": "研究不同技术经验者如何使用 AI 原型化与 vibe coding",
+    "status": "已核对正式论文或会议来源"
+  },
+  {
+    "title": "filtered.ink: Creating Dynamic Illustrations with SVG Filters",
+    "url": "https://doi.org/10.1145/3544548.3581051",
+    "cell": "s-i",
+    "domain": "插画／参数设计",
+    "activity": "尝试、比较与组合技术效果",
+    "description": "交互式 SVG 滤镜支持通过尝试效果并 remix 构造新的视觉方案",
+    "status": "已核对正式论文或会议来源"
+  },
+  {
+    "title": "DanXeReflect: Interacting with the Spatio-Temporal Past Movements for Embodied, Reflective Choreographic Collaboration",
+    "url": "https://doi.org/10.1145/3772318.3790808",
+    "cell": "s-g",
+    "domain": "舞蹈／异步协作",
+    "activity": "动作回放、身体推理、跨人交接",
+    "description": "用过去的动作轨迹支持异步舞蹈编排协作与反思",
+    "status": "已核对正式论文或会议来源"
+  },
+  {
+    "title": "Vibe Coding in Product Teams: Reconfiguring AI-Assisted Workflows, Prototyping, and Collaboration",
+    "url": "https://doi.org/10.1145/3808045.3808062",
+    "cell": "s-g",
+    "domain": "团队产品设计／软件",
+    "activity": "跨角色原型和语义交接",
+    "description": "研究产品团队如何用语言驱动原型与代码，并改变协作流程",
+    "status": "已核对正式论文或会议来源"
+  },
+  {
+    "title": "A Systematic Literature Review to Characterize Asymmetric Interaction in Collaborative Systems",
+    "url": "https://doi.org/10.1145/3706598.3713129",
+    "cell": "s-g",
+    "domain": "协作交互／综述",
+    "activity": "非对称参与、角色权限",
+    "description": "梳理协作系统中参与者能力与交互的不对称形式，提供跨团队工具设计依据",
+    "status": "已核对正式论文或会议来源"
+  },
+  {
+    "title": "When Designers Sweat: Behavioral Traces of GenAI Co-Creation",
+    "url": "https://doi.org/10.1145/3772318.3791776",
+    "cell": "s-i",
+    "domain": "创作过程／痕迹",
+    "activity": "行为数据、设计探索",
+    "description": "研究生成式 AI 创作行为的轨迹与模式，不把轨迹自动等同内在意图",
+    "status": "已核对正式论文或会议来源"
+  },
+  {
+    "title": "“I'll Just Do It”: Designing for the Hidden Work of Collaborative Family Caregiving",
+    "url": "https://doi.org/10.1145/3772318.3791609",
+    "cell": "p-g",
+    "domain": "家庭／分工与协作",
+    "activity": "隐性工作、角色和任务理解",
+    "description": "研究共享照护中不可见的职责与协作信息需求",
+    "status": "已核对正式论文或会议来源"
+  },
+  {
+    "title": "The Way We Notice, That’s What Really Matters: Instantiating UI Components with Distinguishing Variations",
+    "url": "https://doi.org/10.1145/3772318.3790621",
+    "cell": "s-i",
+    "domain": "UI／组件探索",
+    "activity": "重复检查",
+    "description": "已收录同名论文，不重复",
+    "status": "已核对正式论文或会议来源"
   }
 ]
