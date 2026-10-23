@@ -157,9 +157,9 @@
     banner.innerHTML =
       '<div class="sf-ga-consent-message">' +
         '<strong>Optional website analytics</strong>' +
-        '<p>May I use Google Analytics to understand anonymous site visits ' +
-          'by country, state and city? Google Analytics will not load ' +
-          'unless you agree. Existing Vercel site statistics are separate. ' +
+        '<p>May I use Google Analytics to see aggregate visits ' +
+          'by country, state and city? It loads only with your permission. ' +
+          'Existing cookie-free Vercel statistics are separate. ' +
           '<a href="privacy.html">Learn more</a>.</p>' +
       '</div>' +
       '<div class="sf-ga-consent-actions">' +
