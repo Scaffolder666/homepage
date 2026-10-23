@@ -69,11 +69,11 @@
     "reference": 23,
     "title": "VisiBlends: A Flexible Workflow for Visual Blends",
     "url": "https://doi.org/10.1145/3290605.3300402",
-    "cell": "s-i",
+    "cell": "s-g",
     "domain": "图形设计／视觉融合",
     "mechanism": "视觉隐喻、图像组合",
-    "interaction": "支持把两个视觉概念结合成一个混合图像的设计工作流程。",
-    "reasoning": "比较并探索不同融合方式对当前设计表达的影响。",
+    "interaction": "将视觉融合设计拆成计算模块与微任务，支持分布式团队和同地团队的构思、合成与迭代。",
+    "reasoning": "围绕已有组合方案的多方协作、分工、重新组合与迭代改进。",
     "type": "HCI 系统"
   },
   {
@@ -244,7 +244,7 @@
   {
     "reference": 78,
     "title": "Designing Creative AI Partners with COFI: A Framework for Modeling Interaction in Human-AI Co-Creative Systems",
-    "url": "https://doi.org/10.1145/3585089",
+    "url": "https://doi.org/10.1145/3519026",
     "cell": "p-g",
     "domain": "人-AI 共创／理论框架",
     "mechanism": "互动结构、合作控制权",
