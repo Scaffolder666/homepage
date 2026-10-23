@@ -174,8 +174,7 @@
   }
 
   function addPreferencesControl() {
-    var footer = document.querySelector('footer');
-    if (!footer) return;
+    var footer = document.querySelector('footer') || document.body;
     var button = document.createElement('button');
     button.type = 'button';
     button.className = 'sf-ga-preferences';
