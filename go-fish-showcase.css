@@ -1,0 +1,22 @@
+/* Personal Go Fish collection, embedded read-only and private by default. */
+.home-page .fishdex-showcase{margin-top:25px;padding-top:18px;border-top:1px solid #e7e8e9;min-width:0}
+.home-page .fishdex-showcase-intro{display:flex;justify-content:space-between;align-items:flex-start;gap:18px}
+.home-page .fishdex-showcase-intro h3{font-size:1.06rem;font-weight:720;margin:0 0 6px;line-height:1.35}
+.home-page .fishdex-showcase-intro p{font-size:.875rem;line-height:1.58;margin:0;color:#596168}
+.home-page .fishdex-showcase-intro a{flex:0 0 auto;color:#b31b1b;font-size:.83rem;font-weight:650;text-decoration:underline;text-underline-offset:3px}
+.home-page .fishdex-showcase-status{font-size:.8rem;margin:9px 0 0;color:#777f86}
+.home-page .fishdex-showcase-summary{display:flex;flex-wrap:wrap;gap:24px;margin:14px 0 14px}
+.home-page .fishdex-showcase-summary>div{display:flex;align-items:baseline;gap:7px}
+.home-page .fishdex-showcase-summary strong{font-size:1.25rem;color:#263138}
+.home-page .fishdex-showcase-summary span{font-size:.78rem;color:#6b7379}
+.home-page .fishdex-showcase-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.home-page .fishdex-puzzle-card{padding:11px 11px 13px;border:1px solid #e0e2e4;border-radius:9px;background:#fff;min-width:0}
+.home-page .fishdex-puzzle-head{display:flex;align-items:start;justify-content:space-between;gap:7px;margin-bottom:8px}
+.home-page .fishdex-puzzle-head strong{font-size:.8rem;line-height:1.4}
+.home-page .fishdex-puzzle-head span{font-size:.76rem;white-space:nowrap;color:#656c72}
+.home-page .fishdex-puzzle-card img{display:block;max-width:100%;width:100%;height:auto;aspect-ratio:1;object-fit:contain;border-radius:4px;background:#f5f0e8}
+.home-page .fishdex-progress{height:4px;background:#edece8;margin-bottom:10px;border-radius:3px;overflow:hidden}
+.home-page .fishdex-progress>span{display:block;height:100%;background:#957e67}
+.home-page .fishdex-updated{margin-top:10px;font-size:.72rem;color:#80878b}
+@media(max-width:720px){.home-page .fishdex-showcase-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}}
+@media(max-width:430px){.home-page .fishdex-showcase-intro{display:block}.home-page .fishdex-showcase-intro a{display:inline-block;margin-top:8px}.home-page .fishdex-showcase-summary{gap:8px 16px}.home-page .fishdex-showcase-summary>div{display:block}.home-page .fishdex-showcase-summary strong{display:block;font-size:1.13rem}.home-page .fishdex-puzzle-card{padding:8px}.home-page .fishdex-puzzle-head strong{font-size:.73rem}}
