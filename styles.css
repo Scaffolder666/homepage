@@ -239,3 +239,81 @@ body.agenda-page .agenda-footer{margin-top:0;border-top:1px solid var(--line);pa
 @media(max-width:900px){.fishing-stories{grid-template-columns:minmax(0,1fr);gap:24px}}
 @media(max-width:760px){.topnav{grid-template-columns:repeat(3,minmax(0,1fr))}.fishing-story img{flex-basis:155px;width:155px;height:207px}}
 @media(max-width:420px){.fishing-story{gap:12px}.fishing-story img{flex-basis:120px;width:120px;height:160px}.fishing-story h3{font-size:.96rem}}
+
+/* GitHub contribution calendar: quiet addition to Outside the Lab. */
+.github-activity{
+  margin-top:30px;
+  padding-top:22px;
+  border-top:1px solid var(--line);
+}
+.github-activity-heading{
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  gap:12px 24px;
+}
+.github-activity-kicker{
+  margin:0 0 5px;
+  font-size:.72rem;
+  font-weight:700;
+  letter-spacing:.1em;
+  color:var(--accent,#b31b1b);
+}
+.github-activity-heading h3{
+  margin:0 0 5px;
+  font-size:1.12rem;
+  line-height:1.3;
+  letter-spacing:-.015em;
+}
+.github-activity-heading p:not(.github-activity-kicker){
+  margin:0;
+  color:var(--muted);
+  font-size:.88rem;
+  line-height:1.5;
+}
+.github-activity-link{
+  font-size:.84rem;
+  font-weight:650;
+  white-space:nowrap;
+}
+.github-activity-chart{
+  display:block;
+  max-width:100%;
+  margin-top:16px;
+  padding:17px 13px;
+  border:1px solid var(--line);
+  border-radius:6px;
+  background:#fff;
+  overflow-x:auto;
+  scrollbar-width:thin;
+  -webkit-overflow-scrolling:touch;
+}
+.github-activity-chart img{
+  display:block;
+  width:820px;
+  max-width:100%;
+  height:auto;
+  margin:0 auto;
+}
+.github-activity-mobile-hint{display:none}
+@media(max-width:760px){
+  .github-activity{margin-top:25px;padding-top:17px}
+  .github-activity-chart{
+    padding:14px 10px;
+    direction:rtl; /* Initially show the most recent contribution weeks. */
+  }
+  .github-activity-chart img{
+    width:780px;
+    min-width:780px;
+    max-width:none;
+    margin:0;
+    direction:ltr;
+  }
+  .github-activity-mobile-hint{
+    display:block;
+    margin:7px 0 0;
+    font-size:.76rem;
+    color:var(--muted);
+  }
+}
