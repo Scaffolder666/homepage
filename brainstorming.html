@@ -18,18 +18,18 @@
 <main class="wrap brainstorm-main" id="main">
 <p class="eyebrow">研究机会 · 最新 A-exam 框架</p>
 <h1>从交互先例发展研究问题</h1>
-<p class="brainstorm-intro">以 2026 年 10 月 A-exam 确立的研究空间为起点： <strong>问题优先／方案优先 × 个人／群体／社区</strong>。选择一个具体的设计推理困难，再思考哪种交互机制可以提供支持。下面保留两项早期研究设想，并按照最新框架重新理解，不再主要用已知／未知认识状态分类。</p>
-<p class="brainstorm-note">当前状态：尚待验证的研究假设。原产品交互、CAD 迁移设想、证据边界与开放问题分别记录。</p>
+<p class="brainstorm-intro">以 2026 年 10 月 A-exam 确立的研究空间为起点： <strong>问题优先／方案优先 × 个人／群体／社区</strong>。选择一个具体的设计推理困难，再思考哪种交互机制可以提供支持。下面按照当前框架整理早期研究设想。</p>
+
 <section class="sp-section" id="ideas-by-cell"><h2>研究机会地图</h2>
 <div class="sp-grid">
-<div class="sp-card"><p class="sp-eyebrow">个人 · 问题优先</p><h3>意识到问题之后，如何继续学习</h3><p>当反思性问题让设计者意识到某个制造影响后，工具能否进一步支持知识检索、方案评估或实物测试，同时让设计者保有决策权？</p><p class="sp-small">由 aCADemy 的研究发现（第 44–47 页）启发，尚未验证。</p></div>
-<div class="sp-card"><p class="sp-eyebrow">个人 · 方案优先</p><h3>跨制造方案迁移方法</h3><p>比较、局部编辑范围以及已有成功案例，能否帮助设计者考虑更多可行的制造方式，并理解不同选择的后果？</p><p class="sp-small">由 CAMeleon 启发的研究拓展，不是已有研究发现。</p></div>
+<div class="sp-card"><p class="sp-eyebrow">个人 · 问题优先</p><h3>意识到问题之后，如何继续学习</h3><p>当反思性问题让设计者意识到某个制造影响后，工具能否进一步支持知识检索、方案评估或实物测试，同时让设计者保有决策权？</p></div>
+<div class="sp-card"><p class="sp-eyebrow">个人 · 方案优先</p><h3>跨制造方案迁移方法</h3><p>比较、局部编辑范围以及已有成功案例，能否帮助设计者考虑更多可行的制造方式，并理解不同选择的后果？</p></div>
 <div class="sp-card"><p class="sp-eyebrow">群体 · 问题优先</p><h3>跨专业协作中的问题重构</h3><p>能否让协作者理解工程、临床或使用需求如何改变设计目标，而不要求每个人都直接建模？</p><p class="sp-small">受到 FuzzyCAD 研究发现（第 60–63 页）启发的交互设想。</p></div>
 <div class="sp-card"><p class="sp-eyebrow">群体 · 方案优先</p><h3>限定修改范围与情境化审阅</h3><p>协作者如何说明哪些局部决策仍可修改、哪些条件需要保留，以及定案之前还需要哪些外部信息？</p><p class="sp-small">可以参考后文的 <a href="#layer-masks">Layer Masks</a> 与 <a href="#dev-mode">Dev Mode</a> 迁移构想。</p></div>
-<div class="sp-card"><p class="sp-eyebrow">社区 · 问题优先</p><h3>针对新使用者与新情境重新理解问题</h3><p>在复用已有设计时，如何发现新使用者在需求、标准、环境或无障碍条件上的不同，从而重新理解问题？</p><p class="sp-small">尚待探索的社区研究问题，目前没有声称已评价的系统。</p></div>
+<div class="sp-card"><p class="sp-eyebrow">社区 · 问题优先</p><h3>针对新使用者与新情境重新理解问题</h3><p>在复用已有设计时，如何发现新使用者在需求、标准、环境或无障碍条件上的不同，从而重新理解问题？</p></div>
 <div class="sp-card"><p class="sp-eyebrow">社区 · 方案优先</p><h3>可迁移的设计推理</h3><p>当部分设计推理记录已经遗失时，社区如何结合已有设计、部分依据、测试与约束，将方案适配到新情境？</p><p class="sp-small">直接对应未来研究第 65–66 页。</p></div>
 </div></section>
-<section class="sp-section"><p class="sp-eyebrow">保留的交互草图</p><h2>两项具体交互迁移设想</h2><p>下面保留原产品行为与拟议的 CAD 交互流程。以前的已知／未知分析只作为历史记录参考。</p></section>
+<section class="sp-section"><p class="sp-eyebrow">保留的交互草图</p><h2>两项具体交互迁移设想</h2><p>下面记录原产品交互及 CAD 迁移方案。</p></section>
 <section class="brainstorm-item" id="layer-masks" aria-labelledby="layer-masks-title">
 <p class="brainstorm-meta">历史设想 13 · Photoshop · 修改范围</p>
 <h2 id="layer-masks-title">Layer Masks（图层蒙版）：局部修改，同时保留整体情境</h2>
@@ -53,7 +53,7 @@
 <h3>CAD 交互设想（尚待验证）</h3>
 <ol><li>打开同一个爬行训练辅助装置模型，选择当前任务情境，例如设计、工程、物理治疗或制造。</li><li>将相关几何与该任务所需的知识和问题一起呈现，例如工程情境中的结构假设，或物理治疗情境中的接触与运动需求。</li><li>在不丢失共享模型的情况下切换情境或查看其他专业的信息，不按角色硬性限制可访问内容。</li><li>将新的发现关联到对应几何，供下一位协作者使用。</li></ol>
 <p><strong>值得探索的是：</strong> 不同参与者会带着不同的问题审阅同一几何。用户自主切换视图，同时仍能看到跨情境的关联需求。</p>
-<p><strong>开放问题：</strong> 情境视图如何突出相关信息，又不遮蔽使用者专业范围之外的依赖关系和重要考虑？按任务切换视图不应演变成僵硬的角色权限。</p>
+<p><strong>开放问题：</strong> 情境视图如何突出相关信息，又不遮蔽使用者专业范围之外的依赖关系和重要考虑？</p>
 <p class="brainstorm-source"><a href="https://help.figma.com/hc/en-us/articles/15023124644247-Guide-to-Dev-Mode" target="_blank" rel="noopener noreferrer">Figma：Dev Mode 指南 ↗</a> · <a href="https://help.figma.com/hc/en-us/articles/23919923330455-Dev-Mode-focus-view" target="_blank" rel="noopener noreferrer">Figma：聚焦视图 ↗</a></p>
 </section>
 <p class="brainstorm-note">后续先例筛选原则：只有当一项由用户控制的具体交互能够改变设计者操作、检查或探索设计的方式时，才值得进一步记录。界面看起来相似并不足以成为迁移依据。</p>
