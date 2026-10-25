@@ -1,0 +1,28 @@
+/* Optional public Go Fish puzzle showcase, hidden until a feed URL is configured. */
+#fishlog-showcase[hidden]{display:none!important}
+#fishlog-showcase{margin-top:24px;padding:22px;border:1px solid #e1e4e4;border-radius:4px;background:#fafafa;color:var(--ink,#252525)}
+.fishlog-head{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-bottom:19px}
+.fishlog-kicker{margin:0 0 5px;color:var(--muted,#767676);font-size:.77rem;letter-spacing:.065em;text-transform:uppercase}
+#fishlog-showcase h3{margin:0;font-size:1.16rem;line-height:1.4}
+.fishlog-intro{margin:6px 0 0;color:var(--muted,#767676);font-size:.85rem}
+.fishlog-app-link{flex:none;margin-top:5px;font-size:.84rem;font-weight:600;text-underline-offset:4px}
+.fishlog-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px 18px;margin:0 0 22px;padding:13px 0;border-top:1px solid #e1e4e4;border-bottom:1px solid #e1e4e4}
+.fishlog-stat{display:flex;flex-direction:column;gap:3px}
+.fishlog-stat strong{font-size:1.6rem;line-height:1.2;font-variant-numeric:tabular-nums}
+.fishlog-stat span{font-size:.78rem;color:var(--muted,#767676)}
+.fishlog-puzzles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.fishlog-puzzle{min-width:0;margin:0}
+.fishlog-puzzle img{display:block;width:100%;aspect-ratio:1/1;object-fit:contain;background:#f3f0ea;border:1px solid #e4e1d9;border-radius:3px}
+.fishlog-puzzle figcaption{display:flex;justify-content:space-between;gap:5px;align-items:baseline;margin-top:7px;font-size:.82rem;line-height:1.45}
+.fishlog-puzzle-name{font-weight:600;overflow-wrap:anywhere}
+.fishlog-puzzle-count{flex:none;color:var(--muted,#767676);font-variant-numeric:tabular-nums}
+.fishlog-progress{display:block;width:100%;height:4px;margin-top:7px;accent-color:#414141}
+.fishlog-updated{margin:18px 0 0;color:var(--muted,#767676);font-size:.75rem}
+@media(max-width:600px){
+ #fishlog-showcase{padding:16px}
+ .fishlog-head{display:block}
+ .fishlog-app-link{display:inline-block;margin-top:10px}
+ .fishlog-stats{gap:10px}
+ .fishlog-stat strong{font-size:1.35rem}
+ .fishlog-puzzles{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 11px}
+}
