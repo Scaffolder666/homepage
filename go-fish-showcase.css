@@ -1,28 +1,152 @@
-/* Optional public Go Fish puzzle showcase, hidden until a feed URL is configured. */
-#fishlog-showcase[hidden]{display:none!important}
-#fishlog-showcase{margin-top:24px;padding:22px;border:1px solid #e1e4e4;border-radius:4px;background:#fafafa;color:var(--ink,#252525)}
-.fishlog-head{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-bottom:19px}
-.fishlog-kicker{margin:0 0 5px;color:var(--muted,#767676);font-size:.77rem;letter-spacing:.065em;text-transform:uppercase}
-#fishlog-showcase h3{margin:0;font-size:1.16rem;line-height:1.4}
-.fishlog-intro{margin:6px 0 0;color:var(--muted,#767676);font-size:.85rem}
-.fishlog-app-link{flex:none;margin-top:5px;font-size:.84rem;font-weight:600;text-underline-offset:4px}
-.fishlog-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px 18px;margin:0 0 22px;padding:13px 0;border-top:1px solid #e1e4e4;border-bottom:1px solid #e1e4e4}
-.fishlog-stat{display:flex;flex-direction:column;gap:3px}
-.fishlog-stat strong{font-size:1.6rem;line-height:1.2;font-variant-numeric:tabular-nums}
-.fishlog-stat span{font-size:.78rem;color:var(--muted,#767676)}
-.fishlog-puzzles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
-.fishlog-puzzle{min-width:0;margin:0}
-.fishlog-puzzle img{display:block;width:100%;aspect-ratio:1/1;object-fit:contain;background:#f3f0ea;border:1px solid #e4e1d9;border-radius:3px}
-.fishlog-puzzle figcaption{display:flex;justify-content:space-between;gap:5px;align-items:baseline;margin-top:7px;font-size:.82rem;line-height:1.45}
-.fishlog-puzzle-name{font-weight:600;overflow-wrap:anywhere}
-.fishlog-puzzle-count{flex:none;color:var(--muted,#767676);font-variant-numeric:tabular-nums}
-.fishlog-progress{display:block;width:100%;height:4px;margin-top:7px;accent-color:#414141}
-.fishlog-updated{margin:18px 0 0;color:var(--muted,#767676);font-size:.75rem}
-@media(max-width:600px){
- #fishlog-showcase{padding:16px}
- .fishlog-head{display:block}
- .fishlog-app-link{display:inline-block;margin-top:10px}
- .fishlog-stats{gap:10px}
- .fishlog-stat strong{font-size:1.35rem}
- .fishlog-puzzles{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 11px}
+/* Public Go Fish showcase: editorial layout consistent with Outside the Lab. */
+#fishlog-showcase[hidden], .fishlog-scroll-hint[hidden]{display:none!important}
+#fishlog-showcase {
+  margin-top:34px;
+  padding:25px 0 0;
+  border:0;
+  border-top:1px solid var(--line,#e8e8e6);
+  border-radius:0;
+  background:transparent;
+  color:var(--ink,#242a31);
 }
+.fishlog-head {
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  gap:14px 24px;
+  margin:0 0 18px;
+}
+.fishlog-kicker {
+  margin:0 0 5px;
+  color:var(--blue,#ad2937);
+  font-size:.72rem;
+  font-weight:740;
+  line-height:1.45;
+  letter-spacing:.085em;
+  text-transform:uppercase;
+}
+#fishlog-showcase h3 {
+  margin:0;
+  font-size:clamp(1.16rem,2.1vw,1.35rem);
+  line-height:1.3;
+  letter-spacing:-.02em;
+  font-weight:740;
+}
+.fishlog-intro {
+  margin:5px 0 0;
+  color:var(--muted,#737b81);
+  font-size:.84rem;
+  line-height:1.5;
+}
+.fishlog-app-link {
+  flex:none;
+  align-self:center;
+  color:var(--blue,#ad2937);
+  font-size:.84rem;
+  font-weight:680;
+  line-height:1.4;
+  text-decoration:underline;
+  text-decoration-color:#e4c4c8;
+  text-underline-offset:4px;
+}
+.fishlog-app-link:hover{text-decoration-color:currentColor}
+.fishlog-stats {
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:8px 22px;
+  margin:0 0 21px;
+  padding:15px 0 16px;
+  border-top:1px solid var(--line,#e8e8e6);
+  border-bottom:1px solid var(--line,#e8e8e6);
+}
+.fishlog-stat{display:flex;min-width:0;flex-direction:column;gap:2px}
+.fishlog-stat strong {
+  font-size:clamp(1.42rem,2.5vw,1.7rem);
+  line-height:1.26;
+  letter-spacing:-.035em;
+  font-weight:730;
+  font-variant-numeric:tabular-nums;
+}
+.fishlog-stat span {
+  font-size:.78rem;
+  line-height:1.42;
+  color:var(--muted,#737b81);
+}
+.fishlog-puzzles {
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  align-items:start;
+  gap:19px 17px;
+}
+.fishlog-puzzle{min-width:0;margin:0}
+.fishlog-puzzle img {
+  display:block;
+  width:100%;
+  height:auto;
+  aspect-ratio:1/1;
+  object-fit:contain;
+  background:#f4f1ec;
+  border:1px solid #e9e6e0;
+  border-radius:5px;
+}
+.fishlog-puzzle figcaption {
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:10px;
+  margin:9px 0 0;
+  font-size:.83rem;
+  line-height:1.4;
+}
+.fishlog-puzzle-name{min-width:0;font-weight:660;overflow-wrap:anywhere}
+.fishlog-puzzle-count {
+  flex:none;
+  color:var(--muted,#737b81);
+  font-size:.78rem;
+  font-variant-numeric:tabular-nums;
+}
+.fishlog-category {
+  display:block;
+  margin:3px 0 0;
+  color:var(--muted,#737b81);
+  font-size:.72rem;
+  line-height:1.4;
+}
+.fishlog-progress {
+  display:block;
+  width:100%;
+  height:4px;
+  margin:9px 0 0;
+  accent-color:#8d4b51;
+}
+.fishlog-scroll-hint{display:none}
+.fishlog-updated{margin:17px 0 0;font-size:.72rem;line-height:1.4;color:var(--muted,#737b81)}
+@media(max-width:600px){
+  #fishlog-showcase{margin-top:27px;padding-top:23px}
+  .fishlog-head{display:block;margin-bottom:15px}
+  #fishlog-showcase h3{font-size:1.2rem}
+  .fishlog-intro{font-size:.8rem}
+  .fishlog-app-link{display:inline-block;margin-top:10px;font-size:.84rem}
+  .fishlog-stats{gap:8px;margin-bottom:17px;padding:14px 0 15px}
+  .fishlog-stat strong{font-size:1.48rem}
+  .fishlog-stat span{font-size:.73rem}
+  /* One larger photo mosaic is legible; a second partial card signals swiping. */
+  .fishlog-puzzles {
+    display:flex;
+    gap:13px;
+    overflow-x:auto;
+    overflow-y:hidden;
+    scroll-snap-type:x mandatory;
+    scroll-padding-inline:0;
+    overscroll-behavior-x:contain;
+    -webkit-overflow-scrolling:touch;
+    scrollbar-width:none;
+    margin-right:-16px;
+    padding:0 16px 9px 0;
+  }
+  .fishlog-puzzles::-webkit-scrollbar{display:none}
+  .fishlog-puzzle{flex:0 0 min(73vw,280px);scroll-snap-align:start}
+  .fishlog-puzzle figcaption{margin-top:8px;font-size:.84rem}
+  .fishlog-scroll-hint{display:block;margin:3px 0 0;color:var(--muted,#737b81);font-size:.71rem}
+}
+@media(prefers-reduced-motion:reduce){.fishlog-puzzles{scroll-behavior:auto}}
