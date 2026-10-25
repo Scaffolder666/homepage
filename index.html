@@ -75,6 +75,7 @@
 </style>
 <link rel="stylesheet" href="homepage-refresh.css">
 <link rel="stylesheet" href="compact-lab.css">
+<link rel="stylesheet" href="go-fish-showcase.css">
 </head>
 <body class="home-page">
 <a class="skip" href="#main">Skip to content</a>
@@ -201,6 +202,20 @@
       <figcaption><p class="fishing-meta">Sep 2026 · Tampa, Florida</p><h3>Offshore fishing in Tampa</h3><p>A sunny day on the water, and a catch worth a photo. 🎣</p></figcaption>
     </figure>
   </div>
+  <!-- Hidden until the owner explicitly publishes and provides the public feed URL. -->
+  <div id="fishlog-showcase" class="fishlog-showcase" data-feed-url="" hidden>
+    <div class="fishlog-head">
+      <div>
+        <p class="fishlog-kicker">My fishing log</p>
+        <h3>Fish collection &amp; puzzles</h3>
+        <p class="fishlog-intro">A growing collection of fish species and photo-based puzzles.</p>
+      </div>
+      <a class="fishlog-app-link" href="https://fish-go-psi.vercel.app/" target="_blank" rel="noopener noreferrer">Explore Go Fish ↗</a>
+    </div>
+    <div class="fishlog-stats" aria-label="Fishing collection summary"></div>
+    <div class="fishlog-puzzles" aria-label="Fishing photo puzzles"></div>
+    <p class="fishlog-updated"></p>
+  </div>
 </section>
 <section class="section" id="contact"><div class="section-header"><h2>Contact</h2></div><div class="contact-card"><p><strong>Shuo Feng</strong> · Ph.D. Candidate, Information Science · Cornell Tech</p><p><a href="mailto:sf522@cornell.edu">sf522@cornell.edu</a> · <a href="https://scholar.google.com/citations?user=c817UZgAAAAJ&amp;hl=en">Google Scholar</a> ·  · <a href="cv.html">CV</a></p></div></section>
 </main></div><footer class="footer"><div class="wrap"><span>© 2026 Shuo Feng</span><span><a href="privacy.html">Privacy &amp; Analytics</a> · <a href="#top">Back to top ↑</a></span></div></footer>
@@ -274,4 +289,5 @@ window.va = window.va || function () { (window.vaq = window.vaq || []).push(argu
 </script>
 <script defer src="/_vercel/insights/script.js"></script>
 <script defer src="analytics.js"></script>
+<script defer src="go-fish-showcase.js"></script>
 </body></html>
