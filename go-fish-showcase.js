@@ -58,12 +58,21 @@
     progressCount.textContent = have + '/' + total;
     caption.append(title, progressCount);
 
+    const categories = { challenge: 'Challenge', region: 'Region', family: 'Fish family' };
+    const category = Object.prototype.hasOwnProperty.call(categories, data.category)
+      ? categories[data.category] : '';
+    const categoryLabel = document.createElement('span');
+    categoryLabel.className = 'fishlog-category';
+    if (category) categoryLabel.textContent = category;
+
     const progress = document.createElement('progress');
     progress.className = 'fishlog-progress';
     progress.max = total;
     progress.value = have;
     progress.setAttribute('aria-label', name + ' progress');
-    figure.append(img, caption, progress);
+    figure.append(img, caption);
+    if (category) figure.append(categoryLabel);
+    figure.append(progress);
     return figure;
   }
 
@@ -86,6 +95,8 @@
       const cards = data.puzzles.slice(0, 6).map(puzzleItem).filter(Boolean);
       if (cards.length) puzzles.replaceChildren(...cards);
       else puzzles.hidden = true;
+      const hint = root.querySelector('.fishlog-scroll-hint');
+      if (hint) hint.hidden = cards.length < 2;
 
       const updated = root.querySelector('.fishlog-updated');
       const date = new Date(data.updatedAt);
